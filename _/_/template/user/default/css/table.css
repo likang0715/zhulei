@@ -1,0 +1,538 @@
+.app__content{
+    overflow: hidden;
+}
+/*table index*/
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+a {
+    color: #07d;
+    text-decoration: none;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.widget {
+    margin-bottom: 30px;
+}
+.widget .widget-head {
+    position: relative;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+    line-height: 20px;
+    background: #f8f8f8;
+}
+.widget .widget-head .widget-title {
+    display: inline-block;
+    margin: 0 12px 0 0;
+    padding: 0 0 0 10px;
+
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.widget .widget-nav {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: baseline;
+}
+.widget .widget-head .help {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+}
+.widget .widget-head .help a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 18px;
+    border-radius: 8px;
+    font-size: 12px;
+    text-align: center;
+    background: #D5CD2F;
+    color: #fff;
+}
+.widget .widget-head .help a:after {
+    content: "?";
+}
+.hide {
+    display: none;
+}
+.widget .widget-body.with-border {
+
+    padding: 0;
+}
+.widget .chart-desc {
+    float: left;
+    width: 100%;
+    min-height: 120px;
+}
+.widget .chart-desc li {
+    padding: 18px 0;
+    margin-right: 1.3%;
+    width: 24%;
+    height: 53px;
+    text-align: center;
+    background:#f8f8f8;
+    float:left;
+}
+.widget .chart-desc li:last-child {
+    margin-right: 0;
+}
+.widget .chart-desc li .title {
+    font-size: 15px;
+}
+.widget .chart-desc li p {
+    margin-bottom: 0;
+}
+.widget .chart-desc li .num {
+    font-size: 22px;
+    margin-bottom: 14px;
+}
+.widget .chart-body {
+    clear:none;
+    width: 100%;
+    min-height: 281px;
+    height: 281px;
+    float:left;
+}
+.widget .widget-chart-no-data {
+    margin-top: 124px;
+}
+.widget-chart-no-data {
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+}
+.widget .widget-body {
+    background:rgba(255,255,255,1);
+    min-height: 150px;
+}
+.widget .widget-body__inner {
+    min-height: 150px;
+    background:rgba(255,255,255,1)
+}
+#fourth-header{
+    margin-right: -1px;
+}
+/*cat*/
+/*table-main*/
+.table_list{
+    border-spacing: 0;
+    border-top: none;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    background: #fff;
+    overflow: hidden;
+    margin-right: 426px;
+}
+.table_list_t{
+    margin: 16px auto;
+    line-height: 32px;
+    overflow: hidden;
+    position: relative;
+}
+.table_list_t>h3{
+  float: left;
+  margin-left: 10px;
+  font-weight: normal;
+  font-size: 14px;
+}
+.table_list_t .table_list_add{
+    position: absolute;
+    width: 100px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px ;
+    line-height: 28px;
+    height: 33px;;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    background-color: #fff;
+}
+.table_table_li {
+    float: left;
+    width: 140px;
+    height: 128px;
+    margin: 0 10px 20px 10px;
+    text-align: center;
+    background: #C1E7C0;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.table_list ul li.table_cur {
+    background: #6BD331;
+}
+.table_table_li span:first-child {
+    line-height: 24px;
+    color: #333;
+    font-size: 14px;
+}
+.table_table_li span {
+    display: block;
+    text-align: left;
+    margin: 5px 10px;
+    color: #666;
+    font-size: 12px;
+}
+.table_table_li:hover .table_con_cz{
+    bottom: 0;
+}
+.table_table_li .table_con_cz {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    position: absolute;
+    bottom: -128px;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    line-height: 24px;
+    transition: bottom 0.3s;
+    -moz-transition: bottom 0.3s;
+    -webkit-transition: bottom 0.3s;
+    -o-transition: bottom 0.3s;
+}
+.table_table_li .table_con_cz .table_con_cz_order {
+    width: 100%;
+    height: 104px;
+    cursor: pointer;
+    background: #000;
+    opacity: 0.5;
+}
+.table_con_cz_order img {
+    width: 56px;
+    margin-top: 34px;
+}
+.table_table_li .table_con_cz .table_con_cz_xiu {
+    background: #000;
+    color: #fff;
+    opacity: 0.6;
+}
+.table_table_li .table_con_cz .table_con_cz_xiu a {
+    color: #fff;
+}
+/*茶桌-订单*/
+.table-main{
+    border: 1px solid #eee;
+    border-top: none;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.table_order{
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    background: #fff;
+    width: 426px;
+    float: right;
+    border-left: 1px solid #eee;
+}
+.table_order_fix{
+    position: fixed;
+    top: 36px;
+    z-index: 99999;
+}
+.main_order_t{
+    margin: 16px auto;
+    line-height: 32px;
+    overflow: hidden;
+    position: relative;
+}
+.main_order_t>h3{
+  float: left;
+  margin-left: 10px;
+  font-weight: normal;
+  font-size: 14px;
+}
+.main_order_t .main_order_add{
+    position: absolute;
+    width: 100px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 20px 0 10px ;
+    line-height: 28px;
+    height: 33px;;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    background-color: #fff;
+}
+.main_order_t .main_order_add .add-btn{
+    margin-right: -1px;
+}
+.table_order_day{
+    border: 1px solid #eee;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 90px;
+}
+.table_order>ul{
+    display: block;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    padding: 0 20px 0 10px;
+}
+.table_order_day>label{
+    float: left;
+    width: 80px;
+    border-right: 1px solid #eee;
+    background: #C1E7C0;
+    padding: 10px;
+}
+.table_order_day>label span.big_day{
+    width: 60px;
+    padding: 0 10px;
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    font-size: 28px;
+    color: #333;
+}
+.table_order_day>label span.small_day{
+    font-size: 16px;
+    line-height: 28px;
+    color: #666;
+}
+.table_order_day ul{
+    display: block;
+    padding: 3px;
+    margin-left: 104px;
+}
+.table_order_day ul li{
+    display: block;
+    float: left;
+    padding: 2px;
+    border: 1px solid #D9EDF7;
+    margin: 2px 4px;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+}
+.table_order_day ul li .order_data{
+    cursor: pointer;
+}
+.table_order_day ul li:hover .order_info{
+    display: block;
+}
+.table_order_day ul li .order_info{
+    position: absolute;
+    left: -60px;
+    top: -134px;
+    width: 200px;
+    padding-top: 28px;
+    line-height: 26px;
+    font-size: 14px;
+    text-align: center;
+    z-index: 99;
+    border: 2px solid #eee;
+    background-color: #f8f8f8;
+    padding-bottom: 10px;
+    display: none;
+}
+.table_order_day ul li .order_info:before{
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    margin-left: -8px;
+    left: 50%;
+    border: 8px solid transparent;
+    border-top: 8px solid #f8f8f8;
+    z-index: 99;
+}
+.table_order_day ul li .order_info:after{
+    content: "";
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    margin-left: -10px;
+    border: 10px solid transparent;
+    border-top: 10px solid #eee;
+    z-index: 98;
+}
+.table_order_day ul li .order_info span{
+    display: block;
+}
+.table_order_day ul li .order_info .info_thumb{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    top: -40px;
+    border-radius: 50%;
+    border: 2px solid #eee;
+    left: 50%;
+    margin-left: -32px;
+}
+.table_order_day ul li .order_info .info_thumb img{
+    width: 60px;
+    height: 60px;
+}
+.table_order_day ul li .order_info .info_nickname{
+    font-size: 12px;
+    color: #666;
+}
+
+.table_order_day ul li .order_info .info_name{
+
+}
+.table_order_day ul li .order_info .info_tel{
+
+}
+.cat_edit{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.cat_edit input[type="checkbox"]{
+    width: 14px;
+
+    height: 14px;
+
+    margin: 2px;
+
+    float: left;
+}
+.cat_edit input[type="text"]{
+
+    width: 120px;
+    margin-bottom: 0;
+    padding: 3px;
+    margin-top: -5px;
+    margin-left: 4px;
+}
+.cat_edit .state-edit{
+    display: none;
+}
+.cat_item_con.list_btn{
+    cursor: pointer;
+}
+.cat_edit_top span{
+    cursor: pointer;
+}
+.cat_edit .cat_edit_top{
+    margin-bottom: 10px;
+    line-height: 34px;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.cat_edit .top_left{
+
+    overflow: hidden;
+    
+    padding: 8px 12px;
+}
+.cat_edit .top_left span{
+
+    font-size: 14px;
+    
+    line-height: 18px;
+    
+    display: block;
+
+    float: left;
+
+    margin-left: 4px;
+
+
+}
+.cat_edit .top_right{
+
+}
+.cat_edit .top_right span{
+
+}
+.cat_edit .cat_edit_list{
+    padding: 0 12px;
+}
+.cat_edit .cat_edit_list .cat_item{
+
+    overflow: hidden;
+    
+    line-height: 18px;
+    
+    border: 1px solid #f4f4f4;
+
+    border-top:0;
+
+    padding: 0 10px;
+}
+
+.cat_edit .cat_edit_list .cat_item .cat_item_con{
+
+    width: 33.3%;
+    
+    float: left;
+
+    margin: 10px 0;
+
+    height: 18px;
+}
+.cat_edit .cat_edit_list .cat_item .cat_item_con span{
+
+}
+.cat_edit .cat_edit_list .cat_item .list_name span{
+    float: left;
+    margin-left: 4px;
+}
+.cat_edit .cat_edit_list .cat_item .list_sort span{
+
+}
+.cat_edit .cat_edit_list .cat_item .list_btn span{
+
+}
+.cat_edit .cat_edit_list .cat_item .list_btn span{
+
+}
+.cat_edit .cat_edit_list .cat_item .list_btn span{
+
+}
+
+.cat_edit .cat_edit_list .cat_item.cat_item_t{
+    border: 1px solid #f4f4f4;
+    background-color: #f8f8f8;
+}
+.cat_edit .cat_edit_list .cat_item.cat_item_t .cat_item_con{
+
+}
+.cat_edit .cat_edit_list .cat_item.cat_item_t .cat_item_con span{
+
+}
+.cat_edit .cat_edit_list .cat_item.cat_item_t .list_name_t span{
+
+}
+.cat_edit .cat_edit_list .cat_item.cat_item_t .list_sort_t span{
+
+}
+.cat_edit .cat_edit_list .cat_item.cat_item_t .list_btn_t span{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

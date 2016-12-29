@@ -1,0 +1,98 @@
+/*Ê×Ò³ÊÖ»ú°æ*/
+body {
+	font-family: "Microsoft YaHei";
+	background: #fff;
+}
+.index_box{
+	width: 100%;
+}
+
+.index_header{
+	width: 100%;
+	height: auto;
+}
+
+.index_header img{
+	display: block;
+	width: 40%;
+	margin: 10px auto;
+}
+
+.index_main{
+
+}
+
+.index_main .index_banner{
+
+}
+
+.index_main .index_banner img{
+	width: 100%;
+	height: auto;
+}
+
+.index_main .index_function{
+	width: 90%;
+	margin: 20px auto;
+}
+
+.index_function_title{
+	color: #333333;
+	font-size: .9rem;
+	width: 100%;
+	text-align: center;
+	line-height: 1.4rem;
+}
+
+.index_function ul li{
+	list-style: none;
+	display: block;
+	overflow: hidden;
+	margin-top: 10px;
+	height: 3.5rem;
+}
+
+.index_function ul li span:first-child{
+	float: left;
+	width: 20%;
+}
+.index_function ul li span:last-child{
+	margin-left: 2%;
+	float: left;
+	width: 78%;
+}
+
+.index_function ul li span img{
+	width: 100%;
+}
+
+.index_function ul li span h4{
+	font-size: .7rem;
+	color: #666666;
+	line-height: 1.2rem;
+	font-weight: bold;
+	margin-top: .4rem;
+}
+
+.index_function ul li span p{
+	font-size: .6rem;
+	color: #999;
+	line-height: .9rem;
+}
+
+.index_footer_contact img{
+	width: 100%;
+}
+
+.index_footer_copyright{
+	width: 100%;
+	height: 3rem;
+	color: #CCCCCC;
+	line-height: 3rem;
+	text-align: center;
+	clear: both;
+}
+
+.index_footer_copyright a{
+	color: #CCCCCC;
+}

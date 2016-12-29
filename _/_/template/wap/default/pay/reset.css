@@ -1,0 +1,147 @@
+/* 
+Seller js
+2016-03-10
+Author: 东方盈
+Site：http://website-art.com
+*/
+@charset "utf-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-family:"Microsoft Yahei","Sans-serif";
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+ol, ul { 
+    list-style: none; 
+} 
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+a,a:focus{text-decoration:none;color:#000;outline:none;blr:expression(this.onFocus=this.blur());}
+
+a:hover{color:#00a4ac;text-decoration:none;}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+textarea,input {
+  resize: none;
+  outline: none;
+}
+
+i,em{
+    font-style: normal;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input::-ms-clear { display: none; }
+input, select {
+    vertical-align:middle;
+    text-indent: 8px;
+}
+select{  
+  margin: 0;
+  padding: 0;
+  border: 1px solid #cccccc;
+}
+input[type=button], input[type=submit], input[type=text],textarea,button {
+  -webkit-appearance: none;
+  outline: none;
+  border-radius: 0;
+}
+input[placeholder], [placeholder], *[placeholder],input:disabled,textarea:disabled{
+  color: #999;
+}
+a,button,input,textarea,select{
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-user-modify:read-write-plaintext-only;
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+padding: 0;
+}
+/*Common CSS*/
+
+.fl{float: left;}
+
+.fr{float: right;}
+
+.clear{clear: both;}
+
+.hide{display: none;}
+
+.sl{
+  display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.no-select{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+input.no-border{
+  border: none!important;
+  background: none!important;
+  box-shadow: none!important;
+}
+.body_dark{
+    position: fixed;
+    width: 100%;
+    width: 100vw;
+    height: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    z-index: 998;
+    display: none;
+}
+.inner_border{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

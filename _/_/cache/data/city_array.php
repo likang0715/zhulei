@@ -1,0 +1,1 @@
+<?php	return array ( 'b' => array ( 0 => array ( 'code' => '110100', 'name' => '北京市', 'first_spell' => 'b', 'chinese_spell' => 'beijingshi', 'is_hot' => '1', 'is_open' => '1', ), ), );?>

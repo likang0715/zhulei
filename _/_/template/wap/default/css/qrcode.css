@@ -1,0 +1,50 @@
+h4 {
+	font-family: Helvetica,"STHeiti STXihei","Microsoft JhengHei","Microsoft YaHei",Tohoma,Arial;
+}
+.clearfix {
+	zoom: 1;
+}
+.pull-left {
+	float: left;
+}
+.popover-goods {
+	display: block;
+	width: 222px;
+	margin: 0 auto;
+	margin-top: 30%;
+	z-index: 10;
+	border: 1px solid #b3b3b3;
+	padding: 4px;
+	background-color: #e5e5e5;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	line-height: 1;
+}
+.popover-goods .popover-inner {
+	background-color: #fff;
+	padding: 20px 5px 5px;
+}
+.popover-goods .title {
+	color: #333;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: left;
+	line-height: 1.5;
+	margin: 0 10px 10px;
+}
+.icon-weixin {
+	display: inline-block;
+	height: 48px;
+	width: 55px;
+	background-image: url(./img/icons.png);
+	background-position: 0 -50px;
+	background-repeat: no-repeat;
+}
+.subscibe-notice {
+	color:orange;
+	margin-top:10px;
+	font-family: Helvetica,"STHeiti STXihei","Microsoft JhengHei","Microsoft YaHei",Tohoma,Arial;
+}

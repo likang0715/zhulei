@@ -1,0 +1,687 @@
+/* CSS Document */
+@charset "UTF-8";
+*{
+    margin:0;
+    padding:0;
+    font-family: "Microsoft YaHei";
+    font-size:.5rem;
+    color: #9e9e9e;
+    list-style:none;
+}
+i, b, em{
+    font-style:normal;
+    font-weight:normal;
+}
+html{
+    font-size: 23.3125px;
+}
+body{
+    background:#eee;
+    overflow-x:hidden;
+}
+a {
+    text-decoration: none;
+    color: #333333;
+}
+a:hover{
+    color: #333333;
+}
+.f_right{
+    float: right;
+}
+input{
+    cursor:pointer;
+}
+input[type=button],input[type=text],select,input[type=submit]{
+    -webkit-appearance:none;
+    outline:none
+}
+
+/*------------点茶信息--------------*/
+.content{
+    width: 100%;
+    overflow-x:hidden;
+}
+
+.diancha_con{
+    margin-top: .3rem;
+    width: 100%;   
+}
+.diancha_con_tab .tabs {
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.diancha_con_tab .tabs li{
+    float: left;
+    width: 30%;
+    line-height: 25px;
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+    background: none;
+    border: 1px solid #dddddd;
+    margin:1.3%;
+}
+.diancha_con_tab .tabs li.current{
+    background: #fff;
+    border-color: #ffffff;
+}
+.diancha_con_tab .tabs li img{
+    width: 3.5rem;
+    margin: 0 auto;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    border-radius: 5rem;
+    margin-top:.7rem;
+}
+.diancha_con_tab .tabs span {
+    width: 100%;
+    height: 1rem;
+    overflow: hidden;
+    display: inline-block;
+}
+.diancha_con_tab .tab_content{
+    width: 98%;
+    margin:0 auto;
+}
+.diancha_con_tab .tab_con{
+    width: 100%;
+}
+
+.diancha_con_tab .tab_con_top{
+    margin-top: .7rem;
+    border:1px solid #cfcfcf;
+    background: #ffffff;
+    overflow: hidden;
+}
+.diancha_con_tab .tab_con_top_left{
+    width: 24%;
+    float: left;
+    margin: 1rem .5rem;
+}
+
+.diancha_con_tab .tab_con_top_left img{
+    width: 100%;
+    height: auto;
+    border-radius: 90px;
+}
+
+.diancha_con_tab .tab_con_top_right{
+    width: 66%;
+    float: left;
+    margin: 1rem 0;
+}
+
+.diancha_con_tab .tab_con_top_right b{
+    position: absolute;
+    top: 1%;
+    right: .5rem;
+}
+.diancha_con_tab .tab_con_top_right b img{
+    width: .8rem;
+}
+.diancha_con_tab .tab_con_top_right h4{
+    font-size: .6rem;
+    color: #333333;
+    width:100%;
+    display: block;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    overflow: hidden;
+    font-weight: bold;
+}
+.diancha_con_tab .tab_con_top_right p{
+    font-size: .5rem;
+    color: #666666;
+    width: 100%;
+    display: block;
+    line-height: .9rem;
+    overflow: hidden;
+}
+
+.tab_con_top_bottom{
+    margin-top: .7rem;
+    border: 1px solid #cfcfcf;
+    background: #ffffff;
+    overflow: hidden;
+    color: #333;
+    line-height: 1.5rem;
+    height: 1.5rem;
+}
+
+.tab_con_top_bottom .show_store_list{
+    display: block;
+    width: 94%;
+    background: url(../images/youjiantou.png) no-repeat right center;
+    margin: 0 auto;
+    background-size: 0.5rem;
+    font-size: .6rem;
+    color: #333;
+}
+
+
+.diancha_con_tab .tab_con_cen{
+    width:99.5%;
+    height: auto;
+    overflow: hidden;
+    border:1px solid #cfcfcf;
+    background: #ffffff;
+    margin: .5rem 0 0 0;
+}
+.diancha_con_tab .tab_con_cen_li{
+    width: 100%;
+    height: 2.5rem;
+}
+.diancha_con_tab .tab_con_cen_li label.tab_con_cen_li_l{
+    float: left;
+    line-height:2.5rem;
+    color: #333333;
+    font-size: .6rem;
+    margin-left: .5rem;
+}
+.diancha_con_tab .tab_con_cen_li .tab_con_cen_li_r{
+    width:70%;
+    float: left;
+    line-height:2.5rem;
+    color: #666666;
+    font-size: .6rem;
+}
+.diancha_con_tab input.tab_c_c_li_r_radio,input.tab_c_c_li_r_radio1,input.tab_c_c_li_r_radio2{
+    margin:0 1% 0 2%;
+    width: .6rem;
+}
+.diancha_con_tab .tab_con .tab_con_cen .tab_con_cen_li_r label.tab_c_c_li_r_radio{
+    margin:0 2% 0 1%;
+    color: #666666;
+    font-size: .6rem;
+}
+.diancha_con_tab .tab_con .tab_con_cen .tab_con_cen_li_r input.input_appDateTime{
+    margin:0 1% 0 2%;
+    width: 90%;
+    height: 1.2rem;
+    border-radius:5px;
+    border: 1px solid #CCCCCC;
+    padding-left:5px;
+    background: #ffffff;
+}
+.diancha_con_tab .tab_con .tab_con_cen .tab_con_cen_li_r input.input_shichang{
+    margin:0 1% 0 2%;
+    width: 1rem;
+    height: 1.2rem;
+    border-radius:5px;
+    border: 1px solid #CCCCCC;
+    padding-left:5px;
+    background: #ffffff;
+}
+.diancha_con_tab .tab_con .tab_con_cen .tab_con_cen_li_r input.input_shoujihao{
+    margin:0 1% 0 2%;
+    width:50%;
+    height: 1.2rem;
+    border-radius:5px;
+    border: 1px solid #CCCCCC;
+    padding-left:5px;
+    background: #ffffff;
+}
+.diancha_con_tab .tab_con .tab_con_cen .tab_con_cen_li_r input.input_huoquyzm{
+    margin:0 1% 0 2%;
+    width:35%;
+    height: 1.2rem;
+    border-radius:5px;
+    border: 1px solid #CCCCCC;
+    padding-left:5px;
+    background: #eeeeee;
+}
+.diancha_con_tab .tab_con .tab_con_cen .tab_con_cen_li_r input.input_yanzhengma{
+    margin:0 1% 0 2%;
+    width:90%;
+    height: 1.2rem;
+    border-radius:5px;
+    border: 1px solid #CCCCCC;
+    padding-left:5px;
+    background: #ffffff;
+}
+.diancha_con_tab .tab_con .tab_con_cen input.tab_c_c_li_r_tijiao{
+    margin:0 1% 0 39%;
+    width:20%;
+    color: #ffffff;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: .7rem;
+    border: 0;
+    border-radius:5px;
+    padding-left:5px;
+    background: #3f8a2d;
+}
+.diancha_con_tab .tab_con .tab_con_cen .tab_con_cen_li_r select.baoxiangmc1_select{
+    margin:0 1% 0 2%;
+    width:35%;
+    height: 1.2rem;
+    border-radius:5px;
+    border: 1px solid #CCCCCC;
+    padding-left:5px;
+    background:#ffffff url("../images/fenlei.png") no-repeat center right 7px;
+    background-size:auto 30%;
+    color: #666666;
+    font-size: .6rem;
+}
+
+/*------------点茶信息--------------*/
+
+/*-------分店列表------*/
+.content2{
+    width: 100%;
+    min-height: 100%;
+    background: #eee;
+    display: none;
+    margin-left: 100%;
+}
+
+.content2_show{
+    -webkit-animation: moveFromRight .6s ease both;
+    animation: moveFromRight .6s ease both;
+}
+
+.content2_hide{
+    -webkit-animation: moveToRight .6s ease both;
+    animation: moveToRight .6s ease both;
+}
+@-webkit-keyframes moveFromRight {
+    from {margin-left: 100%;}
+    to {margin-left: 0;}
+}
+
+@keyframes moveFromRight {
+    from {margin-left: 100%;}
+    to {margin-left: 0;}
+}
+
+@-webkit-keyframes moveToRight {
+    from {margin-left: 0;}
+    to {margin-left: 100%;}
+}
+
+@keyframes moveToRight {
+    from {margin-left: 0;}
+    to {margin-left: 100%;}
+}
+.content2_header{
+    background: #3F8A2D;
+    height: 36px;
+    text-align: center;
+    line-height: 32px;
+    font-size: .6rem;
+    color: #fff;
+}
+
+.content2_header img{
+    margin-left: 1rem;
+  margin-top: 6px;
+  height: 24px;
+  float: left;
+}
+.store_list{
+    background: #fff;
+    padding: 4%;
+    width: 88%;
+    overflow: hidden;
+    margin: 10px 2% 0;
+    border-radius: 5px;
+    float: left;
+}
+.store_logo_div{
+    float: left;
+    width: 20%;
+}
+
+.store_logo_div img{
+    width: 100%;
+    display: block;
+    border-radius: 90px;
+}
+
+.store_list .store_show{
+    float: left;
+    display: block;
+    margin-left: 5%;
+    width: 75%;
+    font-size: .6rem;
+    line-height: 1.2rem;
+}
+
+.store_list b.store_name{
+    font-weight: bold;
+    width: 100%;
+    font-size: .7rem;
+    color: #333;
+    line-height: 1.2rem;
+    height: 1.2rem;
+    overflow: hidden;
+}
+
+.store_list p.store_address{
+    font-size: .6rem;
+    line-height: .9rem;
+    color: #999;
+    height: 1.8rem;
+    overflow: hidden;
+}
+
+
+/*------------我的点茶--------------*/
+.my_diancha_con{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.my_diancha_con_tab .tabs{
+    height: auto;
+    overflow: hidden;
+}
+.my_diancha_con_tab .tabs li{
+    width: 25%;
+    height:2rem;
+    line-height:2rem;
+    text-align: center;
+    float: left;
+    font-size: .7rem;
+    border-bottom:1px solid #cfcfcf;
+}
+.my_diancha_con_tab .tabs li.current{
+    border-bottom:2px solid #068419;
+}
+.my_diancha_con_tab .tab_content .tab_con_cen li{
+    overflow: hidden;
+    border-bottom: 1px solid #e6e6e6;
+}
+.my_diancha_con_tab .tab_content .tab_c_c_top{
+    width: 100%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    background: #E8E8E8;
+    margin:2% auto;
+}
+ p.tab_c_c_t_dcbh{
+     width: auto;
+     font-size:.6rem;
+     color: #2b2b2b;
+     overflow: hidden;
+     display: inline-block;
+     margin-left:2%;
+ }
+ i.tab_c_c_t_dsh{
+    width:auto;
+    font-size:.6rem;
+    color: #017f14;
+    overflow: hidden;
+    float: right;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.my_diancha_con_tab .tab_content .tab_c_c_l{
+    float: left;
+    width:3rem;
+    height:3rem;
+    display:block;
+    background:none;
+    border:2px solid #ffffff;
+    border-radius:100%;
+    margin: .5rem 0 .5rem .5rem;
+    overflow: hidden;
+}
+.my_diancha_con_tab .tab_content .tab_c_c_l img{
+    display:inline-block;
+    width:100%;
+}
+.my_diancha_con_tab .tab_content .tab_c_c_c{
+    width:45%;
+    float: left;
+    padding-left:5%;
+}
+.my_diancha_con_tab .tab_content .tab_c_c_r{
+    width: 18%;
+    float: right;
+    padding-right:2%;
+}
+
+.my_diancha_con_tab .tab_content .tab_c_c_c p.tab_c_c_c_cgmc{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    font-size:.7rem;
+    color: #2b2b2b;
+    overflow: hidden;
+    margin-top: 8%;
+}
+.my_diancha_con_tab .tab_content .tab_c_c_c p.tab_c_c_c_nr{
+    width: 100%;
+    height: 1.5rem;
+    overflow: hidden;
+}
+.my_diancha_con_tab .tab_content .tab_c_c_c span{
+    width: auto;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size:.5rem;
+    color: #7d7d7d;
+    overflow: hidden;
+    display: inline-block;
+    margin:0 .1rem;
+}
+
+.tab_con_cen .tab_c_b {
+  width: 100%;
+  height: 38px;
+  background: #fff;
+}
+.tab_c_b .white_btn{
+  width: 64px;
+  height: 26px;
+  line-height: 26px;
+  border: 1px solid #ccc;
+  font-size: .6rem;
+  color: #666;
+  overflow: hidden;
+  float: right;
+  border-radius: .1rem;
+  margin-top: 5px;
+  margin-right: .5rem;
+  text-align: center;
+}
+/*------------我的点茶--------------*/
+/*------------我的订单--------------*/
+.my_dingdan_con{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.my_dingdan_con_tab .tabs{
+    height: auto;
+    overflow: hidden;
+}
+.my_dingdan_con_tab .tabs li{
+    width: 25%;
+    height:2rem;
+    line-height:2rem;
+    text-align: center;
+    float: left;
+    font-size: .7rem;
+    border-bottom:1px solid #cfcfcf;
+}
+.my_dingdan_con_tab .tabs li.current{
+    border-bottom:2px solid #068419;
+}
+
+.tab_content .tab_con_cen li{
+    margin-bottom: .5rem;
+}
+.tab_content .tab_c_c_top{
+    padding: 0 2%;
+    width: 96%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    background: #fff;
+    margin:2% auto;
+}
+.tab_content .tab_c_c_top p.tab_c_c_t_ddbh{
+    width: auto;
+    font-size:.6rem;
+    color: #2b2b2b;
+    overflow: hidden;
+    display: inline-block;
+}
+.tab_content .tab_c_c_top i.tab_c_c_t_dsh{
+    width:auto;
+    font-size:.6rem;
+    color: #017f14;
+    overflow: hidden;
+    float: right;
+    display: inline-block;
+}
+.tab_content .tab_c_c_cen{
+    padding: 0 2%;
+    width: 96%;
+    height: auto;
+    overflow: hidden;
+    margin:2% 0;
+    background: #f5f5f5;
+}
+.tab_content .tab_c_con{
+    width: 100%;
+    overflow: hidden;
+}
+.tab_content .tab_c_c_l{
+    float: left;
+  width: 3rem;
+  height: 3rem;
+  display: block;
+  background: none;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  margin: .5rem 0 .5rem .5rem;
+  overflow: hidden;
+}
+.tab_content .tab_c_c_l img{
+    display:inline-block;
+    width:100%;
+    border-radius: 90px;
+}
+.tab_content .tab_c_c_c{
+    width:60%;
+    float: left;
+    padding-left:2%;
+}
+.tab_content .tab_c_c_r{
+    width: 18%;
+    float: right;
+}
+
+.tab_c_c_c p.tab_c_c_c_cgmc{
+    width: 100%;
+    height: 1.4rem;
+    line-height: 1rem;
+    font-size:.6rem;
+    color: #2b2b2b;
+    overflow: hidden;
+    margin-top: 8%;
+}
+.tab_content .tab_c_c_c p.tab_c_c_c_nr{
+    width: 100%;
+    height: 1.5rem;
+    overflow: hidden;
+}
+.tab_content .tab_c_c_c span{
+    width: auto;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size:.5rem;
+    color: #7d7d7d;
+    overflow: hidden;
+    display: inline-block;
+    margin:0 .1rem;
+}
+.tab_content .tab_c_c_r p.tab_c_c_r_price{
+    width:2.7rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size:.6rem;
+    color: #051b28;
+    overflow: hidden;
+    float: right;
+    font-weight: 700;
+    margin-top:.7rem;
+    text-align: right;
+}
+.tab_content .tab_c_c_r p.tab_c_c_r_nums{
+    width:2.7rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size:.6rem;
+    color: #999;
+    text-align: right;
+    overflow: hidden;
+    float: right;
+    margin-top:1.2rem;
+}
+.tab_content .tab_c_c_down{
+    padding: 0 2%;
+    width: 96%;
+    height:3rem;
+    line-height: 1.5rem;
+    background: #f5f5f5;
+    margin:2% auto;
+}
+.tab_content .tab_c_c_down .tab_c_c_down_price{
+    min-height: .8rem;
+    text-align: right;
+}
+.tab_content .tab_c_c_down .tab_c_c_down_price span {
+    display: inline-block;
+    margin-left: .32rem;
+    color: #051b28;
+    font-size: .6rem;
+}
+.tab_content .tab_c_c_down .tab_c_c_down_price span b {
+    font-weight: 700;
+    color: #051b28;
+}
+.tab_content .tab_c_c_down .tab_c_c_down_btn{
+    border-top: 1px solid #e7e7e7;
+}
+.tab_content .tab_c_c_down .tab_c_c_down_btn ul {
+    float: right;
+}
+.tab_content .tab_c_c_down .tab_c_c_down_btn ul li {
+    float: right;
+    padding: 0 .2rem;
+    margin: .2rem 0 .2rem .2rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: .1rem;
+    color: #051b28;
+    background: #ededed;
+}
+/*------------我的订单--------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

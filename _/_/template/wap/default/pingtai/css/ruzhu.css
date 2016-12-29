@@ -1,0 +1,33 @@
+.common_header img.common_header_exit{
+    width: 4%;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.8rem;
+}
+.common_header img.common_header_tel{
+    width: 6%;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.8rem;
+}
+body{
+	line-height: 0;
+}
+/*我要入驻*/
+.ruzhu_nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 640px;
+    border-top: 1px solid #e0e0e0;
+    background: url(../images/ruzhu_bottom_bg.jpg) no-repeat;
+    background-size: cover;
+}
+.ruzhu_nav a{
+	text-align: center;
+    position: relative;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    font-weight: normal;
+}

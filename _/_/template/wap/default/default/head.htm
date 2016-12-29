@@ -1,0 +1,56 @@
+<link  type="text/css"  rel="stylesheet"  href="{dede:global.cfg_templets_skin/}/css/probuy.css">
+<link  type="text/css"  rel="stylesheet"  href="{dede:global.cfg_templets_skin/}/css/style.css">
+<link  type="text/css"  rel="stylesheet"  href="{dede:global.cfg_templets_skin/}/css/easyDialog.css">
+<script  type="text/javascript"  src="{dede:global.cfg_templets_skin/}/js/jquery-1.8.3.min.js"></script>
+<script  type="text/javascript"  src="{dede:global.cfg_templets_skin/}/js/template-global.js"></script>
+<script  type="text/javascript"  src="{dede:global.cfg_templets_skin/}/js/ShoppingCart.js"></script>
+</head>
+<body  id="body">
+<div  id="Layout_248"  class="">
+  <script  type="text/javascript"  src="{dede:global.cfg_templets_skin/}/js/base.js"></script>
+  <div  class="header-bar-wrap">
+    <div  class="header-bar clearfix">
+      <div  class="item"> </div>
+      <div  class="item">
+        <script  type="text/javascript">
+      $(function(){
+      $("#J_header-cart").hover(function(){
+      $(this).addClass("header-cartHover");
+      },function(){
+      $(this).removeClass("header-cartHover");
+      })
+      })
+      </script>
+        
+      </div>
+      <div  class="item" style="height:30px; line-height:30px; padding-right:10px;">
+       全国免费服务热线 {dede:global.cfg_tel/}
+      </div>
+    </div>
+  </div>
+  <div  class="nav-wrapbox clearfix">
+    <h1  class="logo"><a  href="/"><img  id="logo"  src="{dede:global.cfg_templets_skin/}/img/6352229424350787504958.png" ></a></h1>
+    <div  class="nav-wrap"  id="J_nav-wrap"  style="z-index: 30;">
+      <script  type="text/javascript">
+      $(function(){
+      $("#J_navlist").CSMenu({maxWidth:710,navWrapId:"J_nav-wrap",arrowW:15,pushMenuDownBy:83,align:"left"});
+      })
+      </script>
+      <div  class="nav">
+        <ul  class="nav-list"  id="J_navlist">
+          <li class="oncurr"> <a  href="/">首页</a>
+            <ul  class="nav-sub clearfix center">
+            </ul>
+          </li>
+          {dede:channelartlist typeid='top'}      
+            <li class=""><a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a>
+              <ul  class="nav-sub clearfix center">
+                {dede:channel type='son' noself='yes'}<li><a href="[field:typelink/]">[field:typename/]</a></li>{/dede:channel}
+              </ul>
+            </li>
+         {/dede:channelartlist}
+        </ul>
+      </div>
+      
+    </div>
+  </div>

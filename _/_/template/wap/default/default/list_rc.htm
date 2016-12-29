@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+
+{dede:include filename="head.htm"/}
+        
+      </div>
+    </div>
+    <div  class="sub-bannerOut clearfix">
+      <div  class="sub-bannerInner">
+      <div  class="sub-bannerbox"><div  style="width:1440px;float:left;height:269px;"><img  src="{dede:global.cfg_templets_skin/}/img/6351589869699978428376.jpg"  style="width:1440px;height:269px;">
+</div></div>
+      </div>
+      </div>
+
+    <div class="box">
+      <div class="wrap clearfix">
+      <div class="main">
+      <div id="Panel_706" class="" style="clear:both;overflow:hidden;">
+      <div class="main_hd clearfix">
+      <h3  class="name fl">{dede:field name='typename'/}</h3>
+      <div  class="breadnav fr">{dede:field name='position'/}</div>
+      </div>
+      <div class="main_bd">
+      
+      <div class="recruit-listbox">
+      <table class="recruit-table">
+      <tbody><tr>
+      <td width="320" class="first" style=" text-align:left; padding-left:10px;">职位</td>
+      <td width="104"></td>
+      <td width="130"></td>
+      <td class="last" width="150">发布时间</td>
+      </tr>
+      </tbody></table>
+      <ul class="recruit-list">
+      {dede:list pagesize='20' titlelen='50'}
+      <li> <a href="[field:arcurl/]" class="recruit-name">[field:title/]</a> <span class="recruit-time" style="float:right">[field:pubdate function=MyDate('y-m-d',@me)/]</span> </li>
+      {/dede:list}
+      
+      </ul>
+      
+      
+    
+      </div>
+    
+      </div>
+    </div>
+      </div>
+      <div  class="aside">
+      <div  id="Panel_646"  class="panel-box"  style="clear:both;overflow:hidden;">
+      <div  class="sidebar-nav">
+      <div  class="panel-bdbox">
+      
+      <h3>{dede:type typeid='1'}[field:typename /]{/dede:type}</h3>
+      <ul  class="sidebar-navlist clearfix"  id="J_sidebar-navlist">
+      
+      {dede:channel typeid='1' type='son' currentstyle="<li class='sidebar-notSub oncurr'><a href='~typelink~' class='tit'>~typename~<span class='jt'></span></a></li>"}
+       <li class="sidebar-notSub"><a href='[field:typeurl/]' class="tit">[field:typename/]<span class="jt"></span></a></li>
+      {/dede:channel}
+      
+      </ul>
+      <script  type="text/javascript">
+      $(function(){
+      $("#J_sidebar-navlist").sideBarNav()
+      })
+      </script>
+    
+      </div>
+      </div>
+    </div>
+      </div>
+      </div>
+      </div>
+    {dede:include filename="footer.htm"/}
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,197 @@
+[ 2016-10-20T15:09:00+08:00 ] 114.241.190.118 /admin.php?c=Search_hot&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001642s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.002054s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001441s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001463s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001429s ]
+SQL: SELECT `name`,`value` FROM `pigcms_config`  [ RunTime:0.000261s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_search_hot` [ RunTime:0.001405s ]
+SQL: SELECT `id`,`cat_type`,`name`,`url`,`type`,`sort`,`add_time` FROM `pigcms_search_hot` WHERE ( `cat_type` = 1 ) ORDER BY `sort` DESC,`id` ASC  [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: frame_show D:\ceshi\cache\admin_runtime\Cache\c9e083f8a240ffb2880b0376959a5289.php 第 7 行.
+NOTIC: [8] Undefined variable: withdrawal_count D:\ceshi\cache\admin_runtime\Cache\c9e083f8a240ffb2880b0376959a5289.php 第 20 行.
+NOTIC: [8] Undefined variable: unprocessed D:\ceshi\cache\admin_runtime\Cache\c9e083f8a240ffb2880b0376959a5289.php 第 25 行.
+NOTIC: [8] Undefined variable: bg_color D:\ceshi\cache\admin_runtime\Cache\c9e083f8a240ffb2880b0376959a5289.php 第 37 行.
+NOTIC: [8] Undefined variable: pagebar D:\ceshi\cache\admin_runtime\Cache\c9e083f8a240ffb2880b0376959a5289.php 第 75 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010252s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000409s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000389s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001809s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000551s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-10-20T15:09:03+08:00 ] 114.241.190.118 /admin.php?c=Search_hot&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001687s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001659s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001442s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001412s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001453s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_search_hot` [ RunTime:0.002155s ]
+SQL: SELECT `id`,`cat_type`,`name`,`url`,`type`,`sort`,`add_time` FROM `pigcms_search_hot` WHERE ( `cat_type` = 1 ) ORDER BY `sort` DESC,`id` ASC  [ RunTime:0.000175s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: frame_show D:\ceshi\cache\admin_runtime\Cache\c9e083f8a240ffb2880b0376959a5289.php 第 7 行.
+NOTIC: [8] Undefined variable: withdrawal_count D:\ceshi\cache\admin_runtime\Cache\c9e083f8a240ffb2880b0376959a5289.php 第 20 行.
+NOTIC: [8] Undefined variable: unprocessed D:\ceshi\cache\admin_runtime\Cache\c9e083f8a240ffb2880b0376959a5289.php 第 25 行.
+NOTIC: [8] Undefined variable: bg_color D:\ceshi\cache\admin_runtime\Cache\c9e083f8a240ffb2880b0376959a5289.php 第 37 行.
+NOTIC: [8] Undefined variable: pagebar D:\ceshi\cache\admin_runtime\Cache\c9e083f8a240ffb2880b0376959a5289.php 第 75 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009393s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000347s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-10-20T15:09:18+08:00 ] 114.241.190.118 /admin.php?c=Store&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001637s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001710s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001359s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001403s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_sale_category` [ RunTime:0.016827s ]
+SQL: SHOW COLUMNS FROM `pigcms_platform_income` [ RunTime:0.023897s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Undefined variable: approve D:\ceshi\source\tp\Project\Lib\Action\StoreAction.class.php 第 28 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `pigcms_store` [ RunTime:0.002866s ]
+SQL: SHOW COLUMNS FROM `pigcms_user` [ RunTime:0.001832s ]
+SQL: SHOW COLUMNS FROM `pigcms_store_contact` [ RunTime:0.004054s ]
+SQL: SHOW COLUMNS FROM `pigcms_store` [ RunTime:0.002858s ]
+SQL: SELECT COUNT(*) AS tp_count FROM pigcms_store Store LEFT JOIN pigcms_user User ON Store.uid = User.uid LEFT JOIN pigcms_store_contact Store_contact ON Store.store_id = Store_contact.store_id LEFT JOIN pigcms_sale_category SaleCategory ON Store.sale_category_fid = SaleCategory.cat_id LIMIT 1   [ RunTime:0.000487s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT Store.store_id AS store_id,Store.uid AS uid,Store.name AS name,Store.edit_name_count AS edit_name_count,Store.logo AS logo,Store.qcode AS qcode,Store.openid AS openid,Store.qcode_starttime AS qcode_starttime,Store.sale_category_fid AS sale_category_fid,Store.sale_category_id AS sale_category_id,Store.linkman AS linkman,Store.legal_person AS legal_person,Store.tel AS tel,Store.intro AS intro,Store.approve AS approve,Store.status AS status,Store.public_display AS public_display,Store.date_added AS date_added,Store.service_tel AS service_tel,Store.service_qq AS service_qq,Store.service_weixin AS service_weixin,Store.bind_weixin AS bind_weixin,Store.weixin_name AS weixin_name,Store.weixin_original_id AS weixin_original_id,Store.weixin_id AS weixin_id,Store.qq AS qq,Store.open_weixin AS open_weixin,Store.buyer_selffetch AS buyer_selffetch,Store.buyer_selffetch_name AS buyer_selffetch_name,Store.pay_agent AS pay_agent,Store.offline_payment AS offline_payment,Store.open_logistics AS open_logistics,Store.open_friend AS open_friend,Store.open_autoassign AS open_autoassign,Store.open_local_logistics AS open_local_logistics,Store.warn_sp_quantity AS warn_sp_quantity,Store.open_nav AS open_nav,Store.nav_style_id AS nav_style_id,Store.use_nav_pages AS use_nav_pages,Store.open_ad AS open_ad,Store.has_ad AS has_ad,Store.ad_position AS ad_position,Store.use_ad_pages AS use_ad_pages,Store.date_edited AS date_edited,Store.p_sales AS p_sales,Store.sales AS sales,Store.income AS income,Store.balance AS balance,Store.unbalance AS unbalance,Store.margin_balance AS margin_balance,Store.point_total AS point_total,Store.point_balance AS point_balance,Store.point2money AS point2money,Store.point2money_total AS point2money_total,Store.point2money_service_fee AS point2money_service_fee,Store.point2money_balance AS point2money_balance,Store.point2money_withdrawal AS point2money_withdrawal,Store.point2user AS point2user,Store.cash_point AS cash_point,Store.margin_total AS margin_total,Store.p_orders AS p_orders,Store.orders AS orders,Store.store_pay_income AS store_pay_income,Store.withdrawal_amount AS withdrawal_amount,Store.withdrawal_type AS withdrawal_type,Store.bank_id AS bank_id,Store.bank_card AS bank_card,Store.bank_card_user AS bank_card_user,Store.opening_bank AS opening_bank,Store.last_edit_time AS last_edit_time,Store.physical_count AS physical_count,Store.drp_supplier_id AS drp_supplier_id,Store.root_supplier_id AS root_supplier_id,Store.drp_level AS drp_level,Store.collect AS collect,Store.wxpay AS wxpay,Store.open_drp_approve AS open_drp_approve,Store.drp_approve AS drp_approve,Store.drp_profit AS drp_profit,Store.drp_profit_withdrawal AS drp_profit_withdrawal,Store.dividends1 AS dividends1,Store.open_service AS open_service,Store.attention_num AS attention_num,Store.source_site_url AS source_site_url,Store.payment_url AS payment_url,Store.notify_url AS notify_url,Store.oauth_url AS oauth_url,Store.token AS token,Store.open_drp_guidance AS open_drp_guidance,Store.open_drp_limit AS open_drp_limit,Store.drp_limit_buy AS drp_limit_buy,Store.drp_limit_share AS drp_limit_share,Store.drp_limit_condition AS drp_limit_condition,Store.pigcmsToken AS pigcmsToken,Store.template_cat_id AS template_cat_id,Store.template_id AS template_id,Store.tag_id AS tag_id,Store.open_drp_setting_price AS open_drp_setting_price,Store.unified_price_setting AS unified_price_setting,Store.open_drp_diy_store AS open_drp_diy_store,Store.drp_diy_store AS drp_diy_store,Store.open_drp_subscribe AS open_drp_subscribe,Store.open_drp_subscribe_auto AS open_drp_subscribe_auto,Store.drp_subscribe_tpl AS drp_subscribe_tpl,Store.reg_drp_subscribe_tpl AS reg_drp_subscribe_tpl,Store.is_show_drp_tel AS is_show_drp_tel,Store.degree_exchange_type AS degree_exchange_type,Store.drp_subscribe_img AS drp_subscribe_img,Store.reg_drp_subscribe_img AS reg_drp_subscribe_img,Store.update_drp_store_info AS update_drp_store_info,Store.is_official_shop AS is_official_shop,Store.setting_fans_forever AS setting_fans_forever,Store.is_fanshare_drp AS is_fanshare_drp,Store.is_required_to_audit AS is_required_to_audit,Store.is_required_margin AS is_required_margin,Store.bond AS bond,Store.setting_canal_qrcode AS setting_canal_qrcode,Store.canal_qrcode_img AS canal_qrcode_img,Store.canal_qrcode_tpl AS canal_qrcode_tpl,Store.open_drp_team AS open_drp_team,Store.drp_team_id AS drp_team_id,Store.is_point_mall AS is_point_mall,Store.open_store_whole AS open_store_whole,Store.drp_deduct_point_month AS drp_deduct_point_month,Store.drp_deduct_point_sales AS drp_deduct_point_sales,Store.drp_deduct_point AS drp_deduct_point,Store.last_time_statistics AS last_time_statistics,Store.last_recharge_notice_date AS last_recharge_notice_date,Store.recharge_notice_count AS recharge_notice_count,Store.drp_degree_id AS drp_degree_id,Store.open_drp_degree AS open_drp_degree,Store.is_show_float_menu AS is_show_float_menu,Store.last_fh_sendtime_1 AS last_fh_sendtime_1,Store.last_fh_sendtime_2 AS last_fh_sendtime_2,Store.last_fh_sendtime_3 AS last_fh_sendtime_3,Store.is_show_recharge_button AS is_show_recharge_button,Store.is_available AS is_available,Store.expiration AS expiration,Store.margin_withdrawal AS margin_withdrawal,Store.store_pic AS store_pic,Store.contract AS contract,Store.drp_withdrawal_min AS drp_withdrawal_min,Store.sales_ratio AS sales_ratio,Store.order_notice_open AS order_notice_open,Store.order_notice_time AS order_notice_time,Store.margin_amount AS margin_amount,Store.margin_minimum AS margin_minimum,Store.is_hot AS is_hot,Store.score AS score,Store.price AS price,User.nickname AS nickname,User.phone AS username,Store_contact.province AS province,Store_contact.city AS city,Store_contact.county AS county,SaleCategory.name AS category FROM pigcms_store Store LEFT JOIN pigcms_user User ON Store.uid = User.uid LEFT JOIN pigcms_store_contact Store_contact ON Store.store_id = Store_contact.store_id LEFT JOIN pigcms_sale_category SaleCategory ON Store.sale_category_fid = SaleCategory.cat_id ORDER BY Store.store_id DESC LIMIT 0,10   [ RunTime:0.005027s ]
+SQL: SHOW COLUMNS FROM `pigcms_store_withdrawal` [ RunTime:0.017867s ]
+SQL: SHOW COLUMNS FROM `pigcms_store` [ RunTime:0.002670s ]
+SQL: SHOW COLUMNS FROM `pigcms_user` [ RunTime:0.001768s ]
+SQL: SHOW COLUMNS FROM `pigcms_bank` [ RunTime:0.011351s ]
+SQL: SELECT SUM(amount) AS tp_sum FROM pigcms_store_withdrawal StoreWithdrawal  JOIN pigcms_store Store ON StoreWithdrawal.store_id = Store.store_id  JOIN pigcms_user User ON StoreWithdrawal.uid = User.uid  JOIN pigcms_bank Bank ON StoreWithdrawal.bank_id = Bank.bank_id WHERE ( StoreWithdrawal.store_id = '56' ) AND ( StoreWithdrawal.type = 1 ) AND ( StoreWithdrawal.status IN (1,2) ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT SUM(income) AS tp_sum FROM `pigcms_platform_income` WHERE ( `store_id` = 56 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT SUM(amount) AS tp_sum FROM pigcms_store_withdrawal StoreWithdrawal  JOIN pigcms_store Store ON StoreWithdrawal.store_id = Store.store_id  JOIN pigcms_user User ON StoreWithdrawal.uid = User.uid  JOIN pigcms_bank Bank ON StoreWithdrawal.bank_id = Bank.bank_id WHERE ( StoreWithdrawal.store_id = '55' ) AND ( StoreWithdrawal.type = 1 ) AND ( StoreWithdrawal.status IN (1,2) ) LIMIT 1   [ RunTime:0.000720s ]
+SQL: SELECT SUM(income) AS tp_sum FROM `pigcms_platform_income` WHERE ( `store_id` = 55 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.000359s ]
+SQL: SELECT SUM(amount) AS tp_sum FROM pigcms_store_withdrawal StoreWithdrawal  JOIN pigcms_store Store ON StoreWithdrawal.store_id = Store.store_id  JOIN pigcms_user User ON StoreWithdrawal.uid = User.uid  JOIN pigcms_bank Bank ON StoreWithdrawal.bank_id = Bank.bank_id WHERE ( StoreWithdrawal.store_id = '54' ) AND ( StoreWithdrawal.type = 1 ) AND ( StoreWithdrawal.status IN (1,2) ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: SELECT SUM(income) AS tp_sum FROM `pigcms_platform_income` WHERE ( `store_id` = 54 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SELECT SUM(amount) AS tp_sum FROM pigcms_store_withdrawal StoreWithdrawal  JOIN pigcms_store Store ON StoreWithdrawal.store_id = Store.store_id  JOIN pigcms_user User ON StoreWithdrawal.uid = User.uid  JOIN pigcms_bank Bank ON StoreWithdrawal.bank_id = Bank.bank_id WHERE ( StoreWithdrawal.store_id = '53' ) AND ( StoreWithdrawal.type = 1 ) AND ( StoreWithdrawal.status IN (1,2) ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: SELECT SUM(income) AS tp_sum FROM `pigcms_platform_income` WHERE ( `store_id` = 53 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT SUM(amount) AS tp_sum FROM pigcms_store_withdrawal StoreWithdrawal  JOIN pigcms_store Store ON StoreWithdrawal.store_id = Store.store_id  JOIN pigcms_user User ON StoreWithdrawal.uid = User.uid  JOIN pigcms_bank Bank ON StoreWithdrawal.bank_id = Bank.bank_id WHERE ( StoreWithdrawal.store_id = '52' ) AND ( StoreWithdrawal.type = 1 ) AND ( StoreWithdrawal.status IN (1,2) ) LIMIT 1   [ RunTime:0.000405s ]
+SQL: SELECT SUM(income) AS tp_sum FROM `pigcms_platform_income` WHERE ( `store_id` = 52 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT SUM(amount) AS tp_sum FROM pigcms_store_withdrawal StoreWithdrawal  JOIN pigcms_store Store ON StoreWithdrawal.store_id = Store.store_id  JOIN pigcms_user User ON StoreWithdrawal.uid = User.uid  JOIN pigcms_bank Bank ON StoreWithdrawal.bank_id = Bank.bank_id WHERE ( StoreWithdrawal.store_id = '51' ) AND ( StoreWithdrawal.type = 1 ) AND ( StoreWithdrawal.status IN (1,2) ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: SELECT SUM(income) AS tp_sum FROM `pigcms_platform_income` WHERE ( `store_id` = 51 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT SUM(amount) AS tp_sum FROM pigcms_store_withdrawal StoreWithdrawal  JOIN pigcms_store Store ON StoreWithdrawal.store_id = Store.store_id  JOIN pigcms_user User ON StoreWithdrawal.uid = User.uid  JOIN pigcms_bank Bank ON StoreWithdrawal.bank_id = Bank.bank_id WHERE ( StoreWithdrawal.store_id = '33' ) AND ( StoreWithdrawal.type = 1 ) AND ( StoreWithdrawal.status IN (1,2) ) LIMIT 1   [ RunTime:0.000400s ]
+SQL: SELECT SUM(income) AS tp_sum FROM `pigcms_platform_income` WHERE ( `store_id` = 33 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT SUM(amount) AS tp_sum FROM pigcms_store_withdrawal StoreWithdrawal  JOIN pigcms_store Store ON StoreWithdrawal.store_id = Store.store_id  JOIN pigcms_user User ON StoreWithdrawal.uid = User.uid  JOIN pigcms_bank Bank ON StoreWithdrawal.bank_id = Bank.bank_id WHERE ( StoreWithdrawal.store_id = '32' ) AND ( StoreWithdrawal.type = 1 ) AND ( StoreWithdrawal.status IN (1,2) ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: SELECT SUM(income) AS tp_sum FROM `pigcms_platform_income` WHERE ( `store_id` = 32 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT SUM(amount) AS tp_sum FROM pigcms_store_withdrawal StoreWithdrawal  JOIN pigcms_store Store ON StoreWithdrawal.store_id = Store.store_id  JOIN pigcms_user User ON StoreWithdrawal.uid = User.uid  JOIN pigcms_bank Bank ON StoreWithdrawal.bank_id = Bank.bank_id WHERE ( StoreWithdrawal.store_id = '31' ) AND ( StoreWithdrawal.type = 1 ) AND ( StoreWithdrawal.status IN (1,2) ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SELECT SUM(income) AS tp_sum FROM `pigcms_platform_income` WHERE ( `store_id` = 31 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT SUM(amount) AS tp_sum FROM pigcms_store_withdrawal StoreWithdrawal  JOIN pigcms_store Store ON StoreWithdrawal.store_id = Store.store_id  JOIN pigcms_user User ON StoreWithdrawal.uid = User.uid  JOIN pigcms_bank Bank ON StoreWithdrawal.bank_id = Bank.bank_id WHERE ( StoreWithdrawal.store_id = '30' ) AND ( StoreWithdrawal.type = 1 ) AND ( StoreWithdrawal.status IN (1,2) ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SELECT SUM(income) AS tp_sum FROM `pigcms_platform_income` WHERE ( `store_id` = 30 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT * FROM `pigcms_sale_category` WHERE ( `status` = 1 )  [ RunTime:0.000298s ]
+SQL: SELECT COUNT(pigcms_id) AS tp_count FROM `pigcms_store_withdrawal` WHERE ( `status` = 1 ) AND ( `supplier_id` = 0 ) LIMIT 1   [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: frame_show D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 7 行.
+NOTIC: [8] Undefined variable: unprocessed D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 25 行.
+NOTIC: [8] Undefined variable: bg_color D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 37 行.
+NOTIC: [8] Undefined index: keyword D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 131 行.
+NOTIC: [8] Undefined index: type D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 133 行.
+NOTIC: [8] Undefined index: type D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 134 行.
+NOTIC: [8] Undefined index: type D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 135 行.
+NOTIC: [8] Undefined index: type D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 136 行.
+NOTIC: [8] Undefined index: type D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 137 行.
+NOTIC: [8] Undefined index: store_type D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 143 行.
+NOTIC: [8] Undefined index: store_type D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 144 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: sale_category D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 149 行.
+NOTIC: [8] Undefined index: approve D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 155 行.
+NOTIC: [8] Undefined index: approve D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 156 行.
+NOTIC: [8] Undefined index: approve D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 157 行.
+NOTIC: [8] Undefined index: status D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 162 行.
+NOTIC: [8] Undefined index: status D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 163 行.
+NOTIC: [8] Undefined index: status D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 164 行.
+NOTIC: [8] Undefined index: status D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 165 行.
+NOTIC: [8] Undefined index: status D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 166 行.
+NOTIC: [8] Undefined index: province D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 170 行.
+NOTIC: [8] Undefined index: city D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 170 行.
+NOTIC: [8] Undefined index: county D:\ceshi\cache\admin_runtime\Cache\021164fcd60908c179adf53a3129ba01.php 第 170 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.054306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054374s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000489s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000351s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000255s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001661s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000483s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-10-20T15:09:21+08:00 ] 114.241.190.118 /admin.php?c=User&a=tab_store&uid=18
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001618s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001398s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.002196s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001381s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `pigcms_user` [ RunTime:0.001808s ]
+SQL: SELECT * FROM `pigcms_user` WHERE ( `uid` = 18 ) LIMIT 1   [ RunTime:0.000447s ]
+

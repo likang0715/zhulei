@@ -1,0 +1,34 @@
+/*庞中华钢笔字体*/
+
+@font-face {
+	font-family: 'pzhgbzt';
+	src: url('./pzhgbzt.TTF');
+}
+.pzhgbzt{
+	 font-size:20px;
+	 font-family:pzhgbzt;
+}
+
+
+/*全新硬笔行书简*/
+@font-face {
+	font-family: 'ybxs';
+	src: url('./ybxs.ttf');
+}
+.ybxs{
+	 font-size:20px;
+	 font-family:ybxs;
+}
+
+
+/*叶根友疾风草书*/
+
+
+@font-face {
+	font-family: 'ygyjfcs';
+	src: url('./ygyjfcs.ttf');
+}
+.ygyjfcs{
+	 font-size:20px;
+	 font-family:ygyjfcs;
+}

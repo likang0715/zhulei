@@ -1,0 +1,66 @@
+{template "content","header"}
+	<div class="contentBox">
+    {pc:content action="position" posid="18"  order="listorder DESC" thumb="1" siteid="$siteid" }
+        <div class="common_banner_pic cf">
+            {loop $data $r} 
+              <img src="{$r['thumb']}" alt="">
+            {/loop}
+        </div>
+        {/pc}
+		<div class="magazine_content cf">
+			<div class="common_inner">
+				<div class="content_l">
+					<div class="content_page_link cf">
+						{pc:content action="category" catid="$CATEGORYS[$CAT[parentid]][catid]" num="25" siteid="$siteid" order="listorder ASC" }
+                            <dl>
+                                <dt>
+                                <a href="javascript:;">{$CATEGORYS[$CATEGORYS[$CAT[parentid]][catid]]['catname']}</a> 
+                                </dt>
+                                {loop $data $r}
+                                    <dd {if $r[catid]==$CAT[parentid]} class="current"{else}
+                                    {if $r[catid]==$catid} class="current"{/if}
+                                    {/if}><a href="{$r[url]}">{$r[catname]}</a></dd>
+                                {/loop}
+                            </dl>
+                        {/pc} 
+					</div>
+				</div>
+				<div class="content_r">
+				
+					<div class="content_title"><h2>{$title}</h2></div>
+					<div class="product_detail">
+						<div class="product_detail_l">
+							<img src="{$thumb}">
+						</div>
+						<div class="product_detail_r">
+							<h4 class="product_name">{$title}</h4>
+								{if $specifications==null}{else}<div class="product_volume"><span>规格：{$specifications} L</span></div>{/if}
+							<div class="product_desc">
+								<p><?php $a= str_cut($description,170); echo $a;?></p>
+							</div>
+						</div>
+					</div>
+					<div class="product_con">
+						{if $picture==null}{else}<img src="{$picture}" style="width:100%;">{/if}
+					</div>    
+					   
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{template "content","footer"}

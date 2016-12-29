@@ -1,0 +1,561 @@
+.ui-regions select {
+width: 105px;
+margin-right: 5px;
+}
+/*-- ▼ MAP --*/
+.shop-map-container {
+width: 100%;
+height: 500px;
+border: solid 1px #ccc;
+position: relative;
+}
+.shop-map-container .left {
+float: left;
+width: 210px;
+height: 100%;
+background-color: #fff;
+border-right: solid 1px #ccc;
+overflow: scroll;
+}
+.shop-map-container .left .place-list li {
+padding: 10px 5px 10px 30px;
+position: relative;
+line-height: 20px;
+cursor: pointer;
+border-bottom: solid 1px #ddd;
+}
+.shop-map-container .left .place-list li:hover,.shop-map-container .left .place-list li.active{
+background-color: #f2f2f2;
+}
+
+.shop-map-container .left .place-list .place-order {
+position: absolute;
+left: 5px;
+top: 9px;
+width: 20px;
+height: 20px;
+border-radius: 20px;
+background-color: red;
+float: left;
+text-align: center;
+color: #fff;
+font-style: normal;
+}
+.shop-map-container .left .place-list h3 {
+font-size: 14px;
+margin-bottom: 10px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+font-weight:normal;
+}
+.shop-map-container .left .place-list .place-adress, .shop-map-container .left .place-list .place-phone {
+color: #999;
+overflow: hidden;
+}
+.shop-map-container .left .place-list .place-adress {
+max-height: 40px;
+}
+.shop-map-container .left .place-list .place-phone {
+max-height: 20px;
+}
+
+.shop-map-container .map {
+float: right;
+height: 100%;
+width: 494px;
+}
+.shop-map-container .map.large {
+width: 100%;
+}
+.shop-map-container .select-place {
+position: absolute;
+top: 10px;
+right: 10px;
+}
+.app__content .form-actions {
+padding: 10px 10px 10px 130px;
+border-top: 1px solid #CCC;
+background-color: #FFFEDC;
+margin: 0;
+}
+.shop-map-container .map .BMap_Marker img{
+	max-width:none;
+}
+.shop-map-container .info-window p.address {
+height: 3em;
+}
+.form-horizontal .controls .shop-map-container a.ui-btn {
+font-size: 12px;
+line-height: 20px;
+height: 20px;
+}
+.shop-map-container a.ui-btn.ui-btn-confirm {
+color: #fff;
+background-color: #06bf04;
+border-color: #03b401;
+}
+.ui-btn-disabled, .ui-btn-disabled:hover, .ui-btn-disabled:focus, .ui-btn-disabled:active {
+color: #999;
+background: #f0f0f0;
+border-color: #ddd;
+}
+/*-- ▲ MAP --*/
+/*-- ▼ Events List --*/
+.events_list{
+	width: 840px;
+  overflow: hidden;
+}
+
+.events_list_header{
+	line-height: 28px;
+	font-size: 14px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	overflow: hidden;
+}
+.events_list_header h3{
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+}
+.events_list_main{
+	background: #fff;
+}
+.events_list_main_tabs{
+	overflow: hidden;
+}
+.events_list_main_tabs ul{
+	margin-bottom: -1px;
+	margin-left: 1px;
+}
+.events_list_main_tabs ul li{
+	line-height: 48px;
+	padding: 0 10px;
+	float: left;
+	font-size: 12px;
+}
+.events_list_main_tabs ul li.events_cur{
+	font-size: 16px;
+	color: #07d;
+}
+.events_list_header_search{
+	float: right;
+	position: relative;
+	height: 28px;
+}
+.events_list_header_search input.events_search{
+	width: 160px;
+  height: 16px;
+  padding: 5px;
+  font-size: 12px;
+  line-height: 16px;
+  border: 1px solid #ddd;
+  margin: 0;
+  border-radius: 2px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.events_list_header_search input.events_submit{
+	width: 28px;
+  height: 28px;
+  font-size: 12px;
+  border: 0;
+  margin: 0;
+  background: url(../images/ico-search.png) 4px center no-repeat;
+  background-image: -webkit-image-set(url(../images/ico-search.png) 1x, url(../images/ico-search@2x.png) 2x);
+  border-radius: 2px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9;
+}
+.events_list_main_con{
+	overflow: hidden;
+}
+.events_list_main_con ul{
+	
+}
+.events_list_main_con ul li{
+  float: left;	
+  width: 240px;
+  height: 287px;
+  margin: 20px 10px;
+  overflow: hidden;
+  border: 1px solid #E7E7EB;
+}
+.events_list_information{
+  line-height: 42px;
+  font-size: 13px;
+  color: #666;
+  overflow: hidden;
+  padding: 0 5px;
+}
+.events_list_information span{
+	
+}
+.events_list_information span.events_create{
+  float: left;
+
+}
+
+.events_list_main_con img.events_thumb{
+	width: 240px;
+	height: 137px;
+}
+
+.events_list_main_con h3{
+	color: #333;
+	font-size: 14px;
+	line-height: 18px;
+	height: 18px;
+	overflow: hidden;
+	font-weight: 400;	
+	margin: 10px 0;
+	font-family: "Microsoft YaHei";
+  padding: 0 5px;
+}
+.events_list_des{
+  color: #666;  
+  overflow: hidden;
+  padding: 0 5px;
+  margin-bottom: 5px;
+}
+.events_list_des span{
+  line-height: 28px;	
+}
+.events_list_des span.events_date{
+  float: left;
+  overflow: hidden;
+  display: block;
+  height: 28px;	
+}
+.events_list_des span.events_ticket{
+  float: right;	
+}
+.events_list_op{
+  border-top: 1px solid #E7E7EB;
+}
+.events_list_op a{
+  float: left;
+}
+.events_list_op span{
+  width: 79px;	
+  height: 36px;
+  float: left;    
+}
+.events_list_op span.events_edit{
+	background: #F8F8F8 url(../images/events_edit.png) center no-repeat;
+	border-right: 1px solid #E7E7EB;
+	margin: 0;
+}
+.events_list_op span.events_delete{
+	background: #F8F8F8 url(../images/events_delete.png) center no-repeat;
+	width: 80px;
+}
+.events_list_op span.events_results{
+	background: #F8F8F8 url(../images/events_results.png) center no-repeat;	
+	border-left: 1px solid #E7E7EB;
+	margin: 0;
+	padding: 0;
+  position: relative;
+}
+.events_list_op span.events_results i{
+    font-size: 12px;
+    position: absolute;
+    right: 12px;
+    top: 2px;
+    background-color: #7DB547;
+    color: #fff;
+    border-radius: 50%;
+    display: block;
+    line-height: 16px;
+    min-width: 16px;
+    text-align: center;
+    font-style: normal;
+}
+/*-- ▲ Events List  --*/
+/*-- ▼ Events Results --*/
+.events_results{
+	float: left;
+	width: 840px;
+	background: #fff;
+	padding: 10px 0;
+}
+.events_results_t{
+  height: 180px;
+
+  padding: 0 10px;
+}
+.events_results_t_left{
+  float: left;
+}
+.events_results_t_left img{
+  width: 280px;
+  height: 180px;
+}
+.events_results_t_right{
+  float: left;
+  margin-left: 20px;
+}
+.events_results_t_right h4{
+	font-family: Microsoft Yahei;
+  font-size: 17px;
+  line-height: 36px;
+  max-height: 36px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.events_results_t_right p{
+  padding-left: 30px;
+  font-size: 14px;
+  color: #666;
+  line-height: 32px;
+}
+.events_results_t_right p.date{
+  background: url(../images/date.png) left center no-repeat;
+}
+.events_results_t_right p.address{
+  background: url(../images/address.png) left center no-repeat;
+}
+.events_results_t_right p.type{
+  background: url(../images/type.png) left center no-repeat;
+}
+.events_results_t_right p.number{
+  background: url(../images/number.png) left center no-repeat;
+}
+.events_results_c{
+  margin-top: 20px;
+  height: 40px;
+  border-top: 4px solid #eee;
+  padding: 0 10px;
+  border-bottom: 1px solid #eee;
+}
+.events_results_c_nav{
+  overflow: hidden;
+}
+.events_results_c_nav ul li{
+  float: left;
+  padding: 0 20px;
+  line-height: 40px;
+  color: #333;
+}
+.events_results_c_nav ul li.cur{
+  border-bottom: 2px solid #548C35;
+}
+.events_results_b{
+}
+.events_results_b_nav{
+  height: 32px;
+  border-bottom: 1px solid #eee;
+  background: #eee;
+}
+.events_results_b_nav ul li{
+  float: left;
+  line-height: 32px;
+  width: 20%;
+  text-align: center;
+  color: #999;
+}
+.events_results_b_list{
+  width: 100%;
+  overflow: hidden;
+  -ms-user-select:none;
+}
+.events_results_b_list>ul{
+  display: block;
+  overflow: hidden;
+}
+.events_results_b_list>ul li{
+  line-height: 56px;
+  float: left;
+  width: 20%;
+  text-align: center;
+  color: #666;
+  cursor: pointer;
+}
+.events_results_b_list:hover>ul{
+	background: #FFEAC0;
+}
+.events_results_b_list_more{
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+	display: none;
+}
+.events_results_b_list_more ul{}
+.events_results_b_list_more ul li{
+	width: 50%;
+	float: left;
+	line-height: 32px;
+	text-indent: 10px;
+	color: #666;
+}
+/*-- ▲ Events Results --*/
+/*-- ▼ Events Edit --*/
+.events_edit_main{
+	background: #fff;
+ padding: 16px;
+}
+.events_edit_main_con{
+
+}
+.events_edit_item{
+	overflow: hidden;
+	margin: 16px 0;
+}
+.events_edit_item>label{
+	float: left;
+	width: 100px;
+	line-height: 40px;
+}
+.events_edit_item_input{
+ width: 700px;
+ float: left;
+}
+.events_edit_item_input input{
+	height: 30px;
+	width: 540px;
+  text-indent: 8px;
+}
+.events_edit_item_radio ul li label{
+  line-height: 38px;
+  height: 38px;
+  display: block;
+  float: left;
+  padding: 0 16px;
+  background-color: #eee;
+}
+.events_edit_item_radio ul li input:checked + label{
+  background-color: #548C35;
+  color: #fff;
+}
+.events_edit_item_radio ul li .tickets_price{
+  line-height: 38px;
+  height: 38px;
+  display: block;
+  float: left;
+  margin-left: 20px;
+}
+.events_edit_item_radio ul li .tickets_price span{
+  font-size: 14px;
+  margin-left: 10px;
+  color: #999;
+}
+.events_edit_item_radio ul li .tickets_price input{
+  float: left;
+  text-indent:8px;
+}
+.events_edit_item .ui-regions select{
+	height: 40px;
+	width: 179px;
+	border-radius: 0;
+}
+.events_edit_item_input button.btn{
+	background: #009ADB;
+	border-radius: 2px;
+	height: 40px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.events_edit_item_thumb{
+	width: 700px;
+	height: 360px;
+	float: left;
+	position: relative;
+}
+.events_edit_item_thumb_upbtn{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 360px;
+	width: 120px;
+}
+.events_edit_item_thumb_upbtn a{
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: block;
+}
+.events_edit_item_thumb .js-img-list{
+	width: 560px;
+	height: 360px;
+	background: url(../images/thumb.jpg) center no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.events_edit_item_thumb .js-img-list .upload-preview-img{
+	width: 560px;
+	height: 360px;
+}
+.events_edit_item_thumb .js-img-list .upload-preview-img img{
+	width: 560px;
+	height: 360px;
+}
+.events_edit_item_thumb_upbtn span{
+	line-height: 24px;
+	color: #999;
+	font-size: 14px;
+	margin-top: 10px;
+	display: block;
+}
+select.events_edit_item_input_select{
+	height: 40px;
+	width: 200px;
+	border-radius: 0;
+	line-height: 32px;
+}
+.events_edit_item_radio{
+
+}
+.events_edit_item_radio ul li{
+ float: left;
+ margin-right: 16px;
+ position: relative;
+}
+
+input.tickets_charge:checked + label + .events_edit_tickets{
+	display: block;
+}
+.events_edit_tickets{
+	width: 120px;
+  position: absolute;
+  left: 100px;
+  top: 0;
+  line-height: 40px;
+  color: #999;
+  text-indent: 10px;
+  display: none;
+}
+.events_edit_item_radio .events_edit_tickets input{
+	width: 40px;
+  height: 28px;
+  float: left;
+}
+.events_edit_item_radio .events_edit_tickets p{
+  float: left;
+}
+
+.events_edit_item_input1,.events_edit_item_input2{
+	float: left;
+	height: 40px;
+}
+
+.events_edit_item_input1 input,.events_edit_item_input2 input{
+	height: 30px;
+	width: 243px;;
+}
+p.short_line{
+	float: left;
+	line-height: 40px;
+	width: 40px;
+	text-align: center;
+	color: #ccc;
+}
+
+/*-- ▲ Events Edit --*/

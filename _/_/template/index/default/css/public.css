@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, spig, span, strong, u, ul, var {margin: 0; padding: 0;}
+address, cite, dfn, em, var {font-style: normal;}
+a {color: #666;text-decoration: none;}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active{text-decoration:none;}
+ol, ul {list-style: outside none none;}
+.fl {float: left;}
+.fr {float:right}
+.cursor{cursor:pointer;}
+.w { margin: 0 auto; width: 990px;}
+.w {width: 1210px;}
+.ws {width: 1210px;margin:0 auto;}
+.hidden{display:none}
+#acontent {margin: 0 !important;  width: 100% !important;  }
+#mall-category, #acontent, #mall-desc {margin: auto;  width: 990px; }
+#acontent .main {  margin: auto; width: 1200px;}
+.mt10{margin-top:10px}
+.mt20{margin-top: 20px; }
+.pb40 {  padding-bottom: 40px;  }
+.pt15 {  padding-top: 15px;  }
+
+/*全局顶部*/
+#site-nav {text-align:left;background: none repeat scroll 0 0 #f2f2f2;border-bottom: 1px solid #e5e5e5;height: 26px;min-width: 990px;position: relative !important;width: auto;z-index: 99999;}
+#sn-bg, #site-nav .sn-edge {display: none;}
+#sn-bd::after, #site-nav .sn-container::after {clear: both;content: " ";display: block;height: 0;}
+ #sn-bd,  #header .headerLayout,  #header .headerCon, #pigNav .wrapper,  .pigNav-con {width: 1200px;}
+#sn-bd {margin: auto;position: relative;width: 1200px;}
+#site-nav a:link, #site-nav a:visited, #site-nav .sn-container {color: #999;}
+#site-nav .sn-container {height: 26px;position: relative;width: 100%;}
+ #site-nav .sn-container {width: 1200px;}
+#sn-bd::after, #site-nav .sn-container::after {clear: both;content: " ";display: block;height: 0;}
+#site-nav .sn-simple-logo, #site-nav .sn-back-home { float: left; height: 26px;line-height: 26px;margin-right: 20px;}
+#site-nav .sn-back-home .mui-global-iconfont { margin-right: 4px; position: relative; top: -1px;}
+#site-nav .mui-global-iconfont { color: #f63b3b;}
+.mui-global-iconfont {font-family: mui-global-iconfont !important; font-size: 12px; font-style: normal;}
+#site-nav .sn-login-info {display: inline-block;height: 26px;line-height: 26px;position: relative;}
+#site-nav .sn-login {padding-left: 20px;}
+#site-nav .sn-point, #site-nav .sn-logout, #site-nav .menu-hd, #site-nav .sn-cart, #site-nav .sn-mybrand, #site-nav .sn-mobile, #site-nav .sn-home, #site-nav .sn-quick-menu .sn-cart, #site-nav .sn-login, #site-nav .sn-seller-center, #site-nav .sn-register {padding: 0 10px;}
+#site-nav .sn-quick-menu {height: 26px;line-height: 26px;position: absolute;right: 0;top: 0;}
+#site-nav .sn-quick-menu li {float: left; position: relative;}
+#site-nav .menu-item {position: relative;z-index: 93110;}
+#site-nav a:hover, #site-nav a:active, #site-nav .menu-bd { color: #f63b3b;text-decoration:none; }
+#site-nav .menu-bd {-moz-border-bottom-colors: none;-moz-border-left-colors: none;-moz-border-right-colors: none;-moz-border-top-colors: none; background: none repeat scroll 0 0 #fff;border-color: #eee;border-image: none;border-style: solid;border-width: 0 1px 1px;display: none;left: 0;position: absolute;top: 26px;z-index: 93110;}
+#site-nav .sn-mytaobao .menu-bd, #site-nav .sn-favorite .menu-bd, #site-nav .sn-sitemap .menu-bd, #site-nav .sn-seller .menu-bd {line-height: 1.4;padding: 8px 10px;}
+#site-nav .sn-mytaobao .menu-bd { width: 74px;}
+#site-nav .sn-quick-menu .hover .menu-bd, #site-nav .sn-menu:hover .menu-bd {display: block;}
+#site-nav .menu-bd-panel a {display: block;line-height: 20px;}
+#site-nav .sn-container .hidden {display: none;}
+ #sn-bd,  #header .headerLayout,  #header .headerCon,  #pigNav .wrapper,  .pigNav-con { width: 1200px;}
+#site-nav .sn-quick-menu .menu-hd b, #site-nav .sn-all-msg b {border-color: #bbb transparent transparent;border-style: solid dashed dashed;border-width: 3px;font-size: 0;height: 0;line-height: 0;position: absolute;right: 6px;top: 12px;width: 0;}
+#site-nav .sn-mytaobao .menu-hd, #site-nav .sn-favorite .menu-hd, #site-nav .sn-sitemap .menu-hd, #site-nav .sn-seller .menu-hd {padding-right: 14px;}
+#site-nav .mui-global-iconfont {color: #f63b3b;}
+.mui-global-iconfont {font-family: mui-global-iconfont !important;font-size: 12px;font-style: normal;}
+#site-nav .sn-login-info .sn-separator, #site-nav .sn-simple-logo .sn-separator, #site-nav .sn-quick-menu .sn-separator {border-left: 1px solid #ccc;display: inline-block;font-size: 0; height: 14px;left: 0;line-height: 14px;margin: 0 2px 0 5px;position: relative; top: 6px;vertical-align: top;width: 0;}
+#site-nav .site-hot, #site-nav .site-market, #site-nav .site-brand { float: left;}
+#site-nav .sn-sitemap .menu-bd {border-width: 0 1px 1px;left: auto;right: 0;width: 988px;}
+#site-nav .sn-sitemap .menu-bd {padding: 25px 0;}
+#site-nav .sn-quick-menu .hover .menu-bd, #site-nav .sn-menu:hover .menu-bd {display: block;}
+#site-nav .sn-sitemap .menu-bd {width: 1208px;}
+#site-nav .site-cont {height: 200px;overflow: hidden;padding-left: 30px;}
+#site-nav .site-hot {width: 275px;}
+#site-nav .site-hot {width: 380px;}
+#site-nav .site-cont {height: 150px;}
+#site-nav .sn-favorite .menu-bd {  width: 62px;  }
+#site-nav .site-hot h2, #site-nav .site-hot a:hover {color: #f56a00;}
+#site-nav .site-cont h2 { font-family: "微软雅黑",arial,"宋体"; font-size: 16px; padding-bottom: 8px;}
+#site-nav .site-cont h2 span { padding-left: 6px;}
+#site-nav .site-cont ul { margin-right: -20px;overflow: hidden;}
+#site-nav .site-list li {float: left;overflow: hidden;padding: 6px 0;text-overflow: ellipsis;white-space: nowrap;width: 95px;}
+ #site-nav .site-market { width: 375px;}
+#site-nav .site-market {border-left: 1px solid #f5f5f5;border-right: 1px solid #f5f5f5;width: 275px;}
+#site-nav .site-brand {border-right: 1px solid #f5f5f5;width: 170px;}
+ #site-nav .site-brand { width: 180px;}
+#site-nav .sn-quick-menu .hover .menu-bd, #site-nav .sn-menu:hover .menu-bd, .sn-menu:hover{display: block;background:#fff;border-left: 1px solid #f5f5f5;}
+#site-nav .sn-seller .menu-bd {left: auto;overflow: hidden; right: 0;width: 122px;}
+#site-nav .sn-seller ul {margin-top: -5px;overflow: hidden;width: 122px;}
+#site-nav .sn-seller li {border-bottom: 1px dotted #827777;display: block;float: none;height: auto;line-height: 1.4;margin-right: -20px;padding: 5px 0;}
+#site-nav .sn-seller h3 {color: #666;font-weight: 700;}
+#site-nav .sn-seller li a {display: inline-block;line-height: 22px;margin-right: 20px;width: 48px;}
+.mui-global-iconfont-mobile {  display: inline-block;  height: 20px;  left: 7px;  position: absolute;  top: 3px;  width: 15px;  }
+.mui-global-iconfont-mobile {  background: rgba(0, 0, 0, 0) url("../images/ico/ico.png") no-repeat scroll 0 0;  }
+.sn-mobile-hover {  padding-left: 17px;  }
+#site-nav a:hover, #site-nav a:active, #site-nav .menu-bd { color: #f63b3b;text-decoration:none; }
+#site-nav .sn-qrcode {  background: #fff none repeat scroll 0 0;  box-shadow: 0 0 5px #aaa;  height: 184px;  left: -48px;  position: absolute;  top: 26px;  width: 175px;  }
+.sn-mobile-hover .sn-qrcode{display:none}
+.sn-mobile:hover .sn-qrcode{display:block}
+#site-nav .sn-qrcode b {  border-color: transparent transparent #fff;  border-style: dashed dashed solid;  border-width: 5px;  font-size: 0;  height: 0;  left: 50%;  line-height: 0;  margin-left: -2px;  position: absolute;  top: -10px;  width: 0;  }
+#site-nav .sn-qrcode p {  background: rgba(0, 0, 0, 0) url("") no-repeat scroll 0 -185px;  line-height: 35px;  margin: 0 15px;  overflow: hidden;  text-indent: -9999px;  }
+#site-nav .sn-qrcode-content {  background: rgba(0, 0, 0, 0) url("") no-repeat scroll 0 0;  height: 175px;  margin: 5px 0 0;  width: 175px;  }
+
+
+
+
+
+
+
+
+
+
+.hide{display:none}
+.clear,.clr{overflow:hidden;font-size:0;line-height:0}
+.clear,.clearfix:after,.clr{clear:both;display:block;height:0}
+.clearfix:after{visibility:hidden;content:"."}
+.dorpdown{position:relative}
+.dorpdown-layer{position:absolute;display:none}
+.dorpdown:hover .dorpdown-layer,.hover .dorpdown-layer{display:block}
+.cw-icon{position:relative;cursor:default}
+.cw-icon .i,.cw-icon i{position:absolute;display:block;overflow:hidden}
+
+a:hover{color:#c81623}
+.m,.mb,.mc,.mt,.p-detail,.p-img,.p-market,.p-name,.p-price,.sm,.smb,.smc,.smt{overflow:hidden}
+#shortcut-2014{width:100%;height:30px;line-height:30px;color:#999}
+#shortcut-2014 a{color:#999}
+#shortcut-2014 a:hover{color:#c81623}
+#shortcut-2014,#shortcut-2014 .w{background:#f1f1f1 none repeat scroll 0 0}
+#shortcut-2014 li{float:left;padding:0 2px;height:30px}
+#shortcut-2014 li#ttbar-navs{padding:0 1px 0 2px}
+#shortcut-2014 li#ttbar-navs.hover,#shortcut-2014 li#ttbar-navs:hover{padding:0 0 0 1px}
+#shortcut-2014 li.dorpdown{z-index:13}
+#shortcut-2014 li.dorpdown:hover{padding:0 1px}
+#shortcut-2014 li.dorpdown:hover .dt{border:none;border-color:#ddd;border-style:solid;border-width:0 1px;border-image:none;background:#fff none repeat scroll 0 0}
+#shortcut-2014 li.hover{padding:0 1px}
+#shortcut-2014 li.hover .dt{border:none;border-color:#ddd;border-style:solid;border-width:0 1px;border-image:none;background:#fff none repeat scroll 0 0}
+#shortcut-2014 li.spacer{overflow:hidden;margin-top:9px;padding:0;width:1px;height:9pt;background:#ddd none repeat scroll 0 0}
+#shortcut-2014 .dt{float:left;padding:0 8px}
+#shortcut-2014 .dd{line-height:24px}
+#shortcut-2014 .loading{display:block;height:50px;}
+#shortcut-2014 .dorpdown-layer{top:30px;border:1px solid #ddd;background:#fff none repeat scroll 0 0}
+#shortcut-2014 .ci-right{top:9pt;right:8px;overflow:hidden;height:7px;color:#6a6a6a;font:400 15px/15px consolas;transition:transform .1s ease-in 0s}
+#shortcut-2014 .ci-right s{position:relative;top:-7px;text-decoration:none}
+#shortcut-2014 li:hover .ci-right{transform:rotate(180deg)}
+#shortcut-2014 .dd-spacer{position:absolute;top:-7px;overflow:hidden;height:10px;background:#fff none repeat scroll 0 0}
+/* #shortcut-2014 .style-red{color:#c81623} */
+#shortcut-2014 #ttbar-home{padding-left:20px;background:transparent url(../images/ico/ico.png) no-repeat scroll 0 -136px}
+#shortcut-2014 #ttbar-mycity{padding-left:0}
+#shortcut-2014 #ttbar-mycity .dt{padding:0 25px 0 10px}
+#shortcut-2014 #ttbar-mycity:hover .dt{padding:0 24px 0 9px}
+#shortcut-2014 #ttbar-mycity .dd{padding:10px 0 10px 10px;width:301px}
+#shortcut-2014 #ttbar-mycity .item{float:left;padding:2px 0;width:60px}
+#shortcut-2014 #ttbar-mycity .item a{float:left;padding:0 8px}
+#shortcut-2014 #ttbar-mycity .item a:hover{background:#f4f4f4 none repeat scroll 0 0}
+#shortcut-2014 #ttbar-mycity .item a.selected{background:#c81623 none repeat scroll 0 0;color:#fff}
+#shortcut-2014 #ttbar-mycity .dd-spacer{left:0;width:93px}
+#shortcut-2014 #ttbar-mycity .dd-spacer-extend{width:105px}
+#shortcut-2014 #ttbar-login{margin-right:10px}
+#shortcut-2014 #ttbar-login .link-login{font-family:"verdana,瀹嬩綋"}
+#shortcut-2014 #ttbar-apps .dt{padding-right:25px;padding-left:25px}
+#shortcut-2014 #ttbar-apps .dt .ci-left{top:5px;left:7px;width:15px;height:20px;background:transparent url(../images/ico/ico.png) no-repeat scroll 0 0}
+#shortcut-2014 #ttbar-apps .dd{width:170px}
+#shortcut-2014 #ttbar-apps .dd a{position:absolute;display:block;overflow:hidden;width:56px;height:44px;text-indent:-500px}
+#shortcut-2014 #ttbar-apps .dd .link{overflow:hidden;width:75pt;height:20px}
+#shortcut-2014 #ttbar-apps .dd .link1,#shortcut-2014 #ttbar-apps .dd .link2,#shortcut-2014 #ttbar-apps .dd .link3{top:6px;left:92px;background-position:0 -44px}
+#shortcut-2014 #ttbar-apps .dd .link2{top:26px}
+#shortcut-2014 #ttbar-apps .dd .link3{top:78pt;background-position:-1px -66px}
+#shortcut-2014 #ttbar-apps .dd .jdapp-ipad,#shortcut-2014 #ttbar-apps .dd .wyapp-ipad{width:45px}
+#shortcut-2014 #ttbar-apps .dd-inner{position:relative;overflow:hidden;width:170px;height:180px}
+#shortcut-2014 #ttbar-apps .jdapp-ios,#shortcut-2014 #ttbar-apps .wyapp-ios{top:46px;left:92px}
+#shortcut-2014 #ttbar-apps .jdapp-ios:hover,#shortcut-2014 #ttbar-apps .wyapp-ios:hover{background-position:3px -1px}
+#shortcut-2014 #ttbar-apps .jdapp-android,#shortcut-2014 #ttbar-apps .wyapp-android{top:46px;left:147px}
+#shortcut-2014 #ttbar-apps .jdapp-android:hover,#shortcut-2014 #ttbar-apps .wyapp-android:hover{background-position:-52px -1px}
+#shortcut-2014 #ttbar-apps .jdapp-ipad,#shortcut-2014 #ttbar-apps .wyapp-ipad{top:46px;left:202px;width:45px}
+#shortcut-2014 #ttbar-apps .jdapp-ipad:hover,#shortcut-2014 #ttbar-apps .wyapp-ipad:hover{background-position:-107px -1px}
+#shortcut-2014 #ttbar-apps .wyapp-android,#shortcut-2014 #ttbar-apps .wyapp-ios,#shortcut-2014 #ttbar-apps .wyapp-ipad{top:143px}
+#shortcut-2014 #ttbar-apps .dd-spacer{left:0;width:98px}
+#shortcut-2014 #ttbar-apps.hover .dt .ci-left{background:transparent url(../images/ico/ico.png) no-repeat scroll 0 -25px}
+
+#ttbar-login .dt{padding-left:36px}
+#ttbar-login .dt .ci-left { background: transparent url("../images/ico/ico.png") no-repeat scroll 0 -141px; height: 20px;left: 5px;top: 5px;width: 20px;}
+
+#shortcut-2014 #ttbar-gwc .dt{padding-left:25px}
+#shortcut-2014 #ttbar-gwc .dt .ci-left{top:5px;left:5px;width:20px;height:20px;background:transparent url("../images/ico/ico.png") no-repeat scroll 0 -55px}
+#shortcut-2014 #ttbar-gwc .dd{width:170px}
+#shortcut-2014 #ttbar-gwc .dd a{position:absolute;display:block;overflow:hidden;width:56px;height:44px;text-indent:-500px}
+#shortcut-2014 #ttbar-gwc .dd .link{overflow:hidden;width:75pt;height:20px}
+#shortcut-2014 #ttbar-gwc .dd .link1,#shortcut-2014 #ttbar-gwc .dd .link2,#shortcut-2014 #ttbar-gwc .dd .link3{top:6px;left:92px;background-position:0 -44px}
+#shortcut-2014 #ttbar-gwc .dd .link2{top:26px}
+#shortcut-2014 #ttbar-gwc .dd .link3{top:78pt;background-position:-1px -66px}
+#shortcut-2014 #ttbar-gwc .dd .jdapp-ipad,#shortcut-2014 #ttbar-gwc .dd .wyapp-ipad{width:45px}
+#shortcut-2014 #ttbar-gwc .dd-inner{position:relative;overflow:hidden;width:170px;height:180px}
+#shortcut-2014 #ttbar-gwc .jdapp-ios,#shortcut-2014 #ttbar-gwc .wyapp-ios{top:46px;left:92px}
+#shortcut-2014 #ttbar-gwc .jdapp-ios:hover,#shortcut-2014 #ttbar-gwc .wyapp-ios:hover{background-position:3px -1px}
+#shortcut-2014 #ttbar-gwc .jdapp-android,#shortcut-2014 #ttbar-gwc .wyapp-android{top:46px;left:147px}
+#shortcut-2014 #ttbar-gwc .jdapp-android:hover,#shortcut-2014 #ttbar-gwc .wyapp-android:hover{background-position:-52px -1px}
+#shortcut-2014 #ttbar-gwc .jdapp-ipad,#shortcut-2014 #ttbar-gwc .wyapp-ipad{top:46px;left:202px;width:45px}
+#shortcut-2014 #ttbar-gwc .jdapp-ipad:hover,#shortcut-2014 #ttbar-gwc .wyapp-ipad:hover{background-position:-107px -1px}
+#shortcut-2014 #ttbar-gwc .wyapp-android,#shortcut-2014 #ttbar-gwc .wyapp-ios,#shortcut-2014 #ttbar-gwc .wyapp-ipad{top:143px}
+#shortcut-2014 #ttbar-gwc .dd-spacer{left:0;width:98px}
+#shortcut-2014 #ttbar-gwc.hover .dt .ci-left{background:transparent url(../images/ico/ico.png) no-repeat scroll 0 -88px}
+
+
+#shortcut-2014 #ttbar-atte .dt,#shortcut-2014 #ttbar-serv .dt,#shortcut-2014 #ttbar-servs .dt,#shortcut-2014 #ttbar-servs2 .dt{padding-right:25px;width:49px}
+#shortcut-2014 #ttbar-atte .dd,#shortcut-2014 #ttbar-serv .dd,#shortcut-2014 #ttbar-servs .dd,#shortcut-2014 #ttbar-servs2 .dd{padding-bottom:8px;width:82px}
+#shortcut-2014 #ttbar-atte .item,#shortcut-2014 #ttbar-serv .item{padding-left:0}
+#shortcut-2014 #ttbar-atte .dd-spacer,#shortcut-2014 #ttbar-serv .dd-spacer,#shortcut-2014 #ttbar-servs .dd-spacer,#shortcut-2014 #ttbar-servs2 .dd-spacer{left:0;width:82px}
+#shortcut-2014 #ttbar-navs .dt{padding-right:25px;width:49px}
+#shortcut-2014 #ttbar-navs .dd{right:0;padding:20px 0 1pc;width:988px}
+#shortcut-2014 #ttbar-navs dl{float:left;padding-left:20px;width:201px;border-left:1px solid #ddd}
+#shortcut-2014 #ttbar-navs dl.fore1{width:301px;border-left:medium none}
+#shortcut-2014 #ttbar-navs dt{margin-bottom:6px;font-weight:700;font-size:14px}
+#shortcut-2014 #ttbar-navs .item{float:left;width:75pt}
+#shortcut-2014 #ttbar-navs .dd-spacer{right:0;width:82px}
+.root61 #shortcut-2014 #ttbar-navs .dd{width:1210px}
+.root61 #shortcut-2014 #ttbar-navs .fore2{display:block}
+.root61 #shortcut-2014 #ttbar-navs dl{width:259px}
+.root61 #shortcut-2014 #ttbar-navs dl.fore1{width:347px}
+.root61 #shortcut-2014 #ttbar-navs .item{width:86px}
+#ttbar-myjd .dt{padding-right:25px;width:49px}
+
+
+
+
+/*全局分页效果*/
+.page_list dl a{ border: 1px solid #00bb88;cursor: pointer; float: left; height: 36px; margin-right: 5px;width: auto;padding:0px 15px;}
+.page_list dl a:hover,.page_list dl a.active{    background: #00bb88 none repeat scroll 0 0;color: #fff;}
+
+
+/*其他*/
+#login-info li {  float: left;  }
+.content .content_commodity li .content_shop_name {  color: #191919;  float: left;  font-size: 14px;  overflow: hidden;  text-align: left;  text-overflow: ellipsis;  white-space: nowrap;  width: 115px;  }
+
+.cursor{curor:pointer}
+
+.content_list_activity{display:none;}
+
+.content_list_activity.cur{
+	display:block;
+}
+
+.nav .nav_top .nav_nav .nav_nav_mian_list li{
+	position: relative;
+}
+
+.nav .nav_top .nav_nav .nav_nav_mian_list li .nav_nav_subnav{
+	top: -1px;
+	width: 375px;
+	border-width: 1px 1px 1px 0;
+	border-style: solid;
+	border-color: #e5e5e5;
+	padding: 10px 20px;
+}
+.nav .nav_top .nav_nav .nav_nav_mian_list li .nav_nav_mian_list_left{
+	border: 0px;
+	padding:0;
+	width:375px;
+}
+
+.banner .banner_content .banner_content_asid .banner_content_txt,{
+	line-height: 32px;
+}
+.content .content_commodity li .content_list_pice,.content .content_commodity li .content_shop_name{
+	margin-left: 5px;
+}
+.nav .nav_top .nav_nav .nav_nav_mian_list li dl{
+	padding:0;
+	border:0px;
+}
+.nav .nav_top .nav_nav .nav_nav_mian_list li dt a{
+	font-size: 16px;
+}

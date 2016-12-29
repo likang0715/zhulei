@@ -1,0 +1,59 @@
+.fullBg{background-color: #000;left: 0;right: 0;bottom: 0;opacity: 0.8;position: fixed;top: 0;z-index: 3;filter: alpha(opacity=80);-moz-opacity: 0.8;-khtml-opacity: 0.8;display: none;z-index: 1000;width: 100%;}
+.owindow{width: 275px;height: 275px;position: fixed;top: 50%;margin-top: -211px;left: 50%;margin-left: -137.5px;z-index: 1100;overflow: hidden;display: none}
+.owindow a.aClosed{display: block;width:27.5px;height:27.5px;position: absolute;top: 20px;right: 32px;background: url("../../images/shakelottery/aclosed.png") no-repeat top center;background-size: cover;}
+.owindow.get{background: url("../../images/shakelottery/get.png") no-repeat top center;background-size: cover;text-align: center}
+.owindow.sorry{background: url("../../images/shakelottery/sorry.png") no-repeat top center;background-size: cover;text-align: center}
+.owindow.get .bigtext{margin-top: 60px;margin-bottom: 10px;}
+.owindow.get .tipText{font-size: 16px;color: #3d3d3d;width: 270px;overflow: hidden;}
+.owindow.get .tipText em{border-radius: 5px;background: #ff3e28;color: #fff;padding: 2px 10px;margin-left: 5px;}
+.owindow.get .priceImg{width: 112px;height: 112px;margin: 0 auto;margin-top: 10px}
+.owindow.sorry .bigtext{margin-top: 80px;margin-bottom: 15px;}
+.owindow.sorry .tipText{font-size: 16px;color: #ff3e28}
+
+.owindow{
+    -webkit-animation:bounceInDown 1s .2s ease both;
+    -moz-animation:bounceInDown 1s .2s ease both;}
+@-webkit-keyframes bounceInDown{
+    0%{opacity:0;
+        -webkit-transform:translateY(-2000px)}
+    60%{opacity:1;
+        -webkit-transform:translateY(30px)}
+    80%{-webkit-transform:translateY(-10px)}
+    100%{-webkit-transform:translateY(0)}
+}
+@-moz-keyframes bounceInDown{
+    0%{opacity:0;
+        -moz-transform:translateY(-2000px)}
+    60%{opacity:1;
+        -moz-transform:translateY(30px)}
+    80%{-moz-transform:translateY(-10px)}
+    100%{-moz-transform:translateY(0)}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

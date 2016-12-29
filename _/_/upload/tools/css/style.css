@@ -1,0 +1,106 @@
+body {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+#main {
+    width: 960px;
+    margin: 0 auto;
+    background: lightgray;
+}
+#body {
+    clear: both;
+    background: white;
+}
+a {
+    text-decoration: none;
+    color: #0000ff;
+}
+.menu {
+    height: 35px;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    float: left;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+.menu ul .active {
+    background: #DDD;
+}
+.search {
+    padding: 5px;
+    background: lightgray;
+}
+.text {
+    width: 150px;
+}
+.label-field {
+    font-weight: bold;
+}
+table {
+    background: #dddddd;
+    width: 100%;
+    font-size: 12px;
+}
+tr {
+    background: white;
+}
+th {
+    background: #EEE;
+}
+th, td {
+    padding: 10px
+}
+.pagenavi {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    background: white;
+    margin-top: 10px;
+}
+.pagenavi .total, .pagenavi .prev, .pagenavi .next, .pagenavi .num, .pagenavi .goto-input, .pagenavi .goto-btn {
+    display: inline-block;
+    color: #333;
+}
+.pagenavi .total {
+    padding: 6px 0;
+    font-weight: normal !important;
+}
+.pagenavi .prev, .pagenavi .next, .pagenavi .num, .pagenavi .goto {
+    padding: 5px 8px;
+    margin: 0 0 0 2px;
+    min-width: 28px;
+    border: 1px solid #ddd;
+    background: #fff;
+    text-align: center;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pagenavi .active {
+    background: #EEE;
+    color: gray;
+    border-color: #ddd;
+}
+.data-table {
+    clear: both;
+}
+.table-list {
+    float: left;
+}
+.tables {
+    width: 500px;
+    height: 300px;
+}
+.file {
+    float: left;
+    margin-top: 130px;
+    padding: 5px;
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+ <head> 
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+  <title>{L('member','','member').L('manage_center')} - 清华大学五道口金融学院</title>
+  <link rel="stylesheet" type="text/css" href="/css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="/css/common.css" /> 
+  <link rel="stylesheet" type="text/css" href="/css/login.css" /> 
+  <link rel="stylesheet" type="text/css" href="/css/ie-common.css" /> 
+  <script src="/js/jquery-1.7.min.js"></script> 
+
+     <script src="{APP_PATH}js/myBrowser.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function() {
+        if (myBrowser()=='IE7' || myBrowser()=='IE8') {
+          $('body').addClass('ie');
+           dynamicLoading.js("{APP_PATH}js/ie-common.js");
+        }
+      });
+      </script>
+
+  <!--[if IE]>
+      <script src="../js/html5shiv.js"></script>
+    <![endif]--> 
+ </head> 
+ <body>
+	<form method="post" action="/index.php?m=member&c=index&a=login" onsubmit="save_username();" id="myform" name="myform">
+		<input type="hidden" name="forward" id="forward" value="{$forward}">
+		<div class="layer_sign">
+		  <div class="layer_logo"><img src="/images/header_logo.png" alt=""></div>
+		  <div class="layer_input"><img src="/images/icon_person.png" alt=""><input type="text" class="person" name="username" /></div>
+		  <div class="layer_input"><img src="/images/icon_psd.png" alt=""><input type="password" class="psd" name="password" /></div>
+		  <div class="login cf">
+			<div class="fl">
+			  <input type="checkbox" name="cookietime" value="2592000" id="cookietime"><label for="zidong"></label><span>自动登录</span>
+			</div>
+			<div class="fr">
+        <a href="javascript:;" class="forgetpsd">忘记密码？</a>
+			</div>
+		  </div>
+		  <div class="button cf">
+			  <a href="javascript:;" onclick="$('#myform').submit();"  class="sign">登录</a> 
+			  <a href="javascript:;" class="zhuce">注册</a>
+		  </div>
+		</div>
+	</form>
+    <div class="layer_forget hide">
+      <span class="layer_close">&times;</span>
+      <div class="layer_logo"><img src="/images/header_logo.png" alt=""></div>
+      <div class="layer_title"><span class="line"></span><h3>找回密码</h3></div>
+      <div class="layer_input">
+        <img src="/images/icon_person.png" alt="">
+        <input type="text" placeholder="手机号" class="person" id="forget_username">
+        <button onclick="get_verify(document.getElementById('forget_username').value)" id="sms_sendzh" class="get">获取验证码</button>
+      </div>
+      <div class="layer_input cf">
+        <img src="/images/icon_message.png" alt="">
+        <input type="text" placeholder="短信验证码" class="psd">
+        <p class="tips">验证码错误</p>
+      </div>
+      <div class="layer_input">
+        <img src="/images/icon_psd.png" alt="">
+        <input type="password" placeholder="新密码" class="psd">
+        <p class="tips">6~16位字符</p>
+      </div>
+      <div class="layer_input">
+        <img src="/images/icon_psd.png" alt="">
+        <input type="password" placeholder="确认密码" class="psd">
+        <p class="tips">请再次输入密码</p>
+      </div>
+      <input type="submit" class="button_changeOk" value="确认">
+      <!-- <a href="#" class="button_changeOk"></a> -->
+    </div>
+    <div class="layer_zhuce hide">
+	<form method="post" action="/index.php?m=member&c=index&a=register" id="reg_form">
+	  <input type="hidden" name="siteid" value="{$siteid}" />
+      <span class="layer_close">&times;</span>
+      <div class="layer_logo"><img src="/images/header_logo.png" alt=""></div>
+      <div class="layer_title"><span class="line"></span><h3>欢迎注册</h3></div>
+      <div class="layer_input">
+        <img src="/images/icon_person.png" alt="">
+        <input type="text" placeholder="手机号" class="person" name="username" id="username_reg">
+        <p class="tips">需用手机号注册</p>
+		<button onclick="get_verify(document.getElementById('username_reg').value)" type="button" id="sms_send" class="get">获取验证码</button>
+      </div>
+      <div class="layer_input cf">
+        <img src="/images/icon_message.png" alt="">
+        <input type="text" placeholder="短信验证码" class="psd" onblur="check_verify(document.getElementById('username_reg').value, this.value)">
+		<p class="tips" id="code_tips"></p>
+      </div>
+	  <div class="layer_input cf">
+        <img src="/images/icon_message.png" alt="">
+        <input type="text" placeholder="邮箱" class="psd" name="email" id="email_reg">
+		<p class="tips" id="code_tips"></p>
+      </div>
+      <div class="layer_input">
+        <img src="/images/icon_psd.png" alt="">
+        <input type="password" placeholder="密码" class="psd" name="password" id="password_reg">
+        <p class="tips">6~16位字符</p>
+      </div>
+      <div class="layer_input">
+        <img src="/images/icon_psd.png" alt="">
+        <input type="password" placeholder="密码" class="psd" name="pwdconfirm" id="pwdconfirm">
+        <p class="tips">请再次输入密码</p>
+      </div>
+      <div class="login cf">
+        <div class="fl" style="cursor:pointer;">
+          <input type="checkbox" class="regular-checkbox" id="agree" check="checked"><label for="agree"></label><span class="agree_must">同意用户须知</span>
+        </div> 
+        <div class="fr">
+          <a href="#" class="back">返回登录</a>
+        </div>
+      </div>
+      <a href="javascript:;" onclick="$('#reg_form').submit();" class="button_zhuce">注册</a>
+	</form>
+    </div>
+    <div class="layer_zhuce_ok hide">
+      <div class="layer_logo"><img src="/images/header_logo.png" alt=""></div>
+      <div class="layer_title"><span class="line"></span><h3>消息提醒</h3></div>
+      <div class="layer_text">您的个人信息已保存成功！</div>
+      <a href="#" class="back">返回登录</a>
+    </div>
+    <div class="layer_must hide">
+      <div class="layer_logo"><img src="/images/header_logo.png" alt=""></div>
+      <div class="layer_title"><h3>用户须知</h3></div>
+      <div class="layer_text">
+        <p>1. 手机号码邮箱与手机号码对应，如果您使用的手机号终止，请及时关闭网易手机号码邮箱；如果您更换手机号，请及时关闭原网易手机</p>
+        <p>2. 针对以上情形，请您及时告知您的亲朋好友有关手机号码邮箱终止或变更的情况。淫念没有及时关闭或通知产生的任何损失，公司不承担任何责任。</p>
+      </div>
+      <a href="#" class="must_back">返回</a>
+    </div>
+  <script type="text/javascript" src="{JS_PATH}cookie.js"></script>
+  <script type="text/javascript" src="{JS_PATH}jquery.md5.js"></script>
+  <script type="text/javascript">
+	
+	function get_verify(mobile,num) {
+    var b = $.md5(mobile);
+		$.get("api.php?op=member_sms&mobile="+mobile+"&b="+b, function(data){
+			if(data=="-10"){
+				alert('手机号不能为空');
+			}
+			if(data=="-9"){
+				alert('用户名不能为空');
+			}
+			if(data=="-8"){
+				alert('该手机号已被注册过');
+			}
+			if(data=="-7"){
+				alert('重复发送短信的时间间隔为120秒，请耐心等待');
+			}
+			if(data == "1"){
+        alert('短信已发送');
+				times = 120;
+				$("#sms_send,#sms_sendzh").attr("disabled", true);
+				isinerval = setInterval("CountDown()", 1000);
+			}
+		});	
+	}
+	function CountDown() {
+		if (times < 1) {
+			$("#sms_send,#sms_sendzh").html("获取短信验证码").attr("disabled", false);
+			$("#sms_send,#sms_sendzh").attr("class", "sms_send");
+			clearInterval(isinerval);
+			return;
+		}
+		$("#sms_send,#sms_sendzh").html("重新获取("+times+")");
+		times--;
+	}
+	
+	function save_username() {
+
+		if($('#cookietime').attr('checked')==true) {
+
+			var username = $('#username').val();
+
+			setcookie('username', username, 3);
+
+		} else {
+
+			delcookie('username');
+
+		}
+
+	}
+	function check_verify(mobile, code) {
+		$.get("api.php?op=member_sms_check&mobile="+mobile+"&code="+code, function(data){
+			if(data=="-10"){
+				$("#code_tips").html('<font color="red">手机号不能为空</font>');
+			}
+			if(data=="-7"){
+				$("#code_tips").html('<font color="red">校验码已过期</font>');
+			}
+			if(data == "1"){
+				$("#code_tips").html('<font color="green">校验码正确</font>');
+			}else{
+				$("#code_tips").html('<font color="red">校验码不正确</font>');
+			}
+		});	
+	}
+    $(".zhuce").click(function(){
+      $(".layer_zhuce").show();
+      $(".layer_zhuce_ok").hide();
+      $(".layer_sign").hide();
+      $(".layer_forget").hide();
+    })
+    $(".forgetpsd").click(function(){
+      $(".layer_sign").hide();
+      $(".layer_zhuce").hide();
+      $(".layer_forget").show();
+    })
+    $(".back").click(function(){
+      $(".layer_sign").show();
+      $(".layer_zhuce").hide();
+      $(".layer_forget").hide();
+      $(".layer_zhuce_ok").hide();
+    })
+    $(".agree_must").click(function(){
+      $(".layer_must").show();
+      $(".layer_zhuce").hide();
+      $(".layer_forget").hide();
+    })
+    $(".must_back").click(function(){
+      $(".layer_must").hide();
+      $(".layer_forget").hide();
+      $(".layer_zhuce").show();
+    })
+    $(".layer_close").click(function(){
+      $(".layer_must").hide();
+      $(".layer_forget").hide();
+      $(".layer_zhuce").hide();
+      $(".layer_sign").show();
+    })
+     $(".button_changeOk").click(function(){
+      $(".layer_must").hide();
+      $(".layer_forget").hide();
+      $(".layer_zhuce").hide();
+      $(".layer_sign").show();
+    })
+    </script>  
+ </body>
+</html>

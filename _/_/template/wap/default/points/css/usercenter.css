@@ -1,0 +1,236 @@
+@charset "utf-8";
+.userTop{background:url(../images/banner_01.png) no-repeat top center;background-size:cover;padding-bottom:0}
+.userTopInfo{padding:1rem .5rem}
+.userTop .userAvatar{border-radius:100%;border:.05rem solid #fff;margin-right:.5rem}
+.userTop .userAvatar img{width:2.5rem;height:2.5rem;border-radius:100%}
+.userInfo{overflow:hidden;color:#fff;margin-top:.3rem}
+.userInfo .name{font-size:.7rem;margin-bottom:.2rem}
+.userInfo .price{font-size:.6rem}
+.userInfo .price i{display:inline-block;width:1rem;height:1rem;vertical-align:middle;margin-right:.2rem;background:url(../images/ic_more_credit.png) no-repeat;background-size:cover}
+.userInfo .price span:nth-child(2){margin:0 .5rem}
+.userInfo .price small{background:#fff;display:inline-block;font-size:.5rem;padding:0 .5rem;border-radius:.05rem;color:#E0001B}
+.dTab .hd ul{-webkit-box-orient:horizontal;-moz-box-orient:horizontal;box-orient:horizontal;display:-webkit-box;display:-moz-box;display:box}
+.dTab .hd ul li{-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;text-align:center}
+.dTab .hd ul li a{font-size:.6rem;color:#5E5E5E;display:block}
+.userTab>.hd ul{background:#efefef}
+.userTab>.hd{line-height:1.5rem}
+.userTab>.hd ul li{background:#B62E30}
+.userTab>.hd ul li.on{background:#D05128}
+.userTab>.hd ul li a{color:#fff;padding:.2rem 0}
+.userTabTop{overflow:hidden;width:100%}
+.userTabTop>ul{-webkit-box-orient:horizontal;-moz-box-orient:horizontal;box-orient:horizontal;display:-webkit-box;display:-moz-box;display:box}
+.userTabTop>ul li{-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;text-align:center}
+.userTabTop{line-height:1.5rem}
+.userTabTop ul li{background:rgba(182,46,48,.2)}
+.userTabTop ul li a{border-bottom:2px solid rgba(182,46,48,.2)}
+.userTabTop>ul li.on a{border-color:#FFA96F}
+.userTab>.hd ul li a{color:#fff;padding:.2rem 0}
+.userTabTop ul li a{color:#fff;padding:.2rem 0}
+.userTabTop ul li a{font-size:.6rem;display:block}
+.userTab>.bd .group{margin:.5rem 0;border-bottom:1px solid #F3F3F3;border-top:1px solid #F3F3F3;background:#fff}
+.userTab>.bd .cell{border-top:1px solid #f3f3f3;padding:0 .5rem;overflow:hidden;margin-top:-1px;padding:.3rem .5rem;margin-left:.5rem}
+.userTab>.bd .cell>a{display:block;padding:.2rem 0}
+.userTab>.bd .cell span{font-size:.6rem}
+.userTab>.bd .cell span i.icon{display:inline-block;width:1rem;height:1rem;margin-right:.2rem}
+.userTab>.bd .cell span i.icon img{width:100%}
+.userTab>.bd .cell .arrow{float:right;background:url(../images/ic_chevron_dark.png) no-repeat;background-size:cover;width:.3rem;height:.45rem;margin-top:.3rem}
+.userTab>.bd .cell .num{display:inline-block;border-radius:1rem;border:1px solid #E0001B;float:right;font-size:.6rem;padding:0 .4rem;margin-right:.5rem}
+.orderNav{background:#fff;text-align:center;border-bottom:1px solid #f3f3f3}
+.orderNav ul li{padding:.5rem 0}
+.orderNav ul li a{font-size:.6rem;color:#333;display:block;border-right:.05rem solid #E9E9E9;padding:0 .5rem}
+.orderNav ul li a i{display:block;margin-bottom:.25rem}
+.orderNav ul li a i img{height:1.5rem}
+.orderNav ul li:last-child a{border-right:0}
+.userBtn{padding:0 .5rem;margin-bottom:.5rem}
+.userBtn button{width:100%;background:#D94553;color:#fff;padding:.2rem 0;font-size:.7rem;border-radius:.2rem}
+.teamTab .hd{border-bottom:.05rem solid #E8E8E8;margin:0 .5rem}
+.teamTab .hd ul li{border-bottom:.05rem solid #F0EFF5}
+.teamTab .hd ul li a{padding:.5rem 0}
+.teamTab .hd ul li.on{border-bottom-color:#D83547}
+.teamTab .bd .cell{background:#fff;padding:.5rem .5rem;margin:.5rem 0}
+.teamTab .bd .cell h3{font-size:.7rem;font-weight:400}
+.teamTab .bd .cell .time{padding:.2rem 0}
+.teamTab .bd .cell .time,.teamTab .bd .cell p{display:block;font-size:.6rem}
+.teamTab .bd .cell p span:first-child{margin-right:.5rem}
+.spread{background:#ddd}
+.spreadWarp{padding:.5rem}
+.spread .spread-box,.spread .spread-url{background:#fff;border-radius:.25rem;border:.05px solid #BCBCBC;padding:.5rem}
+.spread .spread-box h3,.spread .spread-url h3{font-size:.7rem;font-weight:400;padding-bottom:.2rem}
+.spread .spread-box p{font-size:.6rem}
+.spread .spread-box .userAvatar{border-radius:100%;margin-right:.5rem;margin-top:.2rem}
+.spread .spread-box .userAvatar img{width:3rem;height:3rem;border-radius:.25rem}
+.spread .spread-box .userAvatar .userInfo{color:#383838}
+.spread .spread-box .userAvatar .userInfo h3{font-size:.7rem;font-weight:400;padding-bottom:.2rem}
+.spread .spread-box .userAvatar .userInfo .num{font-size:.6rem}
+.spread .spread-box .spread-form{margin-top:.5rem}
+.spread .spread-box .spread-form input{border:.05rem solid #D7D7D7;box-shadow:0 2px 5px #ddd inset;border-radius:.25rem;padding:.4rem .8rem;width:100%}
+.spread-btn{margin:.2rem 0}
+.spread-btn button{background:#3BAEDA;border-radius:.25rem;color:#fff;font-size:.6rem;padding:.5rem 1.5rem;margin:.5rem 0;margin-bottom:0}
+.spread-url{margin-top:.5rem}
+.spread-url p{font-size:.6rem;color:#aaa}
+.spread-url .urlAdd{border:.05rem dashed #ddd;color:#444;padding:.5rem;width:100%;margin-top:.25rem}
+.card{text-align:center;padding-bottom:1rem}
+.card-avatar{text-align:center}
+.card-avatar img{width:8rem}
+.card h3{padding:.4rem 0}
+.card h3,.card p{font-size:.7rem;font-weight:400}
+.card h3 em,.card p em{color:#D14719}
+.card-qrcode{background:#D14719;text-align:center;color:#fff}
+.card-qrcode small{display:block;font-size:.5rem;color:#fff;text-align:left;padding:.5rem 1rem}
+.card-qrcode img{width:8rem}
+.card-qrcode h2{font-weight:400;font-size:.8rem;padding-bottom:.5rem}
+.card-qrcode p{font-size:.7rem;padding:.5rem 0}
+.price .table{padding:0 .5rem;margin-top:.5rem}
+.price .table table th{font-size:.7rem;padding:.3rem 0}
+.price .table table td{font-size:.6rem;padding:.2rem 0}
+.price .table table td,.price .table table th{border:1px solid #DBDBDB;text-align:center;font-weight:400}
+.teamInfo{padding:0 .5rem}
+.teamInfo .row{margin:.5rem 0}
+.teamInfo .row h3{font-size:.7rem;font-weight:400;padding-bottom:.25rem}
+.teamInfo .userAvatar{margin-right:.5rem;margin-top:.2rem;position:relative;width:5rem;overflow:hidden}
+.teamInfo .userAvatar img{width:5rem;height:5rem;border-radius:.25rem}
+.teamInfo .userAvatar .addFile{position:absolute;top:0;right:0;bottom:0;left:0;opacity:0}
+.teamInfo .textInfo{font-size:.6rem;overflow:hidden;padding-top:2.5rem}
+.teamInfo .setInfo .borderPut input,.teamInfo .setInfo .borderPut textarea{width:100%;box-shadow:0 2px 5px #ddd inset;border:.05rem solid #B3B8C3;border-radius:.25rem;padding:.2rem .5rem}
+.teamInfo .setInfo .borderPut textarea{height:5rem}
+.teamRank .hd{background:#F5F5F5;border-bottom:.05rem solid #DBDBDB}
+.teamRank .hd ul li{padding:.3rem 0}
+.teamRank .hd ul li:first-child a{border-right:1px solid #DCDCDC}
+.teamRank .hd ul li a{padding:.2rem 0}
+.teamRank .hd ul li.on a{color:#FE0001}
+.teamRank .bd .cell{padding:.5rem 0;background:#fff;border-top:.05rem solid #EBEBEB}
+.teamRank .bd .cell:first-child{margin-top:-.05rem}
+.teamRank .userAvatar{margin-right:.5rem;border-radius:100%;position:relative;overflow:hidden;margin-left:2.5rem}
+.teamRank .userAvatar img{width:3rem;height:3rem;border-radius:.25rem;border-radius:100%}
+.teamRank .rankInfo{overflow:hidden;margin-right:.5rem;margin-top:.7rem}
+.teamRank .rankInfo p{overflow:hidden;padding-bottom:.25rem}
+.teamRank .rankInfo p span{color:#444;font-size:.6rem}
+.teamRank .rankInfo p span:first-child{color:#FE0000;font-size:.6rem}
+.teamRank .rankInfo .rankPut{width:100%;height:.25rem;background:#BEBCAD;border-radius:1rem}
+.teamRank .rankInfo .rankPut span{display:block;width:50%;border-radius:1rem;height:.25rem;background:#FD1E1E}
+.teamRank .cell{position:relative}
+.teamRank .cell .num{position:absolute;color:#444;font-size:.6rem;top:1.5rem;left:.8rem}
+.explain{margin-bottom:.5rem}
+.userTab>.bd .likeSome{padding:0;margin-left:0}
+.likeSome .hd{border-bottom:.05rem solid #f3f3f3}
+.likeSome .hd ul li{padding:0}
+.likeSome .hd ul li:first-child{border-right:.05rem solid #f3f3f3}
+.likeSome .hd ul li a{padding:.4rem 0;border-bottom:.1rem solid #fff}
+.likeSome .hd ul li.on a{border-color:#FD1E1E}
+.likeSome .bd .row .cell .proImg{border-radius:.05rem;overflow:hidden;margin-right:.5rem}
+.likeSome .bd .row .cell .proImg img{border-radius:.05rem;width:2.5rem;height:2.5rem}
+.likeSome .bd .row .cell .detailInfo{overflow:hidden;margin-top:.4rem}
+.likeSome .bd .row .cell .detailInfo h3{font-size:.7rem;font-weight:400}
+.likeSome .bd .row .cell .detailInfo p{color:#B2B1B6;font-size:.6rem}
+.userTab .likeSome .bd .cell .arrow{margin-top:.9rem}
+.gradeTop{background:url(../images/gradbg.png) no-repeat;background-size:cover;height:7.5rem;position:relative}
+.gradeTop .gradAvatar{text-align:center;padding-top:1.2rem}
+.gradeTop .gradAvatar img{width:2.75rem;height:2.75rem;border-radius:100%;border:.15rem solid #53aedd}
+.gradeTop h2{font-size:.7rem;font-weight:400;text-align:center;padding:.3rem 0;color:#fff}
+.gradeTop p{font-size:.6rem;color:#000;text-align:center}
+.gardTip{position:absolute;font-size:.6rem;height:1.5rem;background:rgba(255,255,255,.5);top:50%;margin-top:-1.8rem;line-height:1.5rem;padding:0 .4rem;color:#fff}
+.gardTip em{vertical-align:middle;display:inline-block;margin-right:.1rem}
+.onLeft{position:absolute;left:0;border-radius:0 1rem 1rem 0}
+.onLeft em{width:1rem;height:.95rem;background:url(../images/bonus.png) no-repeat;background-size:cover}
+.onRight{position:absolute;right:0;border-radius:1rem 0 0 1rem}
+.onRight em img{height:1.35rem}
+.gradList{padding-bottom:2rem}
+.gradList .row{margin-top:.5rem;border-top:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9;padding:.5rem 0;position:relative}
+.gradList .row .medal{text-align:center}
+.gradList .row p{text-align:center;font-size:.7rem;color:#000;padding:.3rem 0;padding-bottom:0}
+.gradList .row p em{font-size:.6rem;color:grey}
+.gradList .row ul{text-align:center;overflow:hidden;margin-top:-.5rem}
+.gradList .row ul li{display:inline-block;font-size:.5rem;margin:0 .2rem}
+.gradList .row ul li i{display:inline-block;width:.75rem;height:.75rem;background-repeat:no-repeat;background-size:cover;vertical-align:middle;margin-right:.2rem}
+.gradList .row ul li.grad-i0 i{background-image:url(../images/grad-i0.png)}
+.gradList .row ul li.grad-i1 i{background-image:url(../images/grad-i1.png)}
+.gradList .row ul li.grad-i2 i{background-image:url(../images/grad-i2.png)}
+.gradList .row .bonus,.gradList .row .change{position:absolute;top:.5rem}
+.gradList .row .bonus{left:.5rem;color:#17b6dd;font-size:.6rem}
+.gradList .row .change{right:.5rem;color:#17b6dd;font-size:.6rem;background:#ffec1e;padding:.1rem .3rem}
+.signIn{background:#fff;padding-bottom:1rem}
+.signIn .signInBanner{position:relative;text-align:center}
+.signIn .signInBanner .signBtn{display:block;width:100%;text-align:center}
+.signIn .signInBanner .signBtn a{text-align:center;display:inline-block;width:4.25rem;height:1.325rem;font-size:.7rem;background:url(../images/signin.png) no-repeat;background-size:4.25rem 1.325rem;line-height:1.2rem;color:#fff}
+.signUserInfo{text-align:center;padding:0 .5rem;margin:1rem 0}
+.signUserInfo .signWrap{background:#faf5de;padding:.5rem 0}
+.signUserInfo h3{font-size:.7rem;color:grey;font-weight:400;padding:.3rem 0}
+.signUserInfo h3 em{color:#0d0d0d}
+.signUserInfo p{color:#ea584b;font-size:.7rem}
+.signUserInfo .signTip{text-align:center;padding:.4rem 0}
+.signUserInfo .signTip em{display:inline-block;background:#ea584b;color:#fff;font-size:.6rem;padding:.3rem .5rem}
+.task{text-align:center;padding:0 .5rem}
+.task .blueTitle{background-image:url(../images/signtitle.png);background-repeat:no-repeat;background-size:cover;display:block;width:7rem;height:1.25rem;line-height:1.25rem;margin:0 auto;font-size:.8rem;color:#fff;margin-bottom:.5rem}
+.task .row{text-align:left;margin-bottom:.5rem}
+.task .row h3{font-size:.7rem;color:#0d0d0d;font-weight:400}
+.task .row h3 i{background-color:#ff5040;vertical-align:middle;display:inline-block;height:.3rem;width:.3rem;border-radius:100%;margin-right:.2rem}
+.task .row:nth-child(2) h3 i{background-color:#fb9004}
+.task .row p{font-size:.6rem;color:grey;padding-left:.4rem;margin-top:.2rem}
+.task .row .copyUrl{margin-top:.3rem}
+.task .row .copyUrl a{font-size:.5rem;background:#ffc207;border-radius:.25rem;padding:.3rem .5rem;color:#fff}
+.task .row .copyUrl input[type=text]{background:#fff6d0;width:11rem;padding:.3rem .5rem;font-size:.6rem}
+.task .row .mycode{margin:.5rem 0}
+.task .row .codeTipBtn{background:#ea584b;font-size:.5rem;border-radius:.25rem;padding:.3rem .5rem;color:#fff}
+.task .row .codeTip span{font-size:.6rem;color:grey;margin-left:.5rem}
+.signInDetail{padding-top:1rem}
+.followMoreInfo{padding:0 .5rem;margin-top:1.5rem}
+.followMoreInfo h3{font-size:.7rem;font-weight:400;margin-bottom:.5rem}
+.followMoreInfo h3 i{display:inline-block;width:.8rem;height:.85rem;vertical-align:middle;background:url(../images/pointout.png) no-repeat;background-size:cover;margin-right:.2rem}
+.followMoreInfo .Infotext{font-size:.6rem;color:grey}
+.followMoreInfo .Infotext p{line-height:1.2rem}
+.follow{text-align:center;padding:0 .5rem;margin-top:1rem}
+.follow h2{font-size:.8rem;padding:.5rem 0}
+.follow h2 em{color:#19bd9b}
+.follow .followWrap{border:.05rem solid #cff1ea;border-radius:.25rem;padding-bottom:.5rem}
+.follow .followQrCode,.follow .followQrCode img{width:4.7rem;height:4.7rem}
+.followText{font-size:.5rem;text-align:center;display:table-cell;vertical-align:middle}
+.followInfo{padding:0 .5rem}
+.followMe{overflow:hidden;height:4.7rem;display:table}
+.bonusDetailTop{height:5.5rem;background-image:url(../images/gradbg.png);background-repeat:no-repeat;background-size:cover}
+.bonusDetailTop p{font-size:.7rem;color:#ffea01;text-align:center;padding-top:.5rem;margin-bottom:.5rem}
+.bonusDetailTop p em{font-size:1.2rem}
+.bonusBtn{display:block;text-align:center}
+.bonusBtn a{display:inline-block;margin:0 .5rem;font-size:.7rem;padding:.2rem .8rem;border-radius:1rem;border:1px solid #fff;color:#fff}
+.bonusBtn a:nth-child(2){background:#fff;color:#0176c7}
+.bonusTable{padding:0 .5rem;margin-top:1rem}
+.bonusTable table{text-align:center}
+.bonusTable table th{font-size:.7rem;color:#fff;font-weight:400;padding:.3rem 0}
+.bonusTable table th:nth-child(1){background:#ea6f6f;width:40%}
+.bonusTable table th:nth-child(2){background:#f3c959}
+.bonusTable table th:nth-child(3){background:#bababa;width:35%}
+.bonusTable table td{font-size:.6rem;height:1.5rem;border-bottom:1px solid #e6e6e6}
+.signCell{background:#fff;padding-top:1rem}
+.signCell .cell{border-bottom:1px solid #f3f3f3;padding:0 .5rem;overflow:hidden;padding:.3rem .5rem;margin-left:.5rem}
+.signCell .cell>a{display:block;padding:.2rem 0}
+.signCell .cell .arrow{float:right;background:url(../images/ic_chevron_dark.png) no-repeat;background-size:cover;width:.3rem;height:.45rem;margin-top:.3rem}
+.signCell .cell span{font-size:.6rem}
+.signCell .cell span i.icon{display:inline-block;width:1rem;height:1rem;margin-right:.2rem}
+.signCell .cell span i.icon img{width:100%}
+.signCell .needMore{font-size:.7rem;color:#b1b1b1;text-align:center;padding:.5rem 0}
+.addBonus{position:absolute;top:50%;left:50%;margin-left:-4rem;width:8rem;text-align:center;font-size:3rem;font-weight:700;color:#f60;display:none}
+.zoomIn{-webkit-animation:zoomIn .5s 0s ease both;animation:zoomIn .5s 0s ease both}
+.zoomOut{-webkit-animation:zoomOut .5s 0s ease both;animation:zoomOut .5s 0s ease both}
+@keyframes zoomOut{0%{opacity:1}
+    50%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}
+    100%{opacity:0}
+}
+@-webkit-keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}
+    50%{opacity:1}
+}
+@keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}
+    50%{opacity:1}
+}
+/* 复用分享遮罩层 */
+.fullscreen-guide {z-index: 2000; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.9); text-align: center; }
+.fullscreen-guide.hide {display: none; }
+.fullscreen-guide .guide-close {position: absolute; top: 0px; left: 10px; font-size: 40px; color: #fff; cursor: pointer; }
+.fullscreen-guide .guide-arrow {position: absolute; top: 2px; right: 15px; background: url("../images/guide_arrow.png") top left no-repeat; width: 47px; height: 44px; }
+.fullscreen-guide .guide-inner {padding-top: 48px; width: 320px; margin: 0 auto; }
+.fullscreen-guide .step {width: 260px; display: inline-block; text-align: left; margin-bottom: 15px; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio: 3/2),only screen and (min-device-pixel-ratio: 1.5) {
+    .fullscreen-guide .guide-arrow {
+        background-image: url("../images/guide_arrow@2x.png");
+        background-size: 47px 44px;
+    }
+}

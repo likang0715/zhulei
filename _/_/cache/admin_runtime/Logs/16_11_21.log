@@ -1,0 +1,395 @@
+[ 2016-11-21T13:39:42+08:00 ] 114.241.195.51 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.013269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013358s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.033039s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.033462s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.010788s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.055619s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.020189s ]
+NOTIC: [8] Undefined index: type D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: config D:\ceshi\cache\admin_runtime\Cache\2d36a2df0574e2907131625914cd1da4.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064969s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002370s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001963s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001809s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006930s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006987s ]
+
+[ 2016-11-21T13:39:42+08:00 ] 114.241.195.51 /admin.php?c=Login&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.008931s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015856s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000332s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000326s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000252s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001448s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000481s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-11-21T13:39:42+08:00 ] 114.241.195.51 /admin.php?c=Login&a=verify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-11-21T13:39:45+08:00 ] 114.241.195.51 /admin.php?c=Login&a=check
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: 建议使用I方法替代_post
+
+[ 2016-11-21T13:39:45+08:00 ] 114.241.195.51 /admin.php?c=Login&a=verify&time=1479706641145
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-11-21T13:39:48+08:00 ] 114.241.195.51 /admin.php?c=Login&a=check
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001890s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `account` = 'admin' ) LIMIT 1   [ RunTime:0.000475s ]
+NOTIC: 建议使用I方法替代_post
+SQL: UPDATE `pigcms_admin` SET `last_ip`=1928446771,`last_time`=1479706788,`login_count`=340 WHERE ( `id` = 1 ) [ RunTime:0.000284s ]
+
+[ 2016-11-21T13:39:50+08:00 ] 114.241.195.51 /admin.php?c=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001619s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001622s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001343s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001425s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001382s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT `id`,`fid`,`name`,`module`,`action`,`sort`,`show`,`status`,`is_admin` FROM `pigcms_system_menu` WHERE ( `status` = 1 ) AND ( `show` = 1 ) ORDER BY `sort` DESC,`fid` ASC,`id` ASC  [ RunTime:0.019229s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: module D:\ceshi\cache\admin_runtime\Cache\dabfdd5e316629f9792ad535da8452c2.php 第 7 行.
+NOTIC: [8] Undefined index: action D:\ceshi\cache\admin_runtime\Cache\dabfdd5e316629f9792ad535da8452c2.php 第 7 行.
+NOTIC: [8] Undefined index: url D:\ceshi\cache\admin_runtime\Cache\dabfdd5e316629f9792ad535da8452c2.php 第 7 行.
+NOTIC: [8] Undefined index: user D:\ceshi\cache\admin_runtime\Cache\dabfdd5e316629f9792ad535da8452c2.php 第 24 行.
+NOTIC: [8] Undefined index: user D:\ceshi\cache\admin_runtime\Cache\dabfdd5e316629f9792ad535da8452c2.php 第 25 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027368s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000410s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000334s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001533s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000473s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-11-21T13:39:50+08:00 ] 114.241.195.51 /admin.php?c=Index&a=main
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001367s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.002466s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_system_info` [ RunTime:0.059660s ]
+SQL: SELECT * FROM `pigcms_system_info` ORDER BY lastsqlupdate DESC LIMIT 1   [ RunTime:0.000325s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000496s ]
+SQL: SELECT * FROM `pigcms_admin_group` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `pigcms_user` [ RunTime:0.001871s ]
+SQL: SELECT COUNT(uid) AS tp_count FROM `pigcms_user` LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT COUNT(uid) AS tp_count FROM `pigcms_user` WHERE ( `is_seller` = 1 ) LIMIT 1   [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `pigcms_store` [ RunTime:0.002880s ]
+SQL: SELECT COUNT(store_id) AS tp_count FROM `pigcms_store` LIMIT 1   [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `pigcms_order` [ RunTime:0.017198s ]
+SQL: SELECT COUNT(order_id) AS tp_count FROM `pigcms_order` LIMIT 1   [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `pigcms_product` [ RunTime:0.002122s ]
+SQL: SELECT COUNT(product_id) AS tp_count FROM `pigcms_product` LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT COUNT(uid) AS tp_count FROM `pigcms_user` WHERE ( reg_time >= '1479571200' AND reg_time <= '1479657599' ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT COUNT(uid) AS tp_count FROM `pigcms_store` WHERE ( date_added >= '1479571200' AND date_added <= '1479657599' ) LIMIT 1   [ RunTime:0.000424s ]
+SQL: SELECT COUNT(order_id) AS tp_count FROM `pigcms_order` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.003215s ]
+SQL: SELECT COUNT(order_id) AS tp_count FROM `pigcms_order` WHERE ( `status` = 2 ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT COUNT(order_id) AS tp_count FROM `pigcms_order` WHERE ( `status` = 3 ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: SELECT COUNT(order_id) AS tp_count FROM `pigcms_order` WHERE ( add_time >= '1479571200' AND add_time <= '1479657599' ) LIMIT 1   [ RunTime:0.000392s ]
+SQL: SELECT COUNT(product_id) AS tp_count FROM `pigcms_product` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000378s ]
+SQL: SELECT COUNT(product_id) AS tp_count FROM `pigcms_product` WHERE ( date_added >= '1479571200' AND date_added <= '1479657599' ) LIMIT 1   [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: frame_show D:\ceshi\cache\admin_runtime\Cache\403c21eaeb0752ea7e03b5e4f25f0895.php 第 7 行.
+NOTIC: [8] Undefined variable: withdrawal_count D:\ceshi\cache\admin_runtime\Cache\403c21eaeb0752ea7e03b5e4f25f0895.php 第 20 行.
+NOTIC: [8] Undefined variable: unprocessed D:\ceshi\cache\admin_runtime\Cache\403c21eaeb0752ea7e03b5e4f25f0895.php 第 25 行.
+NOTIC: [8] Undefined variable: bg_color D:\ceshi\cache\admin_runtime\Cache\403c21eaeb0752ea7e03b5e4f25f0895.php 第 37 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035932s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000346s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000587s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001713s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000465s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-11-21T13:39:52+08:00 ] 114.241.195.51 /admin.php?c=Diymenu&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001612s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001704s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001512s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001499s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_diymenu_class` [ RunTime:0.516964s ]
+SQL: SELECT * FROM `pigcms_diymenu_class` WHERE ( `pid` = 0 ) AND ( `store_id` = 0 ) ORDER BY `sort` desc  [ RunTime:0.000890s ]
+SQL: SELECT * FROM `pigcms_diymenu_class` WHERE ( `pid` = 3 ) AND ( `store_id` = 0 ) ORDER BY `sort` desc  [ RunTime:0.000814s ]
+SQL: SELECT * FROM `pigcms_diymenu_class` WHERE ( `pid` = 2 ) AND ( `store_id` = 0 ) ORDER BY `sort` desc  [ RunTime:0.000368s ]
+SQL: SELECT * FROM `pigcms_diymenu_class` WHERE ( `pid` = 39 ) AND ( `store_id` = 0 ) ORDER BY `sort` desc  [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: frame_show D:\ceshi\cache\admin_runtime\Cache\0511d9c744010dbb994a3549f8218fb5.php 第 7 行.
+NOTIC: [8] Undefined variable: withdrawal_count D:\ceshi\cache\admin_runtime\Cache\0511d9c744010dbb994a3549f8218fb5.php 第 20 行.
+NOTIC: [8] Undefined variable: unprocessed D:\ceshi\cache\admin_runtime\Cache\0511d9c744010dbb994a3549f8218fb5.php 第 25 行.
+NOTIC: [8] Undefined variable: bg_color D:\ceshi\cache\admin_runtime\Cache\0511d9c744010dbb994a3549f8218fb5.php 第 37 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036683s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000366s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000356s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-11-21T13:39:53+08:00 ] 114.241.195.51 /admin.php?c=Config&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [2048] Declaration of ConfigAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001445s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001417s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_config_group` [ RunTime:0.006098s ]
+SQL: SELECT * FROM `pigcms_config_group` WHERE ( `status` = 1 ) ORDER BY `gsort` DESC,`gid` ASC  [ RunTime:0.029249s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT * FROM `pigcms_config` WHERE ( `gid` = 1 ) AND ( `status` = 1 ) ORDER BY `id` asc  [ RunTime:0.031519s ]
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 130 行.
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 136 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 161 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 161 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 161 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 194 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 161 行.
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 205 行.
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 208 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: frame_show D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 7 行.
+NOTIC: [8] Undefined variable: withdrawal_count D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 20 行.
+NOTIC: [8] Undefined variable: unprocessed D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 25 行.
+NOTIC: [8] Undefined variable: bg_color D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 37 行.
+NOTIC: [8] Undefined variable: config_tab_html D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 48 行.
+NOTIC: [8] Undefined index: id D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 54 行.
+NOTIC: [8] Undefined variable: has_salt_btn D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 130 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015947s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000352s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001696s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000492s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-11-21T13:39:57+08:00 ] 114.241.195.51 /admin.php?c=Config&a=index&gid=13
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [2048] Declaration of ConfigAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001645s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001840s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001362s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001373s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_config_group` [ RunTime:0.001308s ]
+SQL: SELECT * FROM `pigcms_config_group` WHERE ( `status` = 1 ) ORDER BY `gsort` DESC,`gid` ASC  [ RunTime:0.000174s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT * FROM `pigcms_config` WHERE ( `gid` = 13 ) AND ( `status` = 1 ) ORDER BY `id` asc  [ RunTime:0.000447s ]
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 130 行.
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 136 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 205 行.
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 208 行.
+NOTIC: [8] Undefined variable: has_salt_btn D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 211 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: frame_show D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 7 行.
+NOTIC: [8] Undefined variable: withdrawal_count D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 20 行.
+NOTIC: [8] Undefined variable: unprocessed D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 25 行.
+NOTIC: [8] Undefined variable: bg_color D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 37 行.
+NOTIC: [8] Undefined variable: config_tab_html D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 48 行.
+NOTIC: [8] Undefined index: id D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 54 行.
+NOTIC: [8] Undefined variable: has_salt_btn D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 130 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010925s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000391s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000337s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001534s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-11-21T13:39:58+08:00 ] 114.241.195.51 /admin.php?c=Config&a=index&gid=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [2048] Declaration of ConfigAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001634s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001372s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001354s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001382s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_config_group` [ RunTime:0.001439s ]
+SQL: SELECT * FROM `pigcms_config_group` WHERE ( `status` = 1 ) ORDER BY `gsort` DESC,`gid` ASC  [ RunTime:0.000174s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT * FROM `pigcms_config` WHERE ( `gid` = 1 ) AND ( `status` = 1 ) ORDER BY `id` asc  [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 130 行.
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 136 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 161 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 161 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 161 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 194 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 161 行.
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 205 行.
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 208 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: frame_show D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 7 行.
+NOTIC: [8] Undefined variable: withdrawal_count D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 20 行.
+NOTIC: [8] Undefined variable: unprocessed D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 25 行.
+NOTIC: [8] Undefined variable: bg_color D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 37 行.
+NOTIC: [8] Undefined variable: config_tab_html D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 48 行.
+NOTIC: [8] Undefined index: id D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 54 行.
+NOTIC: [8] Undefined variable: has_salt_btn D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 130 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010889s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000508s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000360s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000254s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001665s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-11-21T13:40:04+08:00 ] 114.241.195.51 /admin.php?c=Config&a=index&gid=8
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [2048] Declaration of ConfigAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001657s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001595s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001882s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001785s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001407s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001526s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_config_group` [ RunTime:0.001326s ]
+SQL: SELECT * FROM `pigcms_config_group` WHERE ( `status` = 1 ) ORDER BY `gsort` DESC,`gid` ASC  [ RunTime:0.000180s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT * FROM `pigcms_config` WHERE ( `gid` = 8 ) AND ( `status` = 1 ) ORDER BY `id` asc  [ RunTime:0.000522s ]
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 130 行.
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 136 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: validate D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 156 行.
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 205 行.
+NOTIC: [8] Undefined variable: has_tab D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 208 行.
+NOTIC: [8] Undefined variable: has_salt_btn D:\ceshi\source\tp\Project\Lib\Action\ConfigAction.class.php 第 211 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: frame_show D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 7 行.
+NOTIC: [8] Undefined variable: withdrawal_count D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 20 行.
+NOTIC: [8] Undefined variable: unprocessed D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 25 行.
+NOTIC: [8] Undefined variable: bg_color D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 37 行.
+NOTIC: [8] Undefined variable: config_tab_html D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 48 行.
+NOTIC: [8] Undefined index: id D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 54 行.
+NOTIC: [8] Undefined variable: has_salt_btn D:\ceshi\cache\admin_runtime\Cache\84984767592b46134aaaa1fd2d27824d.php 第 130 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011300s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000445s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000353s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001618s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000494s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000548s ]
+

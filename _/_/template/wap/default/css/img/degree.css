@@ -1,0 +1,85 @@
+/* CSS Document */
+html,body{ background:#f2f2f2;}
+.member{}
+.member_banner{ width:100%; height:200px; background:#e4393c; position: relative;}
+.member_content{width:22%; color:#fff; font-size:1.2rem; text-align:center; margin:0 auto;  position: absolute;  bottom: 20px;}
+.member_content .member_img{overflow:hidden; border-radius:50%;}
+.member_content .member_img img{ width:58%; overflow:hidden; border-radius:50%;}
+.member_content p{ padding:5px 0;}
+.member_content .member_but{ width:100%; font-size:1rem; color:#e4393c; background:#fff; border-radius:10px; line-height:20px; }
+.tab_txt{ width:100%; line-height:14px; padding:10px 0; color:#fff; background:#b62e30; font-size:1.2rem; text-align:center; margin-bottom:6px;}
+.tab_txt a{ color:#fff; text-decoration:none;}
+.tab_txt li{ width:32%; float:left; border-right:1px solid #8e1c1e;}
+.grade{ width:100%;}
+.grade li{ padding:10px; margin-top:6px; border-bottom:1px solid #d9d9d9; border-top:1px solid #d9d9d9; background:#fff;}
+.grade li .grade_img{ float:left; width:13%;}
+.grade li .grade_img img{ width:100%;}
+.grade li .grade_txt{ float:left; color:#939393; margin-left:15px; line-height:21px; font-size:1.2erm;}
+.grade li .grade_txt .title{ color:#434343; font-size:1.4rem;}
+.grade li .grade_txt .title span{color:#939393; font-size:1.2erm;}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+ 
+
+@-webkit-keyframes rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -180deg);
+    transform: rotate3d(0, 0, 1, -360deg);
+    opacity: 0;
+	width:18%
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -360deg);
+    transform: rotate3d(0, 0, 1, -360deg);
+    opacity: 0;
+	width:18%
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.rotateIn {
+animation: rotateIn 1s linear   0s 1 both;
+  -webkit-animation: rotateIn 1s linear   0s 1 both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

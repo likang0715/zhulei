@@ -1,0 +1,112 @@
+
+.fproBuy-gallery { margin-right: 25px; float: left; display: inline }
+.fproBuy-smallPic { width: 320px; height: 320px; overflow: hidden; border: 1px solid #cccccc; position: relative; z-index: 1 }
+.fproBuy-smallPic a { display: table-cell; text-align: center; vertical-align: middle; *display:block;
+*font-family:Arial;
+*line-height:1;
+width: 320px; height: 320px; overflow: hidden; *font-size:286px;
+}
+.fproBuy-smallPic a img { vertical-align: middle; max-width: 320px; max-height: 320px }
+.fproBuy-thumb { width: 320px; overflow: hidden; padding: 0 1px; margin-top: 7px }
+.fproBuy-thumblist { width: 340px; }
+.fproBuy-thumblist li { float: left; width: 52px; height: 52px; overflow: hidden; margin: 0 15px 0 0; display: inline; position: relative; padding-top: 8px }
+.fproBuy-wrap{ margin-top:35px;}
+.fproBuy-thumblist li .pic { width: 50px; height: 50px; border: 1px solid #ccc; overflow: hidden }
+.fproBuy-thumblist li a { display: table-cell; text-align: center; vertical-align: middle; *display:block;
+*font-family:Arial;
+*line-height:1;
+*font-size:44px;
+width: 50px; height: 50px }
+.fproBuy-thumblist li a img { vertical-align: middle; }
+.fproBuy-thumblist li .fproBuy-jt { width: 15px; height: 8px; background: url("../images/proBuy_jt.png") no-repeat left top; position: absolute; left: 17px; top: 0px; display: none }
+.fproBuy-rt { float: left; width: 300px; display: inline }
+.fproBuy-rt h1 { font-size: 16px; color: #417c01; font-family: "\5FAE\8F6F\96C5\9ED1"; }
+.fproBuy-paralist { padding: 20px 0 0 0 }
+.fproBuy-paralist li { line-height: 26px; }
+.fproBuy-paralist .tit { font-family: simsun; width: 72px; text-align: right; color: #666; float: left; }
+.fproBuy-paralist .bd { color: #666; font-weight: normal; font-family: Verdana, Geneva, sans-serif }
+.fproBuy-paralist em.rmb-icon { font-family: \5FAE\8F6F\96C5\9ED1; font-size: 12px; color: #999 }
+.fproBuy-orginprice .bd { text-decoration: line-through; color: #999; }
+.fproBuy-currprice .tit { vertical-align: middle }
+.fproBuy-currprice .bd { font-size: 24px; color: #f66102 }
+.fproBuy-btnwrap { margin-top: 20px; }
+.fproBuy-btn { height: 35px; overflow: hidden; background: url("../images/proBuy_btnIcon.png") no-repeat left top; display: block; float: left; display: inline }
+.fproBuy-immediatelybtn { background-position: 0 0; width: 126px; margin-right: 20px }
+.fproBuy-immediatelybtn:hover { background-position: 0 -35px }
+.fproBuy-addtoCartbtn { background-position: 0 -70px; width: 130px }
+.fproBuy-addtoCartbtn:hover { background-position: 0 -105px }
+.fproBuy-enquirybtn { background-position: 0 -140px; width: 126px }
+.fproBuy-enquirybtn:hover { background-position: 0 -175px }
+.fproBuy-share { margin-top: 30px }
+.fproBuy-sharelf { float: left }
+.fproBuy-collect:link,.fproBuy-collect:visited{ float: left; margin-left: 20px; display:inline;line-height: 27px; color: #333;}
+.fproBuy-collect:hover { color: #333;text-decoration:underline;}
+.fproBuy-buycount { height: 21px; line-height: 21px; margin-top: 10px }
+.fproBuy-buycount .tit { line-height: 21px }
+.fproBuy-gmcount { border: 1px solid #a7a6aa; width: 65px; height: 19px; float: left; }
+.fproBuy-gmcount a { float: left; width: 12px; background: url("../images/proBuy_btnIcon.png") no-repeat; height: 19px; overflow: hidden }
+.fproBuy-gmcount .reduce { background-position: 0 -210px; border-right: 1px solid #a7a6aa }
+.fproBuy-gmcount .dis-reduce { background-position: -24px -210px; cursor: default }
+.fproBuy-gmcount .increase { background-position: -12px -210px; border-left: 1px solid #a7a6aa }
+.fproBuy-gmcount .dis-increase { background-position: -36px -210px; cursor: default }
+.fproBuy-gmcount .num { float: left; width: 39px; border: none; height: 17px; padding: 1px 0; text-align: center; background: #fff; }
+
+.fpro-showwrap h1 { font-size: 16px; font-family: "\5FAE\8F6F\96C5\9ED1"; color: #6c832c; text-align: center; width: 533px; padding-bottom: 20px; margin-top:25px;}
+.fpro-showbig {  width: 533px; height: 527px; border: 1px solid #ccc; overflow: hidden; float: left }
+.fpro-showbig a { display: table-cell; text-align: center; vertical-align: middle; *display:block;
+*font-family:Arial;
+*line-height:1;
+ width: 533px; height: 527px; overflow: hidden; *font-size:554px;
+}
+.fpro-showsmall { float: left; padding-left: 30px; height: 529px; overflow: hidden }
+.fpro-show-thumblist { }
+.fpro-show-thumblist li { border: 2px solid #ccc; width: 87px; height: 85px; overflow: hidden; margin: 0 0 21px 0 }
+.fpro-show-thumblist li:hover { border-color: #ababab; }
+.fpro-show-thumblist li.onCurr { border-color: #57991a; }
+.fpro-show-thumblist li span { display: table-cell; text-align: center; vertical-align: middle; *display:block;
+*font-family:Arial;
+*line-height:1;
+width: 87px; height: 85px; overflow: hidden; *font-size:80px;
+cursor: pointer }
+.fpro-show-collectshare { width: 533px; margin-top: 10px }
+.fpro-showcollect:link,.fpro-showcollect:visited { float: left; background: url("../images/collect_spIcon.jpg") no-repeat left center; padding-left: 18px; color: #494949; }
+.fpro-showcollect:hover { text-decoration:underline;color: #494949; }
+.fpro-showshare { float: right }
+
+.fpro-o2o-wrap { border: 2px solid #6f9800; width: 625px; margin: 0 auto; padding: 15px 25px; margin-top:35px; }
+.fpro-o2o-wrap h2 { font-family: \5FAE\8F6F\96C5\9ED1; font-size: 18px; color: #545454 }
+.fpro-o2o-bd { margin-top: 17px; }
+.fpro-o2o-bdlf { position: relative; float: left; padding-left: 9px; width: 261px; background: #fbfcfd; margin-right: 20px; display: inline }
+.fpro-o2o-price { width: 270px; height: 75px; background: url("../images/probuy_bdprice_bg.png") no-repeat left top; position: absolute; left: 0; top: 0; }
+.fpro-o2o-price .curr-price { float: left; height: 68px; line-height: 68px; font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: #fff; margin: 0 17px 0 15px; display: inline }
+.fpro-o2o-price .curr-price em { font-size: 24px; font-family: \5FAE\8F6F\96C5\9ED1; }
+.fpro-o2o-price .orgin-price { float: left; padding-top: 12px; display: inline }
+.fpro-o2o-price .orgin-price span { display: block; line-height: 20px; line-height: 20px; overflow: hidden; color: #fff }
+.fpro-o2o-price .orgin-price .former em { font-family: \5FAE\8F6F\96C5\9ED1; }
+.fpro-o2o-blend { border: 1px solid #ebebeb; padding-top: 66px }
+.fpro-o2o-blend .fpro-o2o-hand { padding: 25px 0 35px 6px; border-bottom: 1px solid #ebebeb }
+.fpro-o2o-hand a { float: left; height: 45px; margin: 0 5px; display: inline; background: url("../images/o2oPurchaseBtnIcon.png") no-repeat }
+.fpro-o2o-hand .immediately-buy { width: 111px; height: 45px; float: left; background-position: 0 0 }
+.fpro-o2o-hand .immediately-buy:hover { background-position: 0 -45px }
+.fpro-o2o-hand .add-to-cart { width: 115px; height: 45px; background-position: 0 -90px }
+.fpro-o2o-hand .add-to-cart:hover { background-position: 0 -135px }
+.probuy-pic { float: left; width: 323px; overflow: hidden; display: inline }
+.fpro-o2o-blend .groupbuy-statu { height: 60px; padding-top: 15px; text-align: center; border-bottom: 1px solid #ebebeb }
+.groupbuy-statu span { display: block; line-height: 23px }
+.groupbuy-count { font-size: 16px; font-weight: bold; color: #666666; }
+.groupbuy-residue { color: #787878 }
+.groupbuy-count em { color: #6f9800; font-size: 18px; font-weight: normal }
+.fpro-o2o-blend .fpro-o2o-share { height: 70px; }
+.fpro-o2o-shareTip { clear: both; color: #989898; text-align: center }
+.fpro-o2o-bdsharewrap { float: left; position: relative; left: 50% }
+.fpro-o2o-bdshareinner { float: left; position: relative; left: -50%; padding-top: 10px }
+.fpro-o2o-scrollBox { float: left }
+.fpro-o2o-gallery { width: 323px; height: 321px; overflow: hidden; position: relative }
+.fpro-o2o-gallery img { position: absolute; left: 0; top: 0 }
+.fpro-o2o-gpics { position: relative }
+.fpro-o2o-gnums { text-align: center; position: absolute; left: 0; bottom: 5px; width: 100%; z-index: 10 }
+.fpro-o2o-gnums span { display: inline-block; width: 7px; height: 7px; overflow: hidden; border-radius: 50%; background: #fff; margin: 0 4px; box-shadow: 1px 1px 3px #000; cursor: pointer }
+.fpro-o2o-gnums span.oncurr { background: #54731d }
+
+div.zoomDiv { z-index: 999; position: absolute; top: 0px; left: 0px; width: 200px; background: #ffffff; border: 1px solid #CCCCCC; display: none; text-align: center; overflow: hidden; }
+div.zoomMask { position: absolute; background: url("../images/mask.png") repeat scroll 0 0 transparent; cursor: move; z-index: 1; }

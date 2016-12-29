@@ -1,0 +1,61 @@
+.shopIndex{
+	background: #fff;
+	margin-top: 8px;
+	border-bottom: 1px solid #e6e6e6;
+	border-top: 1px solid #e6e6e6;
+} 
+.shopIndex .title{ line-height:35px; border-bottom:1px solid #e6e6e6;padding:0 10px;}
+.shopIndex .title span{ display:inline-block; width:50%; color:#333; font-size:14px;}
+.shopIndex .title span:last-child{ font-size:10px; color:#999; text-align:right}
+.shopIndex .title span i{ width:11px; height:11px; background:url(../../images/icons/UI1_27.png); background-size:100%;    display: inline-block;}
+.shopIndex .shopInfo{ padding: 10px;}
+.shopIndex .shopInfo .shopImg{ float:left; width:84px;}
+.shopIndex .shopInfo .shopTxt{ float:left;margin-left: 10px; text-align:left;    line-height: 40px; }
+.shopIndex .shopInfo .shopTxt h2{ font-size:12px; color:#333333;  font-weight:normal ; width: 141px;    overflow: hidden;    text-overflow: ellipsis;    white-space: nowrap;}
+.shopIndex .shopInfo .shopTxt p{font-size:10px; color:#999999;    }
+.shopIndex .shopInfo button{    margin-top: 20px; background:none; float:right; width:65px; height:30px; border:2px solid #ff5c5c; line-height:30px; border-radius:3px; color:#ff5c5c}
+.shopIndex .shopInfo button i{ display:inline-block; width:15px; height:15px; background:url(../../images/icons/UI2_34.png) no-repeat; background-size:100%;vertical-align: middle;    margin-top: -3px;    margin-right: 3px;}
+.shopIndex .shopInfo button i.active{ background:url(../../images/icons/UI2_34-1.png) no-repeat; background-size:100%}
+.shopIndex .shopInfo button span{    display: inline-block;    vertical-align: middle;    margin-top: -4px;}
+.shopIndex .shopList>li{position: relative;    padding-bottom: 20px;}
+.shopIndex .shopList>li>p{    padding: 0 2.5%; text-align:left; font-size:12px; color:#666;     white-space: nowrap;    overflow: hidden;    text-overflow: ellipsis;}
+.shopIndex .shopList>li ul li{ float:left;     width: 31%;    margin: 8px 1%;    overflow: hidden;   text-align: center; } 
+.shopIndex .shopSpot {  bottom:10px}
+.shopIndex .shopSpot .swiper-pagination-bullet {background: #ccc;}
+.shopDynamic{ background:#fff; margin-top:8px; border-bottom:1px solid #e6e6e6; border-top:1px solid #e6e6e6; padding:0 10px;}
+.shopDynamic .title{    padding: 10px 0;}
+.shopDynamic .title p{ font-size:10px; color:#999}
+.shopDynamic .title h2{ font-size:12px; color:#333; float:left; line-height:30px; font-weight:normal}
+.shopDynamic .title .button{ float:right;}
+.shopDynamic .title .button span{vertical-align: top; text-align:center; font-size:12px;  display:inline-block; background:#ff6634;  width:65px; height:30px; line-height:30px; border-radius:3px; color:#fff}
+.shopDynamic .button button{vertical-align: top;  font-size:12px; background:none;  width:65px; height:30px; border:2px solid #ff5c5c; line-height:26px; border-radius:3px; color:#ff5c5c}
+.shopDynamic .button button i{ display:inline-block; width:15px; height:15px; background:url(../../images/icons/UI2_34.png) no-repeat; background-size:100%;vertical-align: middle;    margin-top: -3px;    margin-right: 3px;}
+.shopDynamic .button button i.active{ background:url(../../images/icons/UI2_34-1.png) no-repeat; background-size:100%}
+.shopDynamic .shopInfo p{ font-size:12px; color:#333333; line-height:20px;}
+.shopDynamic .shopInfo li{ float:left; width:31%; margin:8px 1.17%; text-align:center;}
+.shopShopping{ background:#f5f5f5; padding:5px;    margin-bottom: 50px;}
+.shopShopping .shopImg{ float:left; width:40px; overflow:hidden;}
+.shopShopping h1{font-weight:normal; font-size:12px; color:#666666; line-height:40px; float:left;    margin-left: 5px;    width: 194px;    overflow: hidden;    white-space: nowrap;    text-overflow: ellipsis;}
+.shopShopping span{ float:right; font-size:10px; color:#999999;line-height:40px;}
+.shopShopping span i{width:11px; height:11px; background:url(.../../images/icons/UI1_27.png); background-size:100%;    display: inline-block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

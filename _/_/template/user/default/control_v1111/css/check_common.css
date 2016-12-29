@@ -1,0 +1,28 @@
+.help {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 18px;
+    border-radius: 8px;
+    font-size: 12px;
+    text-align: center;
+    background: #D5CD2F;
+    color: #fff;
+    cursor: pointer;
+}
+.help:after {
+    content: "?";
+}
+
+.platform-unbalance .arrow {
+    left: -272%!important;
+}
+.platform-balance .arrow {
+    left: -272%!important;
+}
+.wait-profit .arrow {
+    left: -198%!important;
+}
+.wait-profit-balance .arrow {
+    left: -183%!important;
+}

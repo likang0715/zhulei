@@ -1,0 +1,16 @@
+[ 2016-10-30T00:19:10+08:00 ] 58.247.206.157 /admin.php?c=Weixin&a=index&signature=c5e05c7e56a6ca71fd6e31260261be8ef7f3bc9a&timestamp=1477757949&nonce=1968456472&openid=oqswDuOZp3a6fQRmr7TXAY_EtLIc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002582s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.012660s ]
+NOTIC: [2] Missing argument 1 for Wechat::auth(), called in D:\ceshi\source\tp\Project\Lib\ORG\Wechat.class.php on line 23 and defined D:\ceshi\source\tp\Project\Lib\ORG\Wechat.class.php 第 189 行.
+SQL: SHOW COLUMNS FROM `pigcms_user` [ RunTime:0.002167s ]
+NOTIC: [8] Undefined variable: set D:\ceshi\source\tp\Lib\Core\Db.class.php 第 293 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\ceshi\source\tp\Lib\Core\Db.class.php 第 293 行.
+SQL: UPDATE `pigcms_user` SET  WHERE ( `openid` = 'oqswDuOZp3a6fQRmr7TXAY_EtLIc' ) [ RunTime:0.000198s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ( `openid` = 'oqswDuOZp3a6fQRmr7TXAY_EtLIc' )' at line 1
+ [ SQL语句 ] : UPDATE `pigcms_user` SET  WHERE ( `openid` = 'oqswDuOZp3a6fQRmr7TXAY_EtLIc' )
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\tp\Project\Lib\Action\WeixinAction.class.php 第 841 行.
+SQL: SHOW COLUMNS FROM `pigcms_plat_subscribe` [ RunTime:0.002324s ]
+SQL: SELECT * FROM `pigcms_plat_subscribe` WHERE ( `openid` = 'oqswDuOZp3a6fQRmr7TXAY_EtLIc' ) LIMIT 1   [ RunTime:0.013738s ]
+

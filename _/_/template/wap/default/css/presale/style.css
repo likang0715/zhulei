@@ -1,0 +1,294 @@
+.layer{ position: fixed; left:0; top:0 ; width:100%; height:100%; background:rgba(0,0,0,.5); z-index: 9}
+.layer_content{ background:#fff; position:fixed; width:15rem; left:.5rem; top:50%; text-align: center; z-index: 10; height:19rem; margin-top:-9.5rem;}
+.layer_content img{ width:5rem; margin:1rem 0;}
+.layer_content i{ background:url(../images/weidian_25.png) no-repeat; background-size:1rem; height:1.2rem; width:1.24rem; display: inline-block; vertical-align:  middle; position: absolute; right:-.5rem; top:-.5rem;}
+.layer_content .layer_title{ font-size: .55rem; color:#fff; line-height: .9rem; padding:.3rem .5rem; background:#45a5cf;   text-align: left;    text-indent: 1.2rem;}
+.layer_content p{font-size: .55rem; color:#333333; line-height: 1.4rem;  }
+.layer_content p span{font-size: .45rem; color: #999; line-height: 0.9rem}
+.layer_content p em{font-size: .4rem; color: #a4a3a3; line-height: 0.9rem}
+.layer_content  button{ background:#ff9c00; width:5.5rem; height:1.5rem; color:#fff; line-height: 1.5rem; border-radius: 1.5rem; margin:.6rem 0;}
+
+.acticity_list> li{ display:none;}
+.header_title{ line-height: 1.7rem; color: #fff; background:#45a5cf; font-size: .8rem;  position: relative; text-align: center}
+.header_title i{ background: url(../images/weidian_03.png) no-repeat; background-size:.8rem; position: absolute; top:.45rem; left:.5rem;  display: inline-block;height:.8rem; width:.8rem; vertical-align: middle;}
+.user_banner{ position: relative; width:100%; height:6rem; background:url(../images/banner_02.png) no-repeat; background-size: cover;}
+.user_banner .user_img{ float:left; width:3.5rem;    margin: .5rem;    border-radius: 3.5rem;    overflow: hidden;}
+.user_banner .user_txt{float:left; color: #fff;font-size: .6rem;    line-height: 1.3rem;    margin-top: .8rem;}
+.user_banner .user_txt h2{font-weight: normal; font-size: .7rem;    max-width: 10rem;    display: inline-block;    text-overflow: ellipsis;    overflow: hidden;    white-space: nowrap;}
+.user_banner .user_txt .user_name i{ background:url(../images/weidian_10.png) no-repeat; background-size:1.3rem; width:1.4rem; height:.65rem; display: inline-block;    vertical-align: middle;    margin-top: -.8rem;}
+.user_banner .user_txt .user_info span i{ background: url(../images/weidian_14.png) no-repeat; background-size:.8rem; display: inline-block;  vertical-align: middle; width:.8rem;     margin: .1rem;height:.8rem;  }
+.user_banner .user_tab{ position: absolute; left:0; bottom:0; background:rgba(0,0,0,.5); width:100%; text-align: center}
+.user_banner .user_tab li{ float:left; width:50%; line-height: 1.2rem;    border-bottom: 2px solid transparent; color:#fff; font-size: .7rem}
+.user_banner .user_tab li.active{ border-bottom: 2px solid #ff9c00;}
+.user_banner .user_tab li a{ color: #fff}
+
+.user_list{ background:#fff;    margin-top: .5rem; }
+.user_list li{width:15rem; padding: .5rem; line-height: 1.2rem; border-bottom:1px solid #e1e1e1; color:#333333; font-size: .7rem; position: relative;}
+.user_list li i{ width:1.2rem; height:1.2rem ; display: inline-block; vertical-align: middle; margin-right:.2rem;}
+.user_list li.extension i{ background:url(../images/weidian_37.png) no-repeat; background-size: 1.2rem;}
+.user_list li.team i{ background:url(../images/weidian_49.png) no-repeat; background-size: 1.2rem;}
+.user_list li.team_manage i{ background:url(../images/weidian_56.png) no-repeat; background-size: 1.2rem;}
+.user_list li.team_ranking i{ background:url(../images/weidian_61.png) no-repeat; background-size: 1.2rem;}
+.user_list li.record i{ background:url(../images/weidian_65.png) no-repeat; background-size: 1.2rem;}
+.user_list li.service i{ background:url(../images/weidian_69.png) no-repeat; background-size: 1.2rem;}
+.user_list li em{ width:.8rem; height:.8rem; background:url(../images/weidian_40.png) no-repeat; background-size:.8rem; display: inline-block; vertical-align: middle; position: absolute; right:.5rem; top:.75rem;}
+
+.title_table{   background:#fff;    line-height: .7rem;}
+.title_table li{    border-bottom: 1px solid #e1e1e1; float: left; width:50% ; text-align: center; color:#666;padding:0.3rem 0; }
+.title_table li a{    font-size: 0.65rem; display: inline-block; width:100%;color:#666;box-sizing: border-box; border-right:1px solid #d9d9d9;border-bottom: 2px solid  transparent; }
+.title_table li:last-child a{ border-right:0;}
+.title_table li.active{ color:#45a5cf; border-bottom: 2px solid #45a5cf;}
+.title_table li.active a{color:#45a5cf;}
+
+.purchase_list{}
+.purchase_list>li{}
+.purchase_list>li .purchase_order{}
+.purchase_list>li .purchase_order li{background:#fff; width:15rem; padding: .2rem .5rem; margin-top:.5rem; border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;}
+.purchase_list>li .purchase_order .order_title{    padding-bottom: .2rem; border-bottom: 1px solid #e1e1e1; line-height: 1rem}
+.purchase_list>li .purchase_order .order_title i{ width:.8rem; height:.8rem;  background:url(../images/weidian_20.png); background-size:.8rem; display: inline-block; vertical-align: middle;}
+.purchase_list>li .purchase_order .order_title h2{font-weight: normal; color:#333;font-size: .6rem; display: inline-block;}
+.purchase_list>li .purchase_order .order_info {}
+.purchase_list>li .purchase_order .order_info .order_img{ margin:.3rem; margin-left:0; float:left; width:4rem; height:3rem; overflow: hidden; border-radius:.5rem;}
+.purchase_list>li .purchase_order .order_info .order_txt{    margin-top: .3rem; float:left; width:10.6rem; }
+.purchase_list>li .purchase_order .order_info .order_txt .order_name h3{    font-weight: normal;width:54%; color:#333; line-height: 1rem; display: inline-block;    text-overflow: ellipsis;    overflow: hidden;    white-space: nowrap;}
+.purchase_list>li .purchase_order .order_info .order_txt .order_name span{    margin-top: -.5rem;    vertical-align: middle;width:43%; text-align: right; font-size: .5rem; color:#666666; display:  inline-block;}
+.purchase_list>li .purchase_order .order_info .order_txt p{ margin-top:.5rem;}
+.purchase_list>li .purchase_order .order_info .order_txt p span{display: inline-block; width:56%; font-size: .7rem; color:#45a5cf;}
+.purchase_list>li .purchase_order .order_info .order_txt p span:nth-child(2){ text-align: right; width:44%;}
+.purchase_list>li .purchase_order .order_info .order_txt p span:nth-child(2) i{  margin-left:.5rem; font-size: .5rem;border:1px solid #ff9c00; border-radius: .15rem; color:#ff9c00; line-height: .8rem;padding: 0 .3rem;}
+.purchase_list>li .purchase_order .order_info .order_txt p span.fail i{border:1px solid #999; color:#999;}
+
+.fans{}
+.fans .fans_list{ background:#fff; margin-top:.5rem; border-top:1px solid #E1E1E1; border-bottom: 1px solid #e1e1e1}
+.fans .fans_list li{width:33.3%; float:  left; text-align: center; border-right: 1px solid #e1e1e1; line-height: .8rem;     box-sizing: border-box;    padding: .3rem 0;}
+.fans .fans_list li:last-child{border:0;}
+.fans .fans_list li p{ font-size: .7rem; color:#333;}
+.fans .fans_list li span{ font-size: .6rem; color:#666;}
+.fans .fans_titel{ background:#eee; line-height: 1.3rem; color:#333; padding-left:.5rem; font-size: .6rem}
+.fans .fans_table{border-top: 1px solid #e1e1e1; background:#fff;  padding:.5rem;}
+
+.store_list{margin-top:.5rem; background:#fff;}
+.store_list li{ padding:.5rem; border-bottom: 1px solid #e1e1e1; position: relative;}
+.store_list li i{ position:  absolute; width:.8rem; height:.8rem; background: url(../images/weidian_40.png); background-size: .8rem; display: inline-block; vertical-align:  middle; right:1rem; top:1.7rem;}
+.store_list li .store_img { float:left; width:3rem; height:3rem; border-radius: 3rem; overflow: hidden;   margin-right:.5rem;}
+.store_list li .store_img img{ width:3rem; height:3rem;}
+.store_list li .store_txt{ float:left; width:11rem;    margin-top: .5rem;    line-height: 1rem;}
+.store_list li .store_txt h3{ display: inline-block; font-size: .7rem; color:#333333; font-weight: normal; width:60%; white-space: nowrap; overflow: hidden;  text-overflow:  ellipsis;}
+.store_list li .store_txt span{ display: inline-block; text-align: right; color:#333333; font-size: .6rem;    margin-top: -.7rem; vertical-align:  middle}
+.store_list li .store_txt .store_name.mine span{color:#45a5cf;}
+.store_list li .store_txt p{color:#666666; font-size: .55rem;}
+.store_list li .store_txt p{}
+
+.service_title li{    border-bottom: 1px solid #e1e1e1;}
+.service_table{ width:100%;  text-align: center; background:#fff;}
+.service_table thead{ border-bottom: 1px solid #e1e1e1; line-height: 1.4rem}
+.service_table tbody tr{ padding:0 .5rem;    border-bottom: 1px solid #e1e1e1;}
+.service_table .server_img{ margin: .3rem;    margin-left: .5rem;    float: left;    width: 4rem;    height: 3rem;   overflow: hidden;    border-radius: .5rem;}
+.service_table .server_text{ float:left;line-height: 1.3rem; text-align: left;    margin-top: .4rem;}
+.service_table .server_text p{ font-size: .7rem; color:#333333;    text-overflow: ellipsis;    overflow: hidden;    white-space: nowrap;    max-width: 3.7rem; }
+.service_table .server_text p span{ font-size: .6rem; color:#45a5cf;}
+.service_table .state{ font-size: .7rem; color: #333333;    padding: .6rem;}
+.service_table button{     margin: 0 .5rem;color:#fff; background:#ff9c00; border-radius: .15rem; line-height: 1.2rem; padding:0 .4rem; font-size: .6rem;}
+
+.team_pading{ padding-bottom:3rem;}
+.team_list{}
+.team_list li{ border-bottom: 1px solid #e1e1e1; background:#fff; padding:.5rem;}
+.team_list li:nth-child(1){ border-top: 1px solid #e1e1e1; margin:.5rem 0;}
+.team_list li:nth-child(1) .team_num{ color:#ff9c00;}
+.team_list li .team_num{ float:left; width:1.5rem;    line-height: 3rem; color:#333333;}
+.team_list li .team_img{float: left;    width: 3rem;    height: 3rem;    border-radius: 3rem;    overflow: hidden;    margin:0 .5rem;}
+.team_list li .team_img img{width: 3rem;    height: 3rem;    }
+.team_list li .team_txt{ float:left; line-height: 1.2rem;margin-top: .3rem;}
+.team_list li .team_txt h4{ font-size: .7rem; color:#333; font-weight: normal}
+.team_list li .team_txt p{ font-size: .6rem; color:#666;  }
+.team_list li .team_txt p span{ color:#45a5cf;}
+
+
+.team_manage{ margin-top:.5rem; position: relative; border-top:1px solid #e1e1e1; background:#fff; border-bottom: 1px solid #e1e1e1; padding: .5rem;}
+.team_manage i{ position: absolute;  top:2rem; right:1rem;}
+.team_manage .team_manage_img{ float:left; width:3rem; height:3rem; border-radius: 3rem; overflow: hidden; margin:0 .3rem;}
+.team_manage .team_manage_img img{ width:3rem; height:3rem;}
+.team_manage .team_manage_txt{ float:left;font-size: .65rem; line-height: 3rem; margin-left:.5rem;}
+.team_manage .team_manage_txt a{ color:#333;}
+
+.team_manage_list{ line-height: 1rem}
+.team_manage_list dt{ background:#eee; border-bottom: 1px solid #e1e1e1; padding:.3rem .8rem; font-size: .55rem; color:#666;}
+.team_manage_list dd{ background:#fff; border-bottom: 1px solid #e1e1e1; padding:.5rem .8rem; font-size: .65rem; color:#333;}
+.team_manage_list dd span{width:3rem; display: inline-block;    vertical-align: top;}
+.team_manage_list dd input{width:10.8rem; display: inline-block; line-height: 1rem ;height:1rem;}
+.team_manage_list dd textarea{width:10.8rem; display: inline-block; line-height: 1rem ;height:3rem;}
+.team_ma{ background:#f8fdff; padding:.5rem .8rem;line-height: 1.2rem;}
+.team_ma p{ font-size: .7rem; color:#333333;}
+.team_but{ text-align:  center}
+.team_but button{ line-height: 1.5rem;  width:8.5rem; border-radius: .15rem; background:#ff9c00; margin:1rem 0; color:#fff; font-size: .65rem}
+.team_header{ background:#fff;}
+.team_header .team_header_top{ padding:.5rem;}
+.team_header .team_header_top .team_img{float:left; width:3rem; height:3rem; overflow: hidden; border-radius: 3rem; margin:0 .3rem;}
+.team_header .team_header_top .team_txt{float:left;  line-height: 1rem; width:11rem;}
+.team_header .team_header_top .team_txt .team_name_top  h4{ font-size: .65rem; color:#333; width:70%;display: inline-block; text-overflow:ellipsis; overflow: hidden; white-space: nowrap;}
+.team_header .team_header_top .team_txt .team_name_top span{    margin-top: -.4rem; text-align: right; width:28%; display: inline-block;vertical-align: middle;}
+.team_header .team_header_top .team_txt .team_name_top span i{     padding: .1rem .3rem;    border-radius: .15rem;display: inline-block;font-size: .45rem;  line-height: .6rem;  vertical-align: middle; color:#ff9c00; border: 1px solid #ff9c00;}
+.team_header .team_header_top .team_txt p{ color:#666666;font-size: .5rem;    line-height: .8rem;}
+.team_header .team_header_bottom{    line-height: 1.5rem;    font-size: .6rem;    padding: 0 .5rem; color:#666; border-top: 1px solid #e1e1e1;}
+.team_header .team_header_bottom i{ background:url(../images/weidian_32.png) no-repeat; background-size:.8rem; height:.8rem; width:.8rem; vertical-align: middle; display: inline-block; margin-right:.2rem;}
+
+.team_info_list{}
+.team_info_list> li{ background:#fff; margin-top:.5rem; border-bottom: 1px solid #e1e1e1; border-bottom: 1px solid #e1e1e1; padding: 0 .5rem;}
+.team_info_list> li .team_info_title{   padding:.3rem 0; font-size: .7rem; color:#111; line-height: 1.2rem; position:relative;}
+.team_info_list> li .team_info_title i{ position:absolute; right:1rem; top:.5rem; background:url(../images/weidian_40.png) no-repeat; background-size: .8rem ; width:.7rem; height:.7rem; display: inline-block;}
+.team_info_list> li ul{ padding:.5rem 0; border-bottom: 1px solid #e1e1e1;  border-top: 1px solid #e1e1e1;}
+.team_info_list> li ul li{float:left; text-align: center; width:50%; box-sizing:border-box; border-right: 1px solid #e1e1e1; line-height: 1rem;}
+.team_info_list> li ul li:last-child{border:0;}
+.team_info_list> li ul li p{ font-size: .6rem; color:#333333;}
+.team_info_list> li ul li span{ color:#666666;font-size: .55rem}
+.team_info_list> li >p{font-size: .6rem; color:#333333;     padding: .3rem 0;}
+.team_info_list> li >p span{display: inline-block; width:45%; padding-left: 5%;}
+
+.product_title{ border-bottom: 1px solid #e1e1e1; position: relative}
+.product_title .product_title_list{ width:14.6rem; overflow:hidden; height:1.5rem;}
+.product_title li{ width:3.65rem;}
+.product_title li:last-child a{border-right: 1px solid #e1e1e1}
+.product_title span{position:absolute; right:0; top:0; background:#fff; width:1.4rem; text-align: center; display: inline-block; height:1.3rem;}
+.product_title i{    margin-top: .4rem; width:.6rem; height:.6rem; vertical-align: middle; background:url(../images/jiantou_07.png); background-size:.6rem; display: inline-block; }
+.product_title i.active{ background:url(../images/jiantou_06.png); background-size:.6rem;}
+.product_title_table { display:none; background:#f8f8f8;  border:1px solid #e1e1e1; position:absolute; top:1.5rem; left:0 ; padding:.25rem;    z-index: 99;}
+.product_title_table li{ width:3.34rem; margin:.2rem .2rem;    padding: 0.2rem 0; border:1px solid #e1e1e1; background:#fff;}
+.title_table li.active {}
+.product_title_table li a{border:0;}
+.product_title_table li:last-child a{border:0;} 
+.product_list{}
+.product_list li{ margin:.2rem ; background:#fff; border:1px solid #e1e1e1;}
+.product_img{ width:100%; position:relative;    text-align: center;    border-bottom: 1px solid #e1e1e1;}
+.product_img span{line-height:.65rem; display:inline-block; text-align: center; position:absolute; top:1rem;  right:1rem; width:2.0rem; height:1.5rem; padding:.4rem .2rem; border-radius:100%; overflow: hidden; background:#fe6262; border:2px solid #fff;}
+.product_img span i{display: inline-block; font-size: .4rem;    width: 100%; color:#ffdca4; border-bottom: 1px solid rgba(255,255,255,.5);}
+.product_img span em{display: inline-block; font-size: .4rem; color:#fff;}
+.product_txt{ padding: .5rem;}
+.product_txt .produc_name{ float:left;width:11rem;}
+.product_txt .produc_name h1{    margin-bottom: .2rem; line-height: 1rem; font-size:.7rem; color:#333; font-weight: normal; width:100%; text-overflow: ellipsis; overflow: hidden; white-space:  nowrap;}
+.product_txt .produc_name p span{ display: inline-block; width:50%; font-size: .6rem; color:#45a5cf;}
+.product_txt .produc_name p span:nth-child(2){ font-size: .55rem; color:#999999;}
+.product_txt .product_but{ text-align: right; float:left;     padding-top: 0.3rem; }
+.product_txt .product_but span{ text-align: center;  display:inline-block; width:3.5rem; line-height: 1.2rem; color:#fff; background:#ff9c00; border-radius: .15rem;    font-size: .65rem;}
+
+.product_info{   background:#fff; border-bottom:1px solid #e1e1e1;}
+.group_product .product_txt .produc_name{ width:100%;}
+.group_product .product_txt .produc_name p span:nth-child(2){ text-align: right}
+.standard_list{ background:#fff; }
+.standard_list ul{padding:.2rem .25rem;}
+.standard_list li{ width:7rem; height:2.35rem; color:#fff; float:left; margin:.25rem .35rem; color:#fff;}
+.standard_list li a{ color:#fff;}
+.standard_list li p{ line-height: 1.15rem; text-align: center;  font-size: .6rem}
+.standard_list li p span{ margin-left:.2rem; font-size: .5rem;}
+.standard_list li:nth-child(1){ background:url(../images/UI2_03.png) no-repeat; background-size:7rem;}
+.standard_list li:nth-child(2){ background:url(../images/UI2_05.png) no-repeat; background-size:7rem;}
+.standard_list li:nth-child(3){ background:url(../images/UI2_09.png) no-repeat; background-size:7rem;}
+.standard_list li:nth-child(4){ background:url(../images/UI2_10.png) no-repeat; background-size:7rem;}
+.standard_list li:nth-child(5){ background:url(../images/UI2_13.png) no-repeat; background-size:7rem;}
+.standard_list li:nth-child(6){ background:url(../images/UI2_14.png) no-repeat; background-size:7rem;}
+.standard_list li:nth-child(7){ background:url(../images/UI2_17.png) no-repeat; background-size:7rem;}
+.standard_list li:nth-child(8){ background:url(../images/UI2_1_18.png) no-repeat; background-size:7rem;}
+.group_explain{ background:#fff; border-top: 1px solid #e1e1e1;}
+.group_explain li{ border-bottom: 1px solid #e1e1e1;   line-height:1rem; padding:0.25rem .5rem;}
+.group_explain li> span{ display: inline-block; width:4.5rem; color:#666; font-size: .55rem;    vertical-align: top;}
+.group_explain li> span:nth-child(2){font-size: .5rem; color:#333; width:10.5rem; }
+.group_explain li>span.ye_time{ color:#ff9c00; }
+.group_active{ background:#fff; border-bottom: 1px solid #e1e1e1; padding:0 .3rem;}
+.group_active h2{ font-size: .55rem; color:#666; font-weight: normal; line-height: 1.3rem; padding:0 .2rem;    border-bottom: 1px solid #e1e1e1;}
+.group_active p{font-size: .5rem; line-height: 1rem; color:#333;; padding: .35rem  .3rem;  }
+.group_active p span{ display:inline-block; width:49%;}
+.sale_reserve{ margin:.3rem 0;}
+.sale_active  { padding-bottom:.2rem; margin-bottom: .2rem}
+.product_txt .sale_index_but{width:4rem; padding-top:0;}
+.product_txt .sale_index_but .sale_but{ background:#52abfb; margin-top:.2rem;}
+.sale_active p{ padding:0 .3rem;}
+.group_play{ padding:0 .5rem; background:#fff; margin:.5rem 0; border-top: 1px solid #e1e1e1; border-bottom: 1px solid #e1e1e1;}
+.group_play h3{font-weight: normal; font-size: .55rem; border-bottom: 1px solid #e1e1e1;  color:#666666; line-height: 1.4rem; position:relative; padding:0 .5rem; width:14rem;}
+.group_play h3 span{ display: inline-block; width:49%; }
+.group_play h3 span:nth-child(2){ text-align: right; font-size: .45rem; color:#333;}
+.group_play h3 i{ position: absolute; right:-.2rem;  top:.4rem;width:.6rem; height:.6rem; background:url(../images/weidian_40.png); background-size:.6rem; display: inline-block;}
+.group_play ul{}
+.group_play ul li{ box-sizing:border-box; width:3.25rem;     margin: .5rem.25rem; float:left; border-right:1px solid #e1e1e1; font-size: .45rem; color:#666666;}
+.group_play ul li:last-child{ border-right: 0}
+.group_play ul li i{border-radius: .15rem; text-align: center; margin-right:.2rem; width:.8rem; height:.8rem; vertical-align:  middle; display: inline-block;  color:#fff; font-size: .45rem; background:#c9c9c9; line-height: .8rem;}
+.group_play ul li.active{ color:#fe6262;}
+.group_play ul li i{ background:#fe6262;}
+.group_play ul li span{ display: inline-block; width:2rem; vertical-align: middle}
+.progress{ background:#fff; padding:0rem .8rem; border-top:1px solid #e1e1e1 }
+.progress h2{ font-weight: normal; line-height: 1rem;     line-height: 1.45rem;}
+.progress h2 span{display: inline-block; width:50%; font-size: .65rem; color:#333;}
+.progress h2 i { display: inline-block;text-align: right; width:50%;font-size: .6rem; color:#ff9c00;}
+.progress .progress_list{ position:relative; background:#faf9f9; border:1px solid #e1e1e1; border-radius: .15rem; height:.7rem;  overflow: hidden; }
+.progress .progress_list i{ position: absolute; width:100%; height:100%; background:url(../images/pic.png); background-size:100px; left:0; top:0;}
+.progress .progress_list p{ width:26%; background:#42a3f8;    height: .7rem;}
+.progress .progress_txt{ padding: .3rem 0;}
+.progress .progress_txt li i{ width:8px; height:8px; border-radius: 100%; display: inline-block; vertical-align:  middle;}
+.progress .progress_txt li:nth-child(1) i{ background:#45a8ff;}
+.progress .progress_txt li:nth-child(2) i{ background:#ffbc00;}
+.progress .progress_txt li:nth-child(3) i{ background:#fe6262;}
+.progress .progress_txt li{    margin-top: -.3rem; float:left; width:33.3%; text-align: center; font-size: .45rem; color:#666666;    line-height: .65rem;}
+.group_explain li.standard_back{ background:#f4fbfe;    border-bottom: 0;}
+.group_explain li.standard_back p{ color:#333333; font-size: .6rem;}
+.group_explain li.standard_back p span{ display: inline-block; color:#45a5cf; margin:0 .2rem;}
+.index_group_but{    text-align: center;    margin: 1rem 0;}
+.index_group_but button{ width:4rem; background:#ff9c00; border-radius: .15rem; line-height: 1.3rem; color:#fff; font-size: .65rem;}
+.sala_info{padding:.2rem; color:#999; line-height: .8rem;font-size: .6rem;}
+.sala_list{ background:#fff; text-align: center}
+.group_info{border-bottom: 1px solid #e1e1e1}
+.group_info table { width:100%;}
+.group_info table td{ width:33.3%;}
+.group_info thead{ background:#f7f7f7; color:#666; padding:.5rem 0;     font-size: .65rem;    line-height: 1.4rem;font-weight: normal;  font-size: .65rem;}
+.group_info thead th{font-weight: normal;  font-size: .65rem; width:33.3%;}
+.group_info tbody{margin:0 .5rem; font-size: .55rem}
+.group_info tbody tr{ padding:.3rem 0; line-height: 1.8rem; }
+.group_info tbody tr td{border-top: 1px solid #e1e1e1;}
+
+.group_info tbody tr td:first-child{margin-left:1rem }
+.group_info tbody tr th:last-child{margin-right:1rem }
+.group_info tbody tr img{  display: inline-block; width:1.5rem; height:1.5rem; vertical-align: middle; margin-top:-.15rem;}
+.group_info tbody tr h5{ display: inline-block; font-weight: normal}
+.sale_group_but{ background:#ffbc00; border-radius: .15rem; color:#fff; font-size: .6rem; width:11rem; text-align: center; line-height: 1.2rem; margin:3rem auto;}
+.fan_list_table >li{display:block;}
+.member_table{ width:100%; text-align: center; background:#fff;}
+.member_table th{ width:33.33%;}
+.member_table thead{ line-height: 1.8rem; color:#333333; background:#eeeeee; font-size: .6rem;  border-bottom: 1px solid #e1e1e1}
+.member_table tbody{ line-height: 2.3rem; color:#666;   font-size: .6rem;  border-bottom: 1px solid #e1e1e1}
+
+
+ 
+@media (min-width:800px){
+
+body{width:800px; margin:0 auto;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

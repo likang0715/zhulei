@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>易点茶</title>
+<link rel="stylesheet" type="text/css" href="danye/css/animate.min.css"/>
+<link rel="stylesheet" type="text/css" href="danye/css/style.reset.css"/>
+<link rel="stylesheet" type="text/css" href="danye/css/full.css"/>
+<script type="text/javascript" src="danye/js/monitor-pub-min.js"></script>
+<script type="text/javascript" src="danye/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="danye/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="danye/js/jquery.fullPage.min.js"></script>
+<script>
+$(function(){
+	$.fn.fullpage({
+		verticalCentered: false,
+    slidesColor: ['#419dea', '#f2aa31', '#10be9b', '#f87f6a','#845cd9','#56aaff'],
+		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
+		navigation: true,
+		navigationTooltips: ['', '', '', '', '', '', '']
+	});
+});
+</script>
+
+</head>
+
+<body style="overflow: hidden; height: 100%;">
+
+<div id="superContainer" style="top: 0px;">
+
+
+	<!--[if lt IE 9]>
+		 <a href="tips.html" id="clickMe"></a>
+	<![endif]-->
+	
+
+
+	<!--顶部-->
+         
+
+
+	<!--fullPage-->
+     <div class="section section1" data-anchor="page2" style="height: 755px;">
+
+        <div class="s1_zi"></div>
+        <div class="s1_btn" onclick="window.open('user.php?c=user&a=com_register')"></div>
+        <div class="s1_d"></div>
+        <div class="s1_y"></div>
+
+        <div class="s1_ml"></div>
+        <div class="s1_mr"></div>
+
+    </div>
+    <div class="section section2" data-anchor="page2" style="height: 755px;">
+    
+        <div class="s2_zi"></div>
+
+        <div class="s2_m"></div>
+
+    </div>
+	
+    <div class="section section3" data-anchor="page3" style="height: 755px;">
+    
+        <!-- <div class="bg01"></div>
+        <div class="bg02"></div>
+        <div class="bg03">
+             
+
+        </div>
+        <div class="bg033"></div> -->
+
+        <div class="s3_zi"></div>
+
+        <div class="s3_quan"></div>
+
+        <div class="s3_qm"></div>
+
+        <div class="s3_m"></div>
+
+    </div>
+	
+    <div class="section section4" data-anchor="page4" style="height: 755px;">
+
+       <div class="s4_zi"></div>
+
+        <div class="s4_m"></div>
+        <!--       随鼠标移动      -->      
+              <div class="content">
+                <div class="layerout moveu">
+                  <div class="s4_s"></div>
+                </div>
+              </div>
+  
+        <div class="s4_zt"></div>
+        <div class="s4_zb"></div>
+        <div class="s4_dian"></div>
+
+
+    </div>
+
+    <div class="section section5" data-anchor="page5" style="height: 755px;">
+
+       <div class="s5_zi"></div>
+    
+      <div class="s5_r"></div>
+        
+      <div class="s5_m"></div>
+
+    </div>
+
+	<div class="section section6" data-anchor="page6" style="height: 755px;">
+
+     <div class="s6_zi"></div>
+    
+      <div class="s6_r"></div>
+        
+      <div class="s6_m"></div>
+
+  </div>
+    
+
+
+</div>
+
+
+<script>
+  
+  $('.section4').on('mousemove', function(e) {
+    var offsetX = e.clientX / window.innerWidth - 0.5,
+        offsetY = e.clientY / window.innerHeight - 0.5;
+    $('.section4 .s4_s').css('left', -18 - 40 * offsetX).css('top', 25 - 40 * offsetY);
+  });
+</script>
+</body>
+</html>

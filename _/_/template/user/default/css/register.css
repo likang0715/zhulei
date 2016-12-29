@@ -1,0 +1,714 @@
+/*头部*/
+.header{width:100%}
+.header_common{box-shadow:1px 1px 5px #eee;overflow:hidden;padding:20px 0}
+.header_inner{width:1200px;margin:0 auto}
+.index1000 .header_inner{width:1000px}
+.header_common .site_logo{float:left}
+.header_common .site_logo img{display:block;height:70px}
+.hide{
+	display: none;
+}
+body#index1200{
+	text-align: left;
+}
+.common_inner{
+
+	width: 1200px;
+
+	margin:0 auto;
+
+}
+.error-message{
+	font-size: 12px;
+	color: red;
+	margin-left: 8px;
+}
+.join_content{
+
+	border: 1px solid #d4d4d4;
+
+	margin-top: 30px;
+
+}
+
+.join_tit{
+
+	width: 1150px;
+
+	margin:20px auto 42px auto;
+
+	border-bottom: 1px solid #d8d8d8;
+
+}
+
+.join_tit h3{
+
+	font-size: 20px;
+
+	height:40px;
+
+	line-height: 40px;
+
+	font-weight: normal;
+
+	padding-left: 6px;
+
+	color: #333;
+
+	display: inline;
+
+}
+
+.join_tit .join_tit_desc{
+
+	font-size: 14px;
+
+	height:30px;
+
+	line-height: 30px;
+
+	font-weight: normal;
+
+	padding-left: 6px;
+
+	color: #999;
+
+}
+
+.join_form{
+
+	width: 1150px;
+
+	margin:0 auto 25px auto;
+
+}
+.join_form input.btn{
+	border: 0;
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	background-color: #51b338;
+	color: #fff;
+	display: block;
+	margin: 140px auto;
+	cursor: pointer;
+	padding: 0;
+}
+.info{
+
+	line-height: 34px;
+
+	margin-bottom: 30px;
+
+	clear: both;
+
+	overflow: hidden;
+
+	display: block;
+
+	padding:0 100px 0 25px;
+
+}
+
+.info .colon{
+
+	float: left;
+
+	display: block;
+
+	margin-right: 8px;
+
+}
+
+.info label{
+
+	height: 34px;
+
+	line-height: 34px;
+
+	font-size: 16px;
+
+	color: #333;
+
+	width: 140px;
+
+	padding-right: 10px;
+
+	display: inline-block;
+
+	text-align: right;
+
+	position: relative;
+
+	overflow: hidden;
+
+	float: left;
+
+}
+
+.info .info_must{
+
+	position: absolute;
+
+	right: 2px;
+
+	top:0px;
+
+	content: "*";
+
+	color: #f00;
+
+	display: block;
+
+	width: 10px;
+
+	height: 10px;
+
+}
+
+.info input{
+
+	width: 288px;
+
+	height: 24px;
+	
+	line-height: 24px;
+
+	border: 1px solid #b4b4b4;
+
+	text-indent: 6px;
+
+
+}
+
+
+
+.info .qh1{
+
+	width: 70px;
+
+}
+
+.info .qh2{
+
+	width: 80px;
+
+}
+
+.info .qhNum{
+
+	width: 120px;
+
+}
+
+.info .info_date,.info .info_date[readonly]{
+
+	width: 140px;
+
+	margin-right: 8px;
+
+	float: left;
+
+	background-color: #fff;
+
+	cursor: pointer;
+
+}
+
+.info .type_radio{
+
+	width: 190px;
+
+	float: left;
+
+	height: 20px;
+
+	line-height: 20px;
+
+	margin: 8px 20px 0px 0;
+
+	font-size: 16px;
+
+	color: #333;
+
+}
+
+.info .regular-radio{
+
+	display: none;
+
+}
+
+.info .regular-radio + label{
+
+	-webkit-appearance: none;
+	border: 1px solid #b4b4b4;		/*原来的边框颜色*/
+	padding: 9px;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	top: 4px;
+	width: 0px;
+	height:0px;
+	margin-right: 12px;
+	margin-top: -4px;
+}
+
+.info .regular-radio:checked + label{
+
+	float: left;
+	border: 1px solid #b4b4b4;		/*选中的边框颜色*/
+
+}
+
+.info .regular-radio:checked + label:after {
+
+	content: ' ';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	background: #7f7f7f;		/*选中之后背景*/
+
+}
+
+.thouse_map{
+
+	width: 770px;
+
+	height: 360px;
+
+	overflow: hidden;
+
+	display: block;
+
+	margin:30px 0 0 74px;
+
+	border:1px solid #d3d3d3;
+
+}
+
+
+
+.thouseAddress_sort{
+
+	
+
+}
+
+.thouseAddress_sort select{
+
+	width: 92px;
+	height: 34px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border: 1px solid #b4b4b4;
+	margin-right: 4px;
+	min-width: 160px;
+	max-width: 200px;
+	color: #666;
+
+
+}
+
+.thouseAddress_detail{
+
+	margin-left: 170px;
+
+	position: relative;
+
+}
+.thouseAddress_detail input#thouseAddress{
+	width: 496px;
+}
+.thouseAddress_detail span.show_mapaddress{
+	position: absolute;
+	left: 420px;
+	font-size: 12px;
+	color: #999;
+	top: 3px;
+	cursor: pointer;
+}
+.thouse_info .thousePos_sort{
+
+	width: 100px;
+
+	height: 34px;
+
+	color: #fff;
+
+	font-size: 16px;
+
+	margin-left: 60px;
+
+	background: #51b338;
+
+	font-family: "Microsoft Yahei","Sans-serif";
+
+	border: none;
+
+	margin-top: -1px;
+	cursor: pointer;
+	text-indent: 0;
+
+}
+.thouse_info .thousePos_sort:hover{
+	opacity: 0.8
+}
+.info input.info_s{
+
+	width: 240px;
+
+}
+
+.info input.info_l{
+	width: 240px;
+}
+.info input.info_m{
+	float: left;
+	font-size: 14px;
+}
+.info span.error_msg{
+	display: block;
+    float: left;
+    margin-left: 10px;
+    color: #333;
+    color:red;
+}
+.info-window {
+	line-height: 18px;
+}
+.info-bottom{
+	position: absolute;
+	bottom: -22px;
+	left: 150px;
+	margin: 0px auto;
+}
+.info-btn{
+	display: block;
+	padding: 0px 8px;
+	margin: 4px auto;
+	line-height: 28px;
+	width: 70px;
+	background-color: #50BBDB;
+	color: #fff;
+	border-radius: 2px;
+}
+.info-btn:hover{
+	color: #fff;
+	opacity: 0.8;
+}
+.info-address{
+	line-height: 20px;
+	max-height: 40px;
+}
+.info-btn.info-btn-unselect{
+	color: #999;
+	background: #f0f0f0;
+	border-color: #ddd;
+}
+
+.info textarea{
+	width: 780px;
+	height: 160px;
+	border: 1px solid #b4b4b4;
+}
+/*资质*/
+
+.info_box_qua{
+
+	float: left;
+
+}
+
+.info_box_qua.qua_r label{
+
+	width: 100px;
+
+}
+
+.upload{
+
+	color: #ffffff;
+
+	font-size: 14px;
+
+	background-color: #51b338;
+
+	padding: 0px 15px;
+
+	cursor: pointer;
+
+	position: relative;
+
+	overflow: hidden;
+
+	float: left;
+
+	margin-right: 10px;
+
+}
+
+.file_btn{
+
+	cursor: pointer;
+
+	direction: ltr;
+
+	margin: 0;
+
+	opacity: 0;
+
+	position: absolute;
+
+	right: 0;
+
+	top: 0;
+
+	height: 30px;
+
+	line-height: 30px;
+
+}
+
+.img_info.info{
+
+}
+
+.img_info.info label.img_label{
+	width: 241px;
+	min-height: 200px;
+	display: block;
+	margin-left: 24px;
+	background-color: #e2e2e2;
+	position: relative;
+	text-align: center;
+	padding: 0;
+}
+
+.img_info.info label.img_label span{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	margin: auto;
+	width: 46px;
+	height: 32px;
+	line-height: 32px;
+	display: block;
+	background-color: #51b338;
+	border-radius: 2px;
+	border: none;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	z-index: 99;
+}
+.img_info.info label.img_label.have_img span{
+	display: none;
+}
+.img_info.info label.img_label.have_img span i{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	margin: auto;
+	width: 46px;
+	height: 32px;
+	line-height: 32px;
+	z-index: 99;
+}
+.img_info.info label.img_label.have_img:hover span{
+	display: block;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#80000000', endColorstr='#80000000')\0;
+	background: rgba( 0, 0, 0, 0.5 );
+	border-radius: 0;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+.img_info.info label.img_label img{
+	position: absolute;
+	width: 94%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 0;
+}
+/*地图部分*/
+.ui-regions select {
+	width: 105px;
+	margin-right: 5px;
+}
+.shop-map-container {
+	width: 100%;
+	height: 500px;
+	border: solid 1px #ccc;
+	position: relative;
+}
+.shop-map-container .left {
+	float: left;
+    width: 210px;
+    height: 100%;
+    background-color: #fff;
+    border-right: solid 1px #ccc;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    border-left: 4px solid #F2F2F2;
+}
+.shop-map-container .left .place-list li {
+	padding: 10px 5px 10px 30px;
+	position: relative;
+	line-height: 20px;
+	cursor: pointer;
+	border-bottom: solid 1px #ddd;
+}
+.shop-map-container .left .place-list li:hover,.shop-map-container .left .place-list li.active{
+	background-color: #f2f2f2;
+}
+
+.shop-map-container .left .place-list .place-order {
+	position: absolute;
+	left: 5px;
+	top: 9px;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: red;
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-style: normal;
+}
+.shop-map-container .left .place-list h3 {
+	font-size: 14px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-weight:normal;
+}
+.shop-map-container .left .place-list .place-adress, .shop-map-container .left .place-list .place-phone {
+	color: #999;
+	overflow: hidden;
+}
+.shop-map-container .left .place-list .place-adress {
+	max-height: 40px;
+}
+.shop-map-container .left .place-list .place-phone {
+	max-height: 20px;
+}
+
+.shop-map-container .map {
+	float: right;
+	height: 100%;
+	width: 100%;
+}
+.shop-map-container .map.large {
+	width: 100%;
+}
+.shop-map-container .select-place {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+    background-color: #DDDDDD;
+    padding: 0 8px;
+}
+.app__content .form-actions {
+	padding: 10px 10px 10px 130px;
+	border-top: 1px solid #CCC;
+	background-color: #FFFEDC;
+	margin: 0;
+}
+.shop-map-container .map .BMap_Marker img{
+	max-width:none;
+}
+.shop-map-container .info-window p.address {
+	min-height: 30px;
+}
+.controls .shop-map-container a.ui-btn {
+	font-size: 12px;
+	line-height: 20px;
+	height: 20px;
+}
+.shop-map-container a.ui-btn.ui-btn-confirm {
+	color: #fff;
+	background-color: #06bf04;
+	border-color: #03b401;
+}
+.ui-btn-disabled, .ui-btn-disabled:hover, .ui-btn-disabled:focus, .ui-btn-disabled:active {
+	color: #999;
+	background: #f0f0f0;
+	border-color: #ddd;
+}
+/*图片上传*/
+.img_info .upload-preview-img{
+	width: 240px;
+	height: 240px;
+	margin-top: 10px;
+    border: 1px solid #ddd;
+}
+.img_info .upload-preview-img img{
+	max-height: 96%;
+    max-width: 96%;
+}
+.img_info .webuploader-input{
+	position: absolute;
+	top: 0px; 
+	left: 0px; 
+	width: 240px;
+	height: 240px; 
+	overflow: hidden; 
+	bottom: auto; 
+	right: auto;
+}
+.img_info .webuploader-input label{
+	opacity: 0; 
+	width: 100%; 
+	height: 100%; 
+	display: block; 
+	cursor: pointer; 
+	background: rgb(255, 255, 255);
+}
+.img_info .fileinput-button{
+	width: 240px;
+	height: 240px;
+	border: 2px dashed #ddd;
+	margin-top: 10px;
+}
+.img_info .fileinput-button:hover{
+	width: 240px;
+	height: 240px;
+	border: 2px dashed #ddd;
+}
+.img_info .fileinput-button .fileinput-button-icon{
+	color: #ccc;
+    height: 240px;
+    line-height: 240px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.img_info .upload-image-list li .webuploader-pick{
+	width: 240px;
+	height: 240px; 
+}
+.img_info .upload-image-list li .webuploader-pick.webuploader-pick-hover .fileinput-button-icon{
+	color: #c2c2c2
+}
+.img_info .upload-image-list{
+	float: left;
+	margin-left: 20px;
+}

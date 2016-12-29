@@ -1,0 +1,33 @@
+
+/* CSS Document */
+@media (min-width:360px){
+    header{  }
+    .banner_num {}
+    .banner_txt p {}
+    .bargain_content h1{ font-size:1.6rem; font-weight:normal}
+    .bargain_content span { font-size:1.8rem;}
+    .bargain_content p{ font-size:1.5rem;}
+    .bargain_content b{ font-size: 1.3rem; }
+    .bargain_content em{   font-size: 1.3rem;  margin-left: 10px;}
+    .bargain_layer { width: 300px;  height: 429px;  margin-left:-150px;}
+    .bargain_banner{ left: 48px;  bottom: -20px;}
+
+
+    .bargain_crack{  top: 241px;  background-size: 85px;  width: 85px;  height: 108px;  left: -22px;}
+    .bargain_people i{  top: 160px; width:220px; height:220px; background-size:220px;}
+    .bargain_people i:nth-child(1){background-size:220px;}
+    .bargain_people i:nth-child(2){background-size:220px;}
+    .bargain_people i:nth-child(3){background-size:220px;}
+    .bargain_colour{  bottom: 70px;  left: 30px;}
+    .bargain_ribbon i:nth-child(1) { left:4px;}
+    .bargain_ribbon i:nth-child(2) {  left: 280px;}
+    .operation button{ width:30%;  margin-right: 1%;}
+    .operation button:nth-child(3){ margin:0}
+
+
+}
+
+
+
+
+@media screen and(min-width:720px){}

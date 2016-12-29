@@ -1,0 +1,311 @@
+html{
+    font-size: 100%;
+    background: #f4f4f4;
+    max-width: 640px;
+    margin: 0 auto;
+    background: #eeeeee;
+}
+body{
+    
+}
+img{
+    max-width: 100%;
+    height: auto!important;
+}
+a{
+    display: block;
+}
+.main{
+    padding: 0.5rem 2%;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+/*公共头部*/
+.common_header{
+    line-height: 3rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    background: #51b338;
+}
+.common_header h5{
+    font-weight: normal;
+}
+.common_header img.common_header_search{
+    width: 1.6rem;
+    position: absolute;
+    right: 0.8rem;
+    top: 0.8rem;
+}
+.common_header img.common_header_back{
+    width: 1rem;
+    position: absolute;
+    left: 0.6rem;
+    top: 0.6rem;
+}
+/*搜索栏*/
+.index_search{
+    position: relative;
+    margin: 1rem 0;
+    display: none;
+}
+.index_search form{
+    position: relative;
+    border: 1px solid #c0c0c0;
+    background: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 96%;
+}
+.index_search input.index_search_box{
+    margin: 0;
+    padding: 0 10px 0 40px;
+    -webkit-appearance: none; 
+    -moz-appearance: none;              
+    height: 35px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;  
+    border: 0px none;
+    outline: none; 
+    font-size: 14px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+    background-color: white;
+}
+.index_search button.index_search_submit{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0px none;
+    height: 35px;
+    line-height: 35px;
+    width: 37px;
+    padding: 0;
+    color: #fff;
+    font-size: 14px;
+    text-indent: -9999px;
+    background: #fff url("../images/search_icon.png") center center no-repeat;
+    background-size: 16px 16px;
+    border-radius: 5px 0 0 5px;
+}
+.index_search_hot{
+    width: 96%;
+    margin: 1rem auto;
+    overflow: hidden;
+    display: none;
+}
+.index_search_hot h4{
+    line-height: 1.6rem;
+    color: #999999;
+    border-bottom: 1px solid #dddddd;
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+    font-weight: normal;
+}
+.index_search_hot ul li{
+    line-height: 1.2rem;
+    font-size: 0.7rem;
+    border: 1px solid #CCCCCC;
+    padding: 0.1rem 0;
+    margin: 0.4rem 1% 0.4rem 0;
+    float: left;
+    width: 18.5%;
+    text-align: center;
+}
+.index_search_hot ul li a{
+    color: #999999;
+    font-size: 0.7rem;
+}
+/*综合下拉部分*/
+.nav_zonghe{
+    position: relative;
+}
+.nav_zonghe p{
+    width: 400%;
+    background: #fff;
+    position: absolute;
+    top:2.6rem;
+    left: 0;
+    color: #333333;
+    border-bottom: 1px solid #e0e0e0;
+    z-index: 10;
+}
+.nav_zonghe p a{ 
+    text-align: left;
+    background: #fff;
+    font-size: 0.9rem;
+    display: block;
+    border-bottom: 1px solid #e0e0e0;
+    text-indent: 0.4rem;
+    margin: 0 2%;
+}
+.nav_zonghe p:last-child{
+    border-bottom: none;
+}
+.nav_zonghe_current{   
+    color: #51b338;
+}
+/*筛选下拉部分*/
+.nav_detail_main{
+    position: absolute;
+    top:2.6rem;
+    right: 0;
+    width: 400%;
+    overflow: hidden;
+    background: #fff;
+    z-index: 10;
+    text-align: left;
+}
+.nav_detail_main div{
+    padding: 2% 4%;
+    border-bottom: 1px solid #e0e0e0;
+}
+.nav_detail_main div h3{
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    font-weight: normal;
+}
+#star{
+    line-height: 1.2rem;
+    border-bottom: none;
+}
+.nav_detail_main div.main_money input{
+    border: none;
+    width: 15%;
+    padding-left: 2%;
+    background-color: #f3f3f3;
+    -webkit-appearance: none;
+}
+.nav_detail_main div.main_distance {
+
+}
+.nav_detail_main div.main_distance input {
+    width: 90%;
+    height: 0.2rem;
+    margin-left: 2%;
+    background-color: #ba0001;
+    -webkit-appearance: none;
+}
+.nav_detail_main div.main_distance ul{
+    
+}
+.nav_detail_main div.main_distance ul li{
+    width: 16%;
+    line-height: 1.2rem;
+    float: left;
+}
+.nav_detail_main div.main_time input {
+    width: 90%;
+    height: 0.2rem;
+    margin-left: 2%;
+    background-color: #ba0001;
+    -webkit-appearance: none;
+}
+.nav_detail_main div.main_time ul li{
+    width: 20%;
+    line-height: 1.2rem;
+    float: left;
+}
+.nav_detail_main div.main_all ul{
+    margin-bottom: 3%;
+}
+.nav_detail_main div.main_all ul li{
+    line-height: 1.2rem;
+    font-size: 0.7rem;
+    color: #666666;
+    border: 1px solid #999999;
+    padding: 0.1rem 0;
+    margin: 0.4rem 1% 0.4rem 0;
+    float: left;
+    width: 18.5%;
+    text-align: center;
+}
+.nav_detail_main div.main_all li.li_click{
+    color: #ffffff;
+    background-color: #ba0001;
+    border: 1px solid #ba0001;
+}
+.nav_detail_main div.main_all li.all{
+    width: 12%;
+    color: #ffffff;
+    background-color: #ba0001;
+    border: 1px solid #ba0001;
+}
+.nav_detail_main div.main_all li.all_qx{
+    width: 12%;
+    color: #666666;
+    border: 1px solid #999999;
+}
+.nav_detail_main h4.reset{
+    width: 50%;
+    line-height: 2.6rem;
+    text-align: center;
+    color: #666666;
+    float: left;
+    background-color: #dfdfdf;
+}
+.nav_detail_main h4.ok{
+    width: 50%;
+    color: #fff;
+    float: left;
+    line-height: 2.6rem;
+    text-align: center;
+    background-color: #ba0001;
+}
+/*模糊层*/
+.tea_con_a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    z-index: 9;
+    display: none;
+    left: 0;
+}
+/*公共导航*/
+.common_nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 640px;
+    background: #fff;
+    border-top: 1px solid #e0e0e0;
+}
+.common_nav_main{
+    position: relative;
+    background: #fff;
+}
+.common_nav_main ul{
+    
+}
+.common_nav_main ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 2.6rem;
+    padding: 0.1rem 0;
+}
+.common_nav_main ul li img{
+    width: 25px;
+    height: 25px!important;
+}
+.common_nav_main ul li p{
+    color: #333;
+    font-size: 0.8rem;
+}
+.common_nav_main ul a p.common_nav_cur{
+    color: #51b338;
+}
+/*底部*/
+.common_footer{
+    width: 100%;
+    min-height: 5rem;
+}
+.border_none{
+    border-bottom: none;
+}

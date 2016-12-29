@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+.fl{float:left}
+.fr{float:right}
+.userTop{padding-bottom:0;background:url(.././images/banner_01.png) no-repeat top center;background-size:cover}
+.userTopInfo{padding:20px 10px}
+.userTop .userAvatar{margin-right:10px;border:1px solid #fff;border-radius:100%}
+.userTop .userAvatar img{width:50px;height:50px;border-radius:100%}
+.userInfo{overflow:hidden;margin-top:6px;color:#fff}
+.userInfo .name{margin-bottom:4px;font-size:14px}
+.userInfo .price i{display:inline-block;margin-right:4px;width:20px;height:20px;background:url(../images/ic_more_credit.png) no-repeat;background-size:cover;vertical-align:middle}
+.dTab .hd ul{display:-webkit-box;display:-moz-box;display:box;-webkit-box-orient:horizontal;-moz-box-orient:horizontal;box-orient:horizontal}
+.dTab .hd ul li{text-align:center;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1}
+.dTab .hd ul li a{display:block;color:#5e5e5e;font-size:9pt}
+.userTab>.hd ul{background:#efefef}
+.userTab>.hd{line-height:30px}
+.userTab>.hd ul li{background:#b62e30}
+.userTab>.hd ul li.on{background:#d05128}
+.userTabTop{overflow:hidden;width:100%}
+.userTabTop>ul{display:-webkit-box;display:-moz-box;display:box;-webkit-box-orient:horizontal;-moz-box-orient:horizontal;box-orient:horizontal}
+.userTabTop>ul li{text-align:center;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1}
+.userTabTop{line-height:30px}
+.userTabTop ul li{background:rgba(182,46,48,.2)}
+.userTabTop ul li a{border-bottom:2px solid rgba(182,46,48,.2)}
+.userTabTop>ul li.on a{border-color:#ffa96f}
+.userTab>.hd ul li a,.userTabTop ul li a{padding:4px 0;color:#fff}
+.userTabTop ul li a{display:block;font-size:9pt}
+.userTab>.bd .group{margin:10px 0;border-top:1px solid #f3f3f3;border-bottom:1px solid #f3f3f3;background:#fff}
+.userTab>.bd .cell{overflow:hidden;margin-top:-1px;margin-left:10px;padding:0 10px;padding:6px 10px;border-top:1px solid #f3f3f3}
+.userTab>.bd .cell>a{display:block;padding:4px 0}
+.userTab>.bd .cell span{font-size:9pt}
+.userTab>.bd .cell span i.icon{display:inline-block;margin-right:4px;width:20px;height:20px}
+.userTab>.bd .cell span i.icon img{width:100%}
+.userTab>.bd .cell .arrow{float:right;margin-top:6px;width:6px;height:9px;background:url(../images/ic_chevron_dark.png) no-repeat;background-size:cover}
+.userTab>.bd .cell .num{float:right;display:inline-block;margin-right:10px;padding:0 8px;border:1px solid #e0001b;border-radius:20px;font-style:normal;font-size:9pt}
+.orderNav{border-bottom:1px solid #f3f3f3;background:#fff;text-align:center}
+.orderNav ul{display:-moz-box;display:-webkit-box;display:box}
+.orderNav ul li{padding:10px 0;text-align:center;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1}
+.orderNav ul li a{display:block;padding:0 10px;border-right:1px solid #e9e9e9;color:#333;font-size:9pt}
+.orderNav ul li a i{display:block;margin-bottom:5px}
+.orderNav ul li a i img{height:30px}
+.orderNav ul li:last-child a{border-right:0}
+.userBtn{margin-bottom:10px;padding:0 10px}
+.userBtn button{padding:4px 0;width:100%;border-radius:5px;background:#d94553;color:#fff;font-size:14px}
+
+/* 用户中心设置css */
+.ucenter-section {  }
+.ucenter-section .ucenter-topBg { width: 100%; height: 180px; overflow: hidden; }
+.ucenter-section .ucenter-topBg img { width: 100%; max-height: none; }
+.ucenter-section input[type="checkbox"] { margin:0; }
+
+.ucenter-section .ucenter-li { padding: 0 5px; }
+.ucenter-section .ucenter-li .ucli-top { background-color: #fff; }
+.ucenter-section .ucenter-li .ucli-top em { color: red; vertical-align: middle; }
+.ucenter-section .ucenter-li .ucli-top p { height: 30px; width: 80px; line-height: 30px; border-radius: 4px 0 0 0; float: left; position: relative; padding-left: 5px; font-weight: bold; }
+.ucenter-section .ucenter-li .ucli-top .ult-all { margin-top: 5px; margin-right: 10px; float: right; }
+
+.ucenter-section .ucenter-li .ucli-top:before,
+.ucenter-section .ucenter-li .ucli-top:after,
+.ucenter-section .ucenter-li .ucli-con:before,
+.ucenter-section .ucenter-li .ucli-con:after
+{ display:table; content:""; line-height:0;clear:both }
+
+.ucenter-section .ucenter-li .ucli-con { padding: 5px; background-color: #fff; border-bottom: 2px solid #ffa96f; position: relative; }
+
+.ucenter-section .ucli-con input.input-xxlarge { width: 422px; border-radius: 1px; margin: 0; }
+
+.ucenter-section .ucli-con a.control-action { width: 436px; color: #ccc; border: 1px solid #ccc; padding: 6px 0; margin: 5px 0 0 0; text-align: center; display: block; }
+.ucenter-section .ucli-con a.control-action:hover { color: #07d; border-color: #07d; }
+
+.ucenter-li .ucli-con.ucli-tab label { float: left; width: 210px; border: 1px solid #ccc; margin: 2px 2px 2px 3px; height: 34px; line-height: 34px; vertical-align: middle; }
+.ucli-con.ucli-tab label .ul-m { width: 180px; height: inherit; position: relative; float: left; }
+.ucli-con.ucli-tab label .ul-m span { display: block; text-align: center; height: inherit; padding: 0 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ucli-con.ucli-tab label .ul-m input { width: auto; border: none; border: 0; position: absolute; left: 0; top: 1px; border-radius: 0; width: 172px; height: 14px; font-size: 14px; padding: 10px 4px 10px; margin: -1px 0 0; }
+.ucli-con.ucli-tab label .ul-m input:focus { box-shadow: none; box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3); }
+.ucli-con.ucli-tab label .ul-r { width: 30px; height: inherit; background-color: #eee; text-align: center; float: left; }
+
+.ucenter-li .ucli-con.ucli-chose label { float: left; width: 102px; border: 1px solid #ccc; margin: 2px 2px 2px 3px; height: 34px; line-height: 34px; vertical-align: middle; }
+.ucli-con.ucli-chose label .ul-l { width: 30px; height: inherit; background-color: #eee; text-align: center; float: left; }
+.ucli-con.ucli-chose label .ul-m { width: 72px; height: inherit; float: left; }
+.ucli-con.ucli-chose label .ul-m span { display: block; text-align: center; height: inherit; padding: 0 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.ucenter-li .ucli-con.ucli-txt label { float: left; width: 138px; border: 1px solid #ccc; margin: 2px 2px 2px 3px; height: 34px; line-height: 34px; vertical-align: middle; }
+
+.ucli-con.ucli-txt label .ul-l { width: 30px; height: inherit; background-color: #eee; text-align: center; float: left; }
+.ucli-con.ucli-txt label .ul-m { width: 78px; height: inherit; float: left; position: relative; }
+.ucli-con.ucli-txt label .ul-m span { display: block; height: inherit; padding: 0 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ucli-con.ucli-txt label .ul-m input { width: auto; border: none; border: 0; position: absolute; left: 0; top: 1px; border-radius: 0; width: 70px; height: 14px; font-size: 14px; padding: 10px 4px 10px; margin: -1px 0 0; }
+.ucli-con.ucli-txt label .ul-m input:focus { box-shadow: none; box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3); }
+.ucli-con.ucli-txt label .ul-r { width: 30px; height: inherit; background-color: #eee; text-align: center; float: left; }
+
+.ucenter-li .ucli-con.ucli-tab label:hover,.ucenter-li .ucli-con.ucli-txt label:hover,.ucenter-li .ucli-con.ucli-chose label:hover,.ucenter-li .ucli-con.ucli-txt label:hover { border-color: #07d; }
+.ucli-con.ucli-tab a.edit-ucenter,.ucli-con.ucli-txt a.edit-ucenter { width: 16px; height: 16px; display: inline-block; text-indent: -9999; vertical-align: middle; background: url(../images/ucenter_btn.png) 0 0 no-repeat; }
+.ucli-con.ucli-tab a.edit-ucenter.readonly,.ucli-con.ucli-txt a.edit-ucenter.readonly { background-position: 0px -16px; }
+
+/* 默认值hover层 */
+
+.ucli-con.ucli-txt label .ul-r,
+.ucli-con.ucli-tab label .ul-r { position: relative; }
+
+label .ul-r .ul-original { width: 210px; height: 34px; background-color: #fff; border-width: 1px; border-style: solid; border-color: #fff #07d #07d #07d; position: absolute; top: 34px; right: -1px; z-index: 99; display: none; }
+.ucli-con.ucli-tab label .ul-r .ul-original { width: 210px; }
+.ucli-con.ucli-txt label .ul-r .ul-original { width: 138px; }
+.ucli-con.ucli-tab label .ul-r:hover .ul-original,.ucli-con.ucli-txt label .ul-r:hover .ul-original { display: block; }
+label .ul-r .ul-original p { float: left; padding-left: 10px; }
+label .ul-r .ul-original a.ori-set { width: 16px; height: 16px; margin: 9px 8px 0 0; text-indent: -9999; background: url(../images/ucenter_btn.png) -16px -16px no-repeat; float: right; }
+label .ul-r .ul-original a.ori-set:hover { background-position: -16px 0; }

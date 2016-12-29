@@ -1,0 +1,191 @@
+html,body,.container,p,ul{
+    padding:0;margin:0;  
+}
+.container .ui-keyboard .ui-keyboard-numbers{
+    font-family: '楷体';
+}
+ul li{
+    text-decoration: none;
+    color: rgb(229, 229, 229);
+}
+.container{
+    width:100%;min-height:680px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+
+    -moz-user-select:​ none;
+    -moz-touch-callout: none;
+
+    -ms-user-select:​ none;
+    -ms-touch-callout: none;
+    
+    user-select:​ none;
+    touch-callout: none;
+    
+}
+
+.cashier-avatar {
+    padding: 25px 0;text-align: center;
+}
+.cashier-avatar a{
+    display: inline-block;width:80px;height:80px;
+}
+.cashier-avatar a img{
+    width:80px;height:80px;
+}
+
+
+.cashier-form {
+    margin: 0 10px;
+    padding: 20px 15px 12px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+}
+.cashier-form .cashier-field {
+    position: relative;
+    padding: 10px 0 0 15px;
+}
+.cashier-form .money-text {
+    position: absolute;
+    font-style: normal;
+    left: 0;
+    top: 26px;
+    font-size: 20px;
+    z-index: 1;
+}
+.cashier-form .showPrice{
+    width:95%;height: 50px;
+    padding-left: 5%;
+    /*background: pink;*/
+}
+.showPrice span{
+    font-size: 44px;float: left;
+}
+.cashier-form .cashier-text {
+    /*width: 95%;*/
+    padding: 0 5px;
+    border: 0;
+    font-size: 50px;
+    outline: 0;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.cursor {
+    position: relative;
+    /*top: 4px;*/
+    width: 2px;
+    height: 50px;
+    background: #333;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:8px;
+}
+.cursor-animation{
+    -webkit-animation: inputCursorAnimation 1.2s infinite;
+    -moz-animation: inputCursorAnimation 1.2s infinite;
+    animation: inputCursorAnimation 1.2s infinite;
+}
+
+@keyframes inputCursorAnimation{
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes inputCursorAnimation{
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.content .more-word{
+    font-size: 12px;
+    line-height: 16px;
+    width:100%;
+    /*padding: 0 15px;*/
+    margin: 10px 0;
+    color: #999;
+    text-align: center;
+}
+.ui-keyboard {
+    position: fixed;
+    background: #fff;
+    z-index: 999;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+    border-top: 1px solid #ececec;
+    display: flex;
+    /*-webkit-touch-callout: none;
+    -webkit-user-select: none;
+
+    -moz-user-select:​ none;
+    -moz-touch-callout: none;
+
+    -ms-user-select:​ none;
+    -ms-touch-callout: none;
+
+    user-select:​ none;
+    touch-callout: none;
+    */
+}
+.ui-keyboard-numbers {
+    width: 75%;list-style: none;
+}
+.ui-keyboard-numbers li{
+    border:1px solid #ddd;
+    border-top:0;border-left:0;
+    width:33.3%;height:60px;float: left;text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    color: #030303;
+    /*font-family: arail;*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ui-keyboard-numbers .zero{
+    width:66.6%;
+}
+.ui-keyboard-numbers li.paddingOne{
+    width:33.4%;
+}
+.ui-keyboard-buttons{
+    width:25%;list-style: none;
+}
+.ui-keyboard-buttons .btn-del,
+.ui-keyboard-buttons .btn-ok{
+    text-align: center;line-height: 120px;font-size: 40px;
+}
+.ui-keyboard-buttons .btn-del{
+    height: 119px;
+}
+/*.btn-del:hover{
+    background: green;
+}*/
+.ui-keyboard-buttons .btn-ok{
+    height: 121px;
+    background-color: #54c153;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    border: 0;
+    padding: 0;
+}
+.ui-keyboard-buttons .btn-ok.gray{
+    background: #ddd;
+}

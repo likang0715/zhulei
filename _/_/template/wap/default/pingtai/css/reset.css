@@ -1,0 +1,128 @@
+/* 
+Reset Stylesheet 
+2015-09-18
+Author: iGeek
+Blog：http://lovejquery.com
+*/
+@charset "utf-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-family:"Microsoft Yahei","Sans-serif";
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+ol, ul { 
+    list-style: none; 
+} 
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+a,a:focus{text-decoration:none;color:#000;outline:none;blr:expression(this.onFocus=this.blur());}
+
+a:hover{color:#00a4ac;text-decoration:none;}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+textarea,input {
+  resize: none;
+  outline: none;
+}
+
+i,em{
+    font-style: normal;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+input[type=button], input[type=submit], input[type=select], input[type=text],input[type=checkbox],input[type=radio],textarea,button,input,select,textarea {
+  -webkit-appearance: none;
+  outline: none;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*Common CSS*/
+
+.pd5{padding:5px}
+
+.pd10{padding:10px}
+
+.pd20{padding:20px}
+
+.ml10{margin-left:10px}
+
+.ml20{margin-left:20px}
+
+.mr10{margin-right:10px}
+
+.mr20{margin-right:20px}
+
+.fl{float: left;}
+
+.fr{float: right;}
+
+.clear{clear: both;}
+
+.hide{display: none;}
+
+
+
+.cf:before, .cf:after { 
+  display: table;
+  content: ""; 
+} 
+.cf:after { 
+  clear: both; 
+} 
+.cf { 
+  zoom: 1; 
+  clear: both; 
+} 

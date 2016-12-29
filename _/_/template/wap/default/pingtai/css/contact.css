@@ -1,0 +1,110 @@
+.common_header img{
+    width: 1rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 0.6rem;
+}
+
+/*banner*/
+.contact_main{
+	
+}
+.contact_img{
+	width: 100%;
+	background: url(../images/contact_banner_bg.jpg) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.contact_img a.contact_zixun_01{
+	display: inline-block;
+	float: left;
+	width: 20%;
+	padding-top: 10%;
+	margin-left: 20%;
+}
+.contact_img a.contact_zixun_02{
+	display: inline-block;
+	float: right;
+	width: 20%;
+	padding-top: 10%;
+	margin-right: 20%;
+}
+.contact_img a p{
+	color: #fff;
+	line-height: 2rem;
+	text-align: center;
+	font-weight: normal;
+}
+/*热点问题*/
+.contact_hotproblem{
+	background: #fff;
+}
+.contact_hotproblem h3{
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+	text-align: center;
+	font-weight: normal;
+	margin:2% 0;
+	/*background: url(../images/contact_text_left.png) no-repeat center left;*/
+	/*background: url(../images/contact_text_right.png) no-repeat center right;*/
+}
+.contact_hotproblem h3 img{
+	width: 30%;
+	margin:0 0.4rem 0.5rem 0.4rem;
+}
+.contact_menu{
+    background: #ffffff;
+    overflow: hidden;
+}
+.contact_menu ul li{
+    width: 24%;
+    float: left;
+    margin: 0.6rem 0;
+    padding: 0!important;
+}
+.contact_menu ul li img{
+	margin-left: 20%;
+    width: 60%;
+    height: auto!important;
+}
+.contact_menu ul li p{
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+    line-height: 1.6rem;
+    height: 1.6rem;
+}
+/*其他问题*/
+.contact_otherproblem{
+	background: #fff;
+	margin: 3% 2% 0 2%;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+}
+.contact_otherproblem h3{
+	font-size: 1.2rem;
+	text-align: center;
+	font-weight: normal;
+	margin:2% 0;
+}
+.contact_otherproblem h3 img{
+	width: 30%;
+	margin:0 0.4rem 0.5rem 0.4rem;
+}
+.contact_otherproblem p{
+	margin: 0 3%;
+	line-height: 1.2rem;
+	padding: 0.7rem 0;
+	overflow: hidden;
+	font-weight: normal;
+	border-bottom: 1px solid #e0e0e0;
+}
+.contact_otherproblem p span{
+	color: #ff0000;
+}
+.contact_otherproblem p a{
+	float: right;
+}
+.contact_otherproblem .border_none{
+	border-bottom: none;
+}

@@ -1,0 +1,339 @@
+/* 
+Seller js
+2016-06-08
+Author: 东方盈
+Site：http://website-art.com
+*/
+.shop_details{
+    background-color: #eee;
+}
+.c_main{
+	width: 94%;
+	padding: 0 3%;
+}
+.shop_info_box{
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+.shop_thumb{
+	width: 100%;
+	margin-bottom: 8px;
+    background-color: #eee;
+}
+.shop_thumb img{
+	width: 100%;
+}
+.shop_title{
+    height: 36px;
+    overflow: hidden;
+}
+.shop_title>h3{
+	line-height: 36px;
+    font-size: 18px;
+    font-weight: normal;
+    float: left;
+}
+.shop_title .shop_address{
+	display: block;
+    float: left;
+    line-height: 36px;
+    color: #3F8A2D;
+    font-size: 14px;
+    margin-left: 6px;
+}
+.shop_title .shop_address>i{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url(../images/weizhi.png) no-repeat center;
+    background-size: 20px;
+    padding: 8px 0;
+    float: left;
+}
+.shop_title .shop_address>span,.shop_title .shop_address>a{
+    float: left;
+    color: #3F8A2D;
+}
+.shop_time{
+    line-height: 24px;
+    color: #999;
+}
+.shop_time span{
+    line-height: 24px;
+    color: #999;
+    display: block;
+    padding-left: 24px;
+    background: url(../images/time.png) no-repeat left;
+    background-size: 20px;
+}
+.shop_desc{
+    line-height: 20px;
+    color: #999;
+}
+.shop_desc span{
+    line-height: 20px;
+    display: block;
+    color: #999;
+}
+.shop_tables{
+	overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 56px;
+}
+.shop_tables h3.shop-table-t{
+    line-height: 42px;
+    height: 42px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+.shop_tables .shop-table-m{
+    overflow: hidden;
+}
+.shop_tables .shop-table-m .tables-tiem{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    display: block;
+}
+.shop_tables .shop-table-m .tables-tiem .tables-thumb{
+    min-height: 100px;
+    text-align: center;
+}
+.shop_tables .shop-table-m .tables-tiem .tables-thumb img{
+    position: relative;
+    max-height: 480px;
+    max-width: 100%;
+}
+.shop_tables .shop-table-m .tables-tiem .tables-text{
+    width: 240px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -121px;
+    margin-top: -61px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-top: 0;
+    color: #fff;
+}
+.shop_tables .shop-table-m .tables-tiem .tables-text .tables-contain{
+}
+.shop_tables i.tables-contain-before{
+    position: absolute;
+    width: 94px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    left: 0;
+    top: 1px;
+}
+.shop_tables i.tables-contain-after{
+    position: absolute;
+    width: 94px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    right: 0;
+    top: 1px;
+}
+.shop_tables span.tables-contain-main{
+    font-size: 14px;
+    width: 48px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -9px;
+}
+.shop_tables h4.tables-title{
+    display: block;
+    font-size: 20px;
+    line-height: 48px;
+    font-weight: bold;
+}
+.shop_tables p.tables-desc{
+    font-size: 16px;
+    line-height: 18px;
+}
+.shop_tables .tables-btn{
+    width: 100%;
+    height: 24px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+    top: 50%;
+    margin-top: 50px;
+}
+.shop_tables .tables-order-btn{
+    width: 80px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 1px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    line-height: 24px;
+    color: #461a0f;
+    font-size: 14px;
+}
+
+/*底部链接*/
+.shop_bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 640px;
+}
+.shop_bottom_nav{
+    position: relative;
+    background: #fff;
+    height: 3rem;
+    line-height:3rem;
+}
+.shop_bottom_nav ul{
+	width: 100%;
+}
+.shop_bottom_nav ul li{
+	color: #333333;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    line-height: 3rem;
+}
+.shop_bottom_nav .nav_more{
+	width: 28%;
+	border-right: 1px solid #c2c2c2;
+	position: relative;
+}
+.shop_bottom_nav .nav_more div.list_more_show{
+	position: absolute;
+	bottom: 60px;
+	left: 18%;
+	width: 5rem;
+	background:#fff;
+	border:1px solid #dcdcdc;
+	border-radius: 0.2rem;
+}
+.shop_bottom_nav .nav_more div.list_more_show li{
+	padding:0 0.5rem;
+	margin: 0 0.2rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+.shop_bottom_nav .nav_more div.list_more_show li:last-child{
+	border-bottom: none;
+}
+.shop_bottom_nav .nav_more div li a{
+	text-align: center;
+	color: #333;
+	font-size: 0.9rem;
+	line-height: 2rem;
+}
+.list_more_show:before{
+	content: "";
+    border: 10px solid #000;
+    border-color: #fff transparent transparent transparent;
+    position: absolute;
+    bottom: -19px;
+    left: 38%;
+    z-index: 9;
+}
+.list_more_show:after{
+	content: "";
+    border: 10px solid #000;
+    border-color: #dcdcdc transparent transparent transparent;
+    position: absolute;
+    bottom: -20px;
+    left: 38%;
+    z-index: 8;
+}
+.shop_bottom_nav .nav_more div li:last-child a{
+	padding-bottom: 0.5rem;
+}
+.shop_bottom_nav .nav_tel{
+	width: 28%;
+}
+.shop_bottom_nav .nav_submit{
+	width: 44%;
+	color: #fff;
+	background-color: #3f8a2d;
+}
+.nav_more .more_toggle{
+	display: block;
+    background: url(../images/more_icon.png) no-repeat 29%;
+    text-indent: 20%;
+    background-size: 14%;
+}
+.nav_tel span{
+	display: block;
+    background: url(../images/tel.png) no-repeat 12%;
+    text-indent: 20%;
+    background-size: 14%;
+    color: #333;
+}
+.shop_form{
+	position: fixed;
+    width: 84%;
+    height: 250px;
+    left: 8%;
+    right: 8%;
+    top: 16%;
+    background-color: #fff;
+    border-radius: 4px;
+    z-index: 9999;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: none; 
+}
+.shop_form .form_title{
+    line-height: 48px;
+    font-size: 16px;
+    color: #666;
+    font-weight: normal;
+    padding: 0 4%;
+    background-color: #F8F8F8;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom: 1px solid #E6E6E6;
+    position: relative;
+}
+.shop_form .form_title>h4{
+	font-weight: normal;
+    color: #8F8FE8;
+}
+.shop_form .form_title>i.close_btn{
+	width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 4%;
+    top: 12px;
+    background: url(../images/close.png) no-repeat center;
+    background-size: 24px;
+    z-index: 9999;
+}
+.form_input{
+
+}
+.form_input input{
+	line-height: 24px;
+	padding: 9px 0;
+	height: 24px;
+	display: block;
+	margin: 16px 4%;
+	width: 92%;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	font-size: 14px;
+}
+.shop_btn input{
+	background-color: #3f8a2d;
+	color: #fff;
+}
+.shop_btn input:disabled{
+	background-color: #ccc;
+	color: #fff;
+}
+#Validform_msg{
+	display: none!important;
+}

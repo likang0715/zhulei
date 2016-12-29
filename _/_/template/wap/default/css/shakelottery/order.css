@@ -1,0 +1,240 @@
+/**publicsh time 2014-06-30 **/
+@charset "utf-8";
+/*订单信息填写页step1 style开始*/
+.inp_remark { width: 420px; height: 32px; border: 1px solid #e5e1e2; padding: 0 10px; line-height: 32px; }
+.f_red20 { color: #f35d5d; font-size: 20px; font-family: Arial; }
+.f_blue { color: #005ea7; font-size: 12px; font-weight: normal; }
+.bor_btn, .bor_btn:link, .bor_btn:visited { background: url(../images/icons.png) 0 -102px no-repeat; width: 127px; height: 26px; display: inline-block; text-decoration: none; color: #333; }
+.add_more { border-top: 1px solid #dedbdb; text-align: center; }
+.bor_btn .down_icon { background: url(../images/icons.png) -44px -99px no-repeat; width: 5px; height: 3px; position: absolute; top: 12px; left: 110px; }
+.bor_btn .up { background-position: -49px -99px; }
+.bg_yellow840 { background: #fff4d3; line-height: 28px; height: 28px; padding: 0 15px; margin-top: 15px }
+.inp145 { width: 125px; height: 26px; padding: 0 10px; border: 1px solid #CCC; line-height: 26px; }
+.inp315 { width: 315px; height: 26px; padding: 0 10px; border: 1px solid #CCC; }
+.new_add dl dt, .new_add dl dd { float: left; font-weight: normal; }
+.new_add dl dt { width: 90px; }
+.new_add dl dd { width: 715px; }
+.new_add dl { width: 100%; }
+.new_add dl:after { clear: both; content: "."; display: block; height: 0; visibility: hidden }
+.sel75 { /*width: 75px;*/ padding: 2px; height: 25px; border: 1px solid #CCC }
+.btn130_red, .btn130_red:link, .btn130_red:visited { width: 130px; text-decoration: none; height: 30px; background: #ff6559; border-radius: 4px; line-height: 30px; text-align: center; font-size: 14px; font-family: "Microsoft Yahei"; color: #FFF; display: inline-block; }
+.f_red { color: #f35d5d; }
+.pr { position: relative; left: 0; top: 0; }
+.tex_area { font-size: 12px; width: 650px; height: 60px; border: 1px solid #e4e1e1; padding: 5px; overflow: auto; resize: none }
+.edit_money { display: inline; }
+.edit_money li { padding: 2px 10px; cursor: pointer; background: #e5e5e5; color: #a7a7a7; font-size: 20px; font-family: Arial; margin: 0 10px 10px 0; float: left; }
+.edit_money .edit_money_up { padding: 2px 10px; background: #f35858; color: #fff; font-size: 20px; font-family: Arial; }
+.btn_red, .btn_red:link, .btn_red:visited { border-radius: 4px; font-size: 14px; font-family: "Microsoft Yahei"; text-decoration: none; padding: 3px 20px; background: #ff6559; color: #FFF; }
+.bor_t_li .f_blue { display: none }
+.bor_t_li .addrHover ,.bor_t_li .current{ background: #FFF4D3 }
+.bor_t_li .addrHover .f_blue,.bor_t_li .current .f_blue { display: inline; }
+
+.bor_t_li_auto { height: auto; }
+/*订单信息填写页step1 style开始*/
+/*订单信息确认页step2 style开始*/
+.table01 { width: 930px; margin-left: auto; margin-right: auto; border: 1px solid #eee; }
+.table01 thead th { height: 35px; background: #eee; text-align: left; padding-left: 10px; }
+.table01 tbody tr td { height: 50px; text-align: left; padding-left: 10px; }
+.common_tit .icon_ok { background: url(../images/icons.png) 0 -128px no-repeat; width: 30px; height: 22px; padding: 0 40px; margin-left: 20px; display: inline; }
+.f_red28 { font-size: 28px; font-family: Arial; color: #ed5e58; }
+.f_gery14 { font-size: 14px; color: #666; font-family: "Microsoft Yahei" }
+.total930 { width: 930px; text-align: right; margin: 30px 35px 0 35px; }
+.common_button .btn_grey {width: 100px; height: 38px; font-size: 16px; font-family: "Microsoft Yahei"; background: #e7e7e7; text-decoration: none; border-radius: 4px; line-height: 38px; text-align: center; color: #666;margin:0 5px;}
+.p20 { padding: 20px; }
+.hover_div { border: 1px solid #7bc0e0; background: #FFF; border-radius: 4px; padding: 20px; width: 360px; z-index: 11; position: absolute; top: -100px; -webkit-box-shadow: #d1d1d1 1px 1px 2px; -moz-box-shadow: #d1d1d1 1px 1px 2px; box-shadow: #d1d1d1 1px 1px 2px; }
+.hover_div p { text-indent: 20px; line-height: 20px; }
+.hover_div .icon_upb { background: url(../images/icons.png) -100px -31px no-repeat; position: absolute; width: 27px; height: 13px; left: 50%; top: 100% }
+.default_txt { padding-top: 20px; margin-top: -20px; }
+/*订单信息确认页step2 style结束*/
+/*订单信息确认页step4 style开始*/
+.bg_green { background: #f3ffec; border-top: 2px solid #7abd54; padding: 30px 40px 80px 40px; }
+.module_con .icon_ok { width: 41px; height: 31px; background: #999; margin: 0 20px; padding: 0 20px; }
+.btn_grey10, .btn_grey10:link, .btn_grey10:visited { display: inline-block; background: #f1f1f1; border: 1px solid #e0e0e0; border-radius: 4px; text-decoration: none; color: #888787; width: 132px; height: 32px; line-height: 32px; text-align: center; }
+.ok_right { float: left; width: 800px;}
+.ok_right p { margin-top: 10px; }
+.ok_right .mt30 { margin-top: 30px; }
+.ok_left { float: left; background: url(../images/icons.png) -100px 0 no-repeat; width: 60px; height: 31px; }
+.f_green18 { font-size: 18px; font-family: "Microsoft Yahei"; color: #7abd54; font-weight: normal; }
+.f_gery12, .f_gery12:link, .f_gery12:visited { font-size: 12px; color: #888787; text-decoration: none; }
+/*订单信息确认页step4 style结束*/
+
+.box_hm1{ width: 930px;margin:10px auto;}
+.box_hm1 .font18_hm{height: 35px;background: #eee;line-height: 34px; border-left:0;text-indent:10px;}
+
+/*订单取消页*/
+.order_cancel_text{ padding: 5px 0 5px 50px; }
+.order_cancel_bottom{ padding-bottom: 30px; }
+.order_cancel_left{padding-left: 20px}
+.order_cancel_process{padding: 10px 0;}
+.order_cancel_process .process_text{height: 20px; position: relative;}
+.order_cancel_process .process_text_1,
+.order_cancel_process .process_text_2,
+.order_cancel_process .process_text_3{position: absolute; width: 130px; text-align: center; height: auto; line-height: 20px; display: block;}
+.order_cancel_process .process_text_1{left: 246px; top:0;}
+.order_cancel_process .process_text_2{left: 436px; top:0;}
+.order_cancel_process .process_text_3{left: 626px; top:0;}
+.order_cancel_process .process_img{ height:40px; background-image: url(../images/process.png); background-repeat: no-repeat; background-position: center 0; }
+
+.order_cancel_process.step_1 .process_img{background-position: center 0;}
+.order_cancel_process.step_1 .process_text_1{color: #7ABD54}
+
+.order_cancel_process.step_2 .process_img{background-position: center -40px;}
+.order_cancel_process.step_2 .process_text_1{color: #7ABD54}
+.order_cancel_process.step_2 .process_text_2{color: #7ABD54}
+
+.order_cancel_process.step_3 .process_img{background-position: center -80px;}
+.order_cancel_process.step_3 .process_text_1{color: #7ABD54}
+.order_cancel_process.step_3 .process_text_2{color: #7ABD54}
+.order_cancel_process.step_3 .process_text_3{color: #7ABD54}
+
+/*add by zw 20151019*/
+.three .order_cancel_text{ padding: 5px 0 5px 50px; }
+.three .order_cancel_bottom{ padding-bottom: 30px; }
+.three .order_cancel_left{padding-left: 20px}
+.three .order_cancel_process{padding: 10px 0;}
+.three .order_cancel_process .process_text{height: 20px; position: relative;}
+.three .order_cancel_process .process_text_1,
+.three .order_cancel_process .process_text_2,
+.three .order_cancel_process .process_text_3{position: absolute; width: 130px; text-align: center; height: auto; line-height: 20px; display: block;}
+.three .order_cancel_process .process_text_1{left: 246px; top:0;}
+.three .order_cancel_process .process_text_2{left: 436px; top:0;}
+.three .order_cancel_process .process_text_3{left: 626px; top:0;}
+.three .order_cancel_process .process_img{ height:40px; background-image: url(../images/process.png); background-repeat: no-repeat; background-position: center 0; }
+
+.three .order_cancel_process.step_1 .process_img{background-position: center 0;}
+.three .order_cancel_process.step_1 .process_text_1{color: #7ABD54}
+
+.three .order_cancel_process.step_2 .process_img{background-position: center -40px;}
+.three .order_cancel_process.step_2 .process_text_1{color: #7ABD54}
+.three .order_cancel_process.step_2 .process_text_2{color: #7ABD54}
+
+.three .order_cancel_process.step_3 .process_img{background-position: center -80px;}
+.three .order_cancel_process.step_3 .process_text_1{color: #7ABD54}
+.three .order_cancel_process.step_3 .process_text_2{color: #7ABD54}
+.three .order_cancel_process.step_3 .process_text_3{color: #7ABD54}
+
+
+
+
+
+.four .order_cancel_text{ padding: 5px 0 5px 50px; }
+.four .order_cancel_bottom{ padding-bottom: 30px; }
+.four .order_cancel_left{padding-left: 20px}
+.four .order_cancel_process{padding: 10px 0;}
+.four .order_cancel_process .process_text{height: 20px; position: relative;}
+.four .order_cancel_process .process_text_1,
+.four .order_cancel_process .process_text_2,
+.four .order_cancel_process .process_text_3{position: absolute; width: 130px; text-align: center; height: auto; line-height: 20px; display: block;}
+.four .order_cancel_process .process_text_1{left: 246px; top:0;}
+.four .order_cancel_process .process_text_2{left: 436px; top:0;}
+.four .order_cancel_process .process_text_3{left: 626px; top:0;}
+.four .order_cancel_process .process_img{ height:40px; background-image: url(../images/process_four.png); background-repeat: no-repeat; background-position: center 0; }
+
+.four .order_cancel_process.step_1 .process_img{background-position: center 0;}
+.four .order_cancel_process.step_1 .process_text_1{color: #7ABD54}
+
+.four .order_cancel_process.step_2 .process_img{background-position: center -40px;}
+.four .order_cancel_process.step_2 .process_text_1{color: #7ABD54}
+.four .order_cancel_process.step_2 .process_text_2{color: #7ABD54}
+
+.four .order_cancel_process.step_3 .process_img{background-position: center -80px;}
+.four .order_cancel_process.step_3 .process_text_1{color: #7ABD54}
+.four .order_cancel_process.step_3 .process_text_2{color: #7ABD54}
+.four .order_cancel_process.step_3 .process_text_3{color: #7ABD54}
+
+/*add by zw 20151019*/
+.four .order_cancel_process .process_text_1{
+    left: 150px;
+}
+.four .order_cancel_process .process_text_2{
+    left: 340px;
+}
+.four .order_cancel_process .process_text_3{
+    left: 530px;
+}
+.four .order_cancel_process .process_text_4{
+    position: absolute;
+    width: 130px;
+    text-align: center;
+    height: auto;
+    line-height: 20px;
+    display: block;
+    left: 720px;
+}
+.four .order_cancel_process.step_4 .process_img{background-position: center -120px;}
+.four .order_cancel_process.step_4 .process_text_1{color: #7ABD54}
+.four .order_cancel_process.step_4 .process_text_2{color: #7ABD54}
+.four .order_cancel_process.step_4 .process_text_3{color: #7ABD54}
+.four .order_cancel_process.step_4 .process_text_4{color: #7ABD54}
+
+/* add by zw 2015-11-10*/
+.five .order_cancel_text{ padding: 5px 0 5px 50px; }
+.five .order_cancel_bottom{ padding-bottom: 30px; }
+.five .order_cancel_left{padding-left: 20px}
+.five .order_cancel_process{padding: 10px 0;}
+.five .order_cancel_process .process_text{height: 20px; position: relative;}
+.five .order_cancel_process .process_text_1,
+.five .order_cancel_process .process_text_2,
+.five .order_cancel_process .process_text_4,
+.five .order_cancel_process .process_text_5,
+.five .order_cancel_process .process_text_3{position: absolute; width: 130px; text-align: center; height: auto; line-height: 20px; display: block;}
+.five .order_cancel_process .process_text_1{left: 55px; top:0;}
+.five .order_cancel_process .process_text_2{left: 248px; top:0;}
+.five .order_cancel_process .process_text_3{left: 437px; top:0;}
+.five .order_cancel_process .process_text_4{left: 626px; top:0;}
+.five .order_cancel_process .process_text_5{left: 818px; top:0;}
+.five .order_cancel_process .process_img{ height:40px; background-image: url(../images/process_five.png); background-repeat: no-repeat; background-position: center 0; }
+
+.five .order_cancel_process.step_1 .process_img{background-position: center 0;}
+.five .order_cancel_process.step_1 .process_text_1{color: #7ABD54}
+
+.five .order_cancel_process.step_2 .process_img{background-position: center -40px;}
+.five .order_cancel_process.step_2 .process_text_1{color: #7ABD54}
+.five .order_cancel_process.step_2 .process_text_2{color: #7ABD54}
+
+.five .order_cancel_process.step_3 .process_img{background-position: center -80px;}
+.five .order_cancel_process.step_3 .process_text_1{color: #7ABD54}
+.five .order_cancel_process.step_3 .process_text_2{color: #7ABD54}
+.five .order_cancel_process.step_3 .process_text_3{color: #7ABD54}
+
+
+.five .order_cancel_process.step_4 .process_img{background-position: center -120px;}
+.five .order_cancel_process.step_4 .process_text_1{color: #7ABD54}
+.five .order_cancel_process.step_4 .process_text_2{color: #7ABD54}
+.five .order_cancel_process.step_4 .process_text_3{color: #7ABD54}
+.five .order_cancel_process.step_4 .process_text_4{color: #7ABD54}
+
+.five .order_cancel_process.step_5 .process_img{background-position: center -160px;}
+.five .order_cancel_process.step_5 .process_text_1{color: #7ABD54}
+.five .order_cancel_process.step_5 .process_text_2{color: #7ABD54}
+.five .order_cancel_process.step_5 .process_text_3{color: #7ABD54}
+.five .order_cancel_process.step_5 .process_text_4{color: #7ABD54}
+.five .order_cancel_process.step_5 .process_text_5{color: #7ABD54}
+
+.confirm { border-bottom: 1px dashed #e3e3e3; padding: 20px 0; }
+.confirm_bg{ width: 900px; margin: 0px auto; background: #f9f9f9; padding: 30px 15px; }
+.confirm_bg h2{ font-size: 14px; color: #444444; font-weight: bold; margin-bottom: 15px}
+.confirm_bg p{ color: #323232; line-height: 24px; margin-bottom: 5px}
+.confirm_bg .confirm_btn{border: none;-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; background: #ea544a; color: #fff; padding: 7px 20px; overflow: visible; margin: 0 10px; cursor: pointer; font-size: 14px; font-family: 'Microsoft Yahei', '微软雅黑' }
+.confirm_bg a{ color: #5b9fe2}
+.confirm_bg a:link{ color: #5b9fe2}
+.confirm_bg a:visited{ color: #5b9fe2}
+.confirm_bg a:hover{ color: #5b9fe2}
+.confirm_bg a:active{ color: #5b9fe2}
+
+.order_detail h1{ font-size: 16px;color: #444;padding: 0 75px 0 35px ; font-weight: bold; background: #eee; position: relative; width: 80px; height: 45px; line-height: 45px; left: -5px; margin: 10px 0 }
+.order_detail h1 .tag{ width: 16px; height: 45px; display: block;position: absolute;right: 0; top: 0;background: url("../images//arrow_left.png") no-repeat;}
+.order_detail dl{ padding-bottom: 15px; padding-left: 128px !important}
+.order_detail dt{ font-size: 14px; font-weight: bold}
+.order_detail ul .tr{ display: inline-block; width: 80px; text-align: right; margin-right: 15px}
+.table01 thead th.w100{ width:100px }
+
+/*zzy add on 1216*/
+.confirm-table{ width: 100%;text-align: left;margin-top: 20px; }
+.confirm-table tr,th{ line-height: 18px; font-size: 12px}
+.confirm-table th{ font-weight: bold}
+.confirm-table td{ padding: 4px 20px; vertical-align: top; line-height: 22px}
+.confirm-table .w130{ width: 130px}
+.confirm-table .w400{ width: 400px}
+.f-normal{ font-weight: normal}
+.expclass{ font-size: 12px;}

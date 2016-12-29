@@ -1,0 +1,606 @@
+/*轮播图*/
+.main_visual{
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+.main_image{
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	padding-bottom: 56%;
+}
+.main_image ul{
+	overflow:hidden;
+	position:absolute;
+	top:0;left:0
+}
+.main_image li{
+	float:left;
+	width:100%;
+}
+.main_image li img{
+	width: 100%;
+}
+div.flicking_con{
+	position:absolute;
+	top:13rem;
+	left:50%;
+	z-index:999;
+	height:21px;
+	margin:0 0 0 -31px;
+}
+div.flicking_con a{
+	float:left;
+	width:21px;
+	height:21px;
+	margin:0;
+	padding:0;
+	background:url('../images/btn_main_img.png') 0 0 no-repeat;
+	display:block;
+	text-indent:-1000px;
+}
+div.flicking_con a.on{
+	background-position:0 -21px;
+}
+#btn_prev,#btn_next{
+	z-index:11111;
+	position:absolute;
+	width:73px!important;
+	height:74px!important;
+	top:50%;
+	margin-top:-37px;
+	display:none;
+}
+#btn_prev{
+	background:url(../images/hover_left.png) no-repeat left top;
+	left:20px;
+}
+#btn_next{
+	background:url(../images/hover_right.png) no-repeat right top;
+	right:20px;
+}
+
+/*首页菜单*/
+.index_menu{
+	background: #ffffff;
+	overflow: hidden;
+}
+.index_menu ul li{
+	width: 18%;
+	float: left;
+	margin: 0.4rem 3.5%;
+	padding: 0!important;
+}
+.index_menu ul li img{
+	width: 70%;
+	margin-left: 15%;
+	height: auto!important;
+}
+.index_menu ul li p{
+	font-size: 0.8rem;
+	width: 100%;
+	text-align: center;
+	line-height: 1.6rem;
+	height: 1.6rem;
+}
+
+/*活动*/
+.index_act{
+	margin:0.6rem 0;
+	border-top: 1px solid #ebebeb;
+	background: #ffffff;
+}
+.index_act h3{
+	font-size: 0.8rem;
+	font-weight: normal;
+	line-height: 1.6rem;
+	max-height: 2rem;
+	color: #333;
+	padding-top: 1rem;
+	height: 1.8rem;
+	overflow: hidden;
+	text-align: center;
+}
+.index_act p{
+	font-size: 0.7rem;
+	line-height: 1.6rem;
+	max-height: 2rem;
+	color: #666;
+	padding-bottom: 0.8rem;
+	height: 1.6rem;
+	overflow: hidden;
+	text-align: center;
+}
+.index_act_l div{
+	height: 180px;
+	overflow: hidden;
+}
+.index_act_r div{
+	height: 85px;
+	overflow: hidden;
+}
+.index_act_b div{
+	height: 85px;
+	overflow: hidden;
+}
+.index_act_l p{
+	width: 100%;
+	text-align: center;
+}
+.index_act_l{
+	width: 49%;
+	height: 5.2rem;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+.index_act_l div{
+	position: relative;
+}
+.index_act_l img{
+	width: 90px;
+	height: 140px;
+	display: block;
+	margin:0 auto;
+}
+.index_act_l div,.index_act_r div,.index_act_b div{
+	background-color: #efefef;
+}
+.index_act_r{
+	width: 49%;
+	margin-bottom: 2%;
+}
+.index_act_r h3,.index_act_r p,.index_act_b h3,.index_act_b p{
+	width: 60%;
+}
+
+.index_act_r a:first-child div{
+	margin-bottom: 10px;
+}
+.index_act_r div{
+	position: relative;
+}
+.index_act_r img{
+	width: 75px;
+	height: 90px;
+	position: absolute;
+	top:12%;
+	right: 2%;
+}
+.index_act_b{
+	width: 100%;
+}
+.index_act_b a div{
+	width: 49%;
+	float: left;
+}
+.index_act_b a:first-child div{
+	margin-right: 2%;
+}
+.index_act_b div{
+	position: relative;
+}
+.index_act_b img{
+	width: 75px;
+	position: absolute;
+	top:12%;
+	right: 2%;
+}
+
+/*店铺推荐*/
+.index_teahouse_tuijian{
+
+}
+.index_teahouse_tuijian_t{ 
+	position: relative;
+	color: #333333;
+	background: url("../images/right_arrow.png") no-repeat 97% 0.8rem;  /* 右侧小箭头 */
+	background-size: auto 1rem;
+	padding: 0.8rem 3%;
+}
+.index_teahouse_tuijian_t h5{
+	width: 80%;
+	font-size: 1rem;
+	line-height: 1.2rem;
+	overflow: hidden;
+	border-left: 5px solid #51b338;
+	border-radius:2px;
+	display: block;
+	text-indent: 0.2rem;
+	color: #333333;
+	font-weight: normal;
+	padding-left: 1%;
+}
+.index_teahouse_tuijian_m{
+	padding: 2%;
+}
+.index_tuijian_l{
+	float: left;
+}
+.index_tuijian_con ul.index_tuijian_list>li{
+	padding: 0.5rem 3%;
+	margin-bottom: 0.4rem;
+	background: #fff;
+	border-top: 1px solid #e5e4e4;
+	border-bottom: 1px solid #e5e4e4;
+}
+.index_tuijian_con .index_tuijian_l{
+	padding-top: 2%;
+	padding-right: 3%;
+	float: left;
+	width: 23%;
+	height: auto;
+}
+.index_tuijian_con .index_tuijian_r{
+	float: left;
+	width: 70%;
+	height: auto;
+	padding-top:2%;
+}
+.index_tuijian_con .index_tuijian_r li{
+	font-size: 0.8rem;
+	font-weight: normal;
+	line-height: 1.6rem;
+	height: 1.6rem;
+	overflow: hidden;
+}
+.index_tuijian_con .index_tuijian_r li h3{
+	font-size: 0.9rem;
+	font-weight: normal;
+	color: #333333;
+	float: left;
+	padding-right: 0.8rem;
+}
+.index_tuijian_con .index_tuijian_r li:nth-child(1) span,.index_tuijian_con .index_tuijian_r li.index_discount span{
+	font-size: 0.6rem;
+	color: #fff;
+	border-radius: 2px;  
+	text-align: center;
+	width: 1rem;
+	height: 1rem;
+	line-height: 1rem;
+	display: inline-block;
+	margin-right: 1%;
+}
+.index_tuijian_con .index_tuijian_r span.index_tuan{
+	background-color: #2dc2fc;  
+}
+.index_tuijian_con .index_tuijian_r span.index_ding{
+	background-color: #d551f4;  
+}
+.index_tuijian_con .index_tuijian_r span.index_hui{
+	background-color: #fa2d40;  
+}
+.index_tuijian_con .index_tuijian_r ul li:nth-child(2),li:nth-child(4),li:nth-child(5) {
+	color: #666666;
+}
+.index_tuijian_con .index_tuijian_r ul li:nth-child(2) img {
+	width: 0.8rem;
+	height: 0.8rem;
+	display: inline-block;
+	float: left;
+	margin-right: 0.2rem;
+	padding-top: 0.4rem;
+}
+.index_tuijian_con .index_tuijian_r ul li:nth-child(3){
+	color: #999999;
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 0.2rem;
+}
+.index_tuijian_con .index_tuijian_r ul li:nth-child(3) span{
+	color: #666666;
+	float: right;
+	line-height: 1.5rem;
+}
+
+/*茶品分类*/
+.index_teatype{
+	
+}
+.index_teatype_t{  
+	position: relative;
+	color: #333333;
+	background: url("../images/right_arrow.png") no-repeat 97% 0.8rem;  /* 右侧小箭头 */
+	background-size: auto 1rem;
+	padding: 0.8rem 3%;
+}
+.index_teatype_t h5{
+	width: 80%;
+	font-size: 1rem;
+	line-height: 1.2rem;
+	overflow: hidden;
+	border-left: 5px solid #51b338;
+	border-radius:2px;
+	display: block;
+	text-indent: 0.2rem;
+	color: #333333;
+	font-weight: normal;
+	padding-left: 1%;
+}
+.index_teatype_m{
+	background: #fff;
+}
+.index_teatype_m table {
+	width: 100%;
+	margin: 1rem 0;
+}
+.index_teatype_m table tr td{
+	width: 25%;
+	padding: 0.4rem 0;
+	border: 1px solid #e0e0e0;
+	border-collapse: collapse;
+}
+.index_teatype_m table img{
+	width: 50%;
+	margin-left: 25%;
+	height: auto!important;
+}
+.index_teatype_m table tr td p{
+	text-align: center;
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+	height: 1.2rem;
+}
+.index_teatype_m table td.border_left{
+	border-left: none;
+}
+.index_teatype_m table td.border_right{
+	border-right: none;
+}
+/*茶会精选*/
+.index_teaparty{
+
+}
+.index_teaparty_t{
+	font-size: 1rem;
+	line-height: 1rem;
+	position: relative;
+	color: #333333;
+	background: url("../images/right_arrow.png") no-repeat 97% 0.8rem;  /* 右侧小箭头 */
+	background-size: auto 1rem;
+	padding: 0.8rem 2%;
+}
+.index_teaparty_t h5{
+	width: 80%;
+	font-size: 1rem;
+	line-height: 1.2rem;
+	overflow: hidden;
+	border-left: 5px solid #51b338;
+	border-radius:2px;
+	display: block;
+	text-indent: 0.2rem;
+	color: #333333;
+	font-weight: normal;
+	padding-left: 1%;
+}
+.index_teaparty_m{
+	margin-top: 2%;
+
+}
+.index_teaparty_m ul li{
+	background:#fff;
+	padding: 3%;
+	position: relative;
+	background: #ffffff;
+	margin-bottom: 0.5rem;
+	border-top: 1px solid #e5e4e4;
+	border-bottom: 1px solid #e5e4e4;
+}
+.index_teaparty_m ul li .index_teaparty_m_img{
+	width: 100%;
+	height: 0;
+	padding-bottom: 43%;
+	overflow: hidden;
+}
+.index_teaparty_m ul li .index_teaparty_m_img img{
+	width: 100%;
+	height: 0;
+	padding-top: 2%;
+	overflow: hidden;
+}
+.index_teaparty_m ul li h5{
+	max-height: 2rem;
+	padding: 0.4rem 20% 0.4rem 0.4rem;
+	position: relative;
+}
+.index_teaparty_m_label{
+	font-size: 1rem;
+	overflow: hidden;
+	position: relative;
+	line-height: 1.4rem;
+	padding-left: 0.4rem;
+}
+.index_teaparty_m_label p{
+	font-size: 0.9rem;
+	height: 1.4rem;
+	color: #666;
+	overflow: hidden;
+}
+.index_teaparty_m_label p span{
+	float: right;
+	width: 30%;
+	text-align: center;
+	line-height: 1rem;
+	color: red;
+}
+.index_teaparty_fuxiang {
+	position: absolute;
+	right: 1.8rem;
+	background: #fff;
+	width: 3rem;
+	height: 3rem;
+	text-align: center;
+	border-radius: 50%;
+	border: 2px solid #ebebeb;
+	top: -1.6rem;
+}
+.index_teaparty_fuxiang img{
+	width: 2rem;
+	margin-top: 0.5rem;
+	margin-left: 0.2rem;
+}
+.index_teaparty_m_label p.index_main_time{
+	line-height: 1.4rem;
+	background: url(../images/time.jpg) no-repeat center left;
+	background-size: 0.9rem auto;
+	padding-left: 5%;
+}
+
+/*附近*/
+.index_near{
+	margin-top: 0.8rem;
+	background: #ffffff;
+}
+.index_near_menu{
+	width: 100%;
+	line-height: 1.6rem;
+	overflow: hidden;
+	border-bottom: 1px solid #f5f2f2;
+}
+.index_near_menu li{
+	width: 25%;
+	margin: 0 4%;
+	float: left;
+	text-align: center;
+	font-size: 0.8rem;
+	line-height: 2rem;
+}
+.index_near_menu li.current{
+	border-bottom: 4px solid #cdc67c;
+}
+
+.index_near_con a{
+	display: block;
+	margin-bottom: 2%;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 2% 0;
+}
+.index_near_con .index_near_l{
+	padding-right: 3%;
+	float: left;
+	width: 22%;
+	height: auto;
+}
+.index_near_con .index_near_r{
+	float: left;
+	width: 75%;
+	height: auto;
+}
+.index_near_con .index_near_r h3{
+	overflow: hidden;
+	font-weight: normal;
+	line-height: 1.5rem;
+	overflow: hidden;
+	height: 1.5rem;
+	color: #333333;
+	padding-bottom: 0.2rem;
+	font-size: 0.9rem;
+	padding-right: 15%;
+}
+.index_near_con_03 .index_near_r h3{
+	overflow: hidden;
+    display: block;
+    height: 1.5rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 10%;
+}
+.index_near_con .index_near_r h3 span,.index_near_con .index_near_r p.index_discount span{
+	font-size: 0.6rem;
+	color: #fff;
+	border-radius: 2px;  
+	text-align: center;
+	width: 1rem;
+	height: 1rem;
+	line-height: 1rem;
+	display: inline-block;
+	margin-right: 1%;
+}
+.index_near_con .index_near_r h3 span.index_tuan,p.index_discount span.index_tuan{
+	margin-left: 3% ;
+	margin-right: 1% ;  
+	background-color: #2dc2fc;  
+}
+.index_near_con .index_near_r p{
+	font-size: 0.8rem;
+	color: #666666;
+	overflow: hidden;
+	line-height: 1.5rem;
+	height: 1.5rem;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.index_near_con .index_near_r p.index_discount span.index_tuan{
+	margin-left: 0 ; 
+}
+.index_near_con .index_near_r span.index_ding{
+	margin: 0 2% 0 1%;
+	background-color: #d551f4;  
+}
+.index_near_con .index_near_r span.index_hui{
+	margin-right: 1%;
+	background-color: #fa2d40;  
+}
+.index_near_con .index_near_r p.index_price img {
+	width: 0.8rem;
+	height: 0.8rem;
+	display: inline-block;
+	float: left;
+	margin-right: 0.2rem;
+	padding-top: 0.4rem;
+}
+.index_near_con_02 .index_near_r p.index_des{
+	overflow: hidden;
+	height: 3rem;
+}
+.index_near_con_01 .index_near_r p.index_dis{
+   color: #999999;
+   font-weight: normal;
+   padding-bottom:0.2rem;
+   border-bottom: 1px solid #e0e0e0;
+}
+.index_near_con_02 .index_near_r .index_dis{
+   color: #999999;
+   margin-bottom: 0.4rem;
+}
+.index_near_con_01 .index_near_r .index_dis span{
+	color: #666666;
+    float: right;
+}
+.index_near_con .hide{
+	display: none;
+}
+.index_near_con .hide a{
+	display: block;
+	margin: 2% 0;
+}
+.index_near_con_03 p.index_price span.cur_price{
+	float: left;
+	color: #999999;
+}
+.index_near_con_03 p.index_price span.old_price{
+	float: left;
+	color: #999999;
+	text-decoration: line-through;
+	margin-left: 10px;
+}
+.index_near_con_03 p.index_price span.delivery{
+	float: right;
+	color: #999999;
+}
+.index_near_con_03 p img{
+	width: 5%;
+	margin-right: 1%;
+}
+.index_near_con_02 p.index_time{
+	background: url(../images/time.jpg) no-repeat center left;
+	background-size: 0.9rem auto;
+	padding-left: 6%;
+}
+.index_near_con_02 p.index_time span{
+	color: #ff0f0f;
+	float: right;
+}
+.index_near_con .border_none{
+	border-bottom: none;
+}

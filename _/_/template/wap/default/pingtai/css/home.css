@@ -1,0 +1,127 @@
+.home_main{
+	
+}
+.home_title{
+	display: block;
+	overflow: hidden;
+	background-color: #51b338;
+}
+.home_title_l{
+	float: left;
+	width:70%;
+	padding: 3% 3%;
+}
+.home_title_l img{
+	padding-top: 5%;
+	width: 28%;
+	display: block;
+	float: left;
+}
+.home_title_l h3{
+	font-size: 1.2rem;
+	padding: 10% 0 3% 32%;
+	font-weight: normal;
+	color: #fff;
+}
+.home_title_l h4{
+	padding-left:42%;
+	font-weight: normal;
+	line-height: 2.6rem;
+	color: #fff;
+	background: url(../images/home_jifen.png) no-repeat 35% 50%;
+	background-size: 1.4rem auto;
+}
+.home_title_l h4 img{
+	width: 12%;
+}
+.home_title_r{
+	width: 20%;
+	float: right;
+}
+.home_title_r a.home_title_xinfeng{
+	width: 45%;
+	display: block;
+	padding-top: 40%;
+	padding-left: 25%;
+}
+.home_title_r a.home_title_shezhi{
+	line-height: 2rem;
+	color: #fff;
+	margin-top: 20%;
+	padding-left: 45%;
+	background: url(../images/home_shezhi.png) no-repeat 10% 50%;
+	background-size: 1.4rem auto;
+	background-color: #2c9411;
+	border-radius: 2rem 0 0 2rem;
+}
+
+
+/*我的订单*/
+.home_main_t{
+	background: #fff;
+	margin-top:2%; 
+}
+.home_main_t .home_main_con{
+	border-bottom: 1px solid #e0e0e0;	
+}
+.home_main_t .home_main_con h3{
+	line-height: 1rem;
+	padding: 3% 4%;
+	font-weight: bold;
+	width: 50%;
+	float: left;
+	color: #333333;
+}
+.home_main_t .home_main_con a{
+	line-height: 1rem;
+	padding: 3% 4%;
+	font-size: 0.9rem;
+	color: #999999;
+	float: right;
+	display: inline-block;
+}
+
+.home_main_t .home_main_pic ul li{
+	width: 20%;
+    float: left;
+    margin: 0.2rem 0;
+    padding: 0!important;
+}
+.home_main_t .home_main_pic ul li img{
+    width: 40%;
+    padding-left: 30%;
+    text-align: center;
+    height: auto!important;
+}
+.home_main_t .home_main_pic ul li p{
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+    line-height: 1.6rem;
+    height: 1.6rem;
+}
+
+/*更多功能*/
+.home_more{
+	margin-top:3%; 
+    background: #ffffff;
+    overflow: hidden;
+}
+.home_more ul li{
+    width: 17%;
+    float: left;
+    margin: 0.6rem 4%;
+    padding: 0!important;
+}
+.home_more ul li img{
+    width: 60%;
+    margin-left: 20%;
+    height: auto!important;
+}
+.home_more ul li p{
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+    line-height: 1.6rem;
+    height: 1.6rem;
+}

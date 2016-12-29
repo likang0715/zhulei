@@ -1,0 +1,121 @@
+/* CSS Document */
+body{	font-family: "Microsoft YaHei"; font-size:12px; text-align:center; line-height:25px; width:100%;}
+*{	margin: 0;	padding: 0;}
+a:link {color: #151515;	text-decoration: none;}
+a:visited {	text-decoration: none;	color: #151515;}
+a:hover {text-decoration: none;	color: #62fe7f;}
+a:active {	text-decoration: none;	color: #151515;}
+form, input, button,img ,textarea,select{	border: 0;font-family: "Microsoft YaHei";  }
+button{background:transparent;}
+ul,li,ol{ padding:0; list-style:none; }
+ 
+i, em {  font-style: normal;}
+
+.header{ width:100%;  min-width:1210px;}
+.header_header{ width:100%; background:#ededed; height:30px; line-height:30px; font-size:12px; }
+.header .header_header .header_top{ width:1210px; margin:0 auto}
+.header .header_header .header_top:after{content:"";display:block;clear:both;} 
+.header .header_header .header_top .header_login{ float:left;}
+.header .header_header .header_top .header_login:after{content:"";display:block;clear:both;} 
+.header .header_header .header_top .header_login li{ float:left; padding-right:18px;}
+.header .header_header .header_top .header_login li a{ color:#6c6c6c }
+.header .header_header .header_top .header_login li a:hover{ color:#f63b3b }
+.header .header_header .header_top .header_login li a.header_login_cur{ color:#f63b3b}
+.header .header_header .header_top .header_list{ float:right;}
+.header .header_header .header_top .header_list:after{content:"";display:block;clear:both;} 
+.header .header_header .header_top .header_list li{ float:left;  padding-right: 18px;}
+.header .header_header .header_top .header_list li a{ color:#6c6c6c }
+.header .header_header .header_top .header_list li a:hover{ color:#ffba41 }
+.header .header_header .header_top .header_list li a.header_list_cur{ color:#ffba41}
+.header .header_header .header_top .header_list li span{  }
+
+.header .header_nav{ width:1210px; margin:0 auto; height:130px; padding:10px 0;}
+.header .header_nav:after{content:"";display:block;clear:both;} 
+.header .header_nav .header_logo{ width:235px; height:70px; float:left}
+.header .header_nav .header_logo img{ width:235px; height:70px; margin-top: 21px;}
+.header .header_nav .header_ad{ float:left; text-align:left; margin-left:30px;    margin-top: 30px;}
+.header .header_nav .header_ad h3{ font-size:18px; color:#333;    margin-bottom: 4px;}
+.header .header_nav .header_ad span{   display:inline-block;}
+.header .header_nav .header_ad span:nth-child(1){font-size:12px; color:#999; padding:0 4px;border:1px solid #999;border-radius:1px; line-height:18px}
+.header .header_nav .header_ad span:nth-child(2){font-size:14px; color:#00bb88; margin-left:20px;}
+.header .header_nav .header_ad span:nth-child(2) i{ background:url(../images/ad_03.png); background-size:100%; width:17px; height:22px; vertical-align: middle; margin-top:-2px; margin-right:2px; display:inline-block;}
+.header .header_nav .header_search{ float:left; width:486px; height:auto; margin-left:32px;  color:#fff; line-height:40px;  margin-top: 38px;}
+.header .header_nav .header_search form{width:486px; height:40px;  background:#00bb88;}
+.header .header_nav .header_search form:after{content:"";display:block;clear:both;} 
+.header .header_nav .header_search:after{content:"";display:block;clear:both;} 
+.header .header_nav .header_search .header_search_left{ float:left; width:65px;   cursor:pointer; position:relative;height:40px; }
+.header .header_nav .header_search .header_search_left .header_search_left_list{ position:absolute; border: 1px solid #e5e5e5; display:none ;  left: 0;  top: 40px;}
+.header .header_nav .header_search .header_search_left:hover .header_search_left_list{ display: block}
+.header .header_nav .header_search .header_search_left .header_search_left_list li{  border-top: 1px solid #efefef; width:65px; background:#fff; line-height:30px;}
+.header .header_nav .header_search .header_search_left .header_search_left_list li a{ color:#999; }
+.header .header_nav .header_search .header_search_left .header_search_left_list li:hover{ background:#efefef}
+.header .header_nav .header_search .header_search_left span{ display:block; width:15px; height:15px; background:url(../images/weidian_icon.png) 528px -127px; float:right; margin:9px 10px 0 -13px; _margin:0;_display: none}
+.header .header_nav .header_search .header_search_left:hover span{background:url(../images/weidian_icon.png) 510px -127px;}
+.header .header_nav .header_search .header_search_left:after{content:"";display:block;clear:both;} 
+.header .header_nav .header_search_input{ width:346px; height:32px; float:left;padding-top: 4px;}
+.header .header_nav .header_search_input input{ width:336px; height:32px; *margin-top:-8px;_margin-top:0px; padding-left:10px; font-size:12px;}
+.header .header_nav .header_search_button{ width:65px; height:40px; float:left;}
+.header .header_nav .header_search_button button{ width:65px; height:40px;  background: transparent;  color: #fff;  line-height: 40px; text-align:left;}
+.header .header_nav .header_search_button span{display:block; width:20px; height:20px; background:url(../images/weidian_icon.png) 569px -125px; float:left;  margin:11px 4px;}
+.header .header_nav .header_search .header_search_button:after{content:"";display:block;clear:both;} 
+.header .header_nav .header_search .header_search_list{ float:right;width:100%;height:40px;}
+.header .header_nav .header_search .header_search_list li{ float:left; padding-right:20px;}
+.header .header_nav .header_search .header_search_list li a{ color:#6c6c6c}
+.header .header_nav .header_search .header_search_list li.hotKeyword a{ color:#00bb88}
+.header .header_nav .header_search .header_search_list li a:hover{ color:#00bb88; }
+.header .header_nav .header_search .header_search_list:after{content:"";display:block;clear:both;} 
+.header .header_nav .header_shop{ float:right; margin-right:52px; width:130px; height:130px;}
+.header .header_nav .header_shop img{width:130px; height:130px;}
+
+.address_content{border-top:2px solid #0b8; background:#f0f0f0;  padding-bottom: 300px;}
+.address_content dl{border:1px solid #e1e1e1; background:#fff; width:1200px; margin:0 auto; margin-top:8px;}
+.address_content dl dt{ background:#f7f7f7;padding:21px 12px;}
+.address_content dl dt .address_name{font-size: 18px; color:#000; float:left;    border-right:1px solid #e1e1e1; padding-right: 15px;}  
+.address_content dl dt .address_name span{ padding-left: 10px;font-size: 30px; color:#00bb88;}
+.select{ float:left;margin-left:15px; font-size: 16px;}
+.select select{ margin-left:5px;border:1px solid #e1e1e1; line-height: 30px;min-width: 100px;line-height: 30px}
+.select button{ margin-left:5px; border-radius: 3px; color:#fff; background:#0b8; font-size: 14px; line-height: 30px; padding:0 32px;}
+.select input{ line-height: 30px; border:1px solid #e1e1e1; background:#fff; width:200px; padding-left:5px; height:30px;}
+.address_content dl dd{padding:16px 12px; font-size: 14px; color:#565656; text-align: left;font:14px/22px Microsoft Yahei; font-weight:800;}
+.address_content dl dd{ line-height: 30px;border-top:1px solid #e1e1e1;}
+.address_content dl dd span{ display:inline-block;}
+.address_content dl dd i{ padding: 0 10px; display:inline-block; margin-right:10px;}
+.address_content dl dd i a{ color:#666;}
+.address_content dl dd i.city{background:#f7f7f7; border:1px solid #e1e1e1; border-radius: 2px; padding:0; width:30px; text-align: center }
+.address_content dl dd i.city.active{background:#0b8; border:1px solid transparent; }
+.address_content dl dd.on{ background:#f7f7f7;}
+.address_content dl dd.on i.city{background:#0b8; color:#fff;}
+.address_content dl dd:hover{background:#f7f7f7; }
+.address_content dl dd:hover  i.city{background:#0b8; color:#fff;}
+.address_content dl dd i:hover{ background:#0b8; color:#fff; cursor: pointer;}
+.address_content dl dd i:hover a{color:#fff;}
+
+
+.layer{ position: fixed; left:0; top:0; background:rgba(0,0,0,.5); width:100%; height:100%; z-index: 99999}
+.address_layer{ border:1px solid #e1e1e1; width:944px; position: fixed; top:50%; left:50%; margin-top:-340px; margin-left:-472px; z-index: 99}
+.address_title{ padding:34px 28px; font-size: 24px; color:#565656; background:#f7f7f7;}
+.address_title h4{font-weight: normal; float:left;}
+.address_title p{    line-height: 16px;    vertical-align: bottom;    display: inline-block;    margin-top: 9px;margin-left:5px; color:#999; font-size: 14px; float:left;}
+.address_title i{ position: absolute; right:29px; top:35px; display:inline-block; background:url(../images/ad_icon_03.png); width:24px; height:24px;}
+.address_select{    padding: 25px 13px;  border-top: 1px solid #e1e1e1; border-bottom: 1px solid #e1e1e1; background:#fff;}
+.address_map{ height:454px; position: relative;}
+.address_map i.address_icon{ background:url(../images/ad_icon_11.png);display:inline-block; width:65px; height:62px; position: absolute; top: 50%; left:50%;}
+.address_map .address_info{padding:10px; background:#fff; border:1px solid #e1e1e1; border-radius: 3px; font-size: 16px; color:#333333; position: absolute; left:100px;top:100px;}
+.address_map .address_info i{ background:url(../images/ad_icon_07.png);display:inline-block; width:12px; height:12px; position: absolute; bottom:-11px; left:50px;}
+.address_map .address_info button{ margin-left:5px; border-radius: 5px; color:#fff; background:#0b8; font-size: 14px; line-height: 30px; padding:0 32px }
+.footer1 { left: 0; width: 100%; min-width: 1210px; bottom: 0px; background: #f4f4f4; color: #656565; margin-top: 100px; padding: 35px 0;  height: 140px;}
+.footer_txt { width: 1210px; margin:0 auto;}
+.footer_list {  display: inline-block;margin: 0 auto;  margin-bottom: 20px;}
+.footer_list{*display: inline;}
+.footer_list ul:after{ content:""; height:0; clear:both; display:block}
+.footer_list span { padding: 0 10px}
+.footer_list li { float: left}
+.footer_txt { width: 1210px; text-align: center}
+/*@media(max-width:1500px) {
+	.header{ width:100%;  min-width:1000px;}
+	.header .header_header .header_top{ width:1000px; margin:0 auto}
+	.header .header_nav{ width:1000px;}
+	.header .header_nav .header_search { margin-left:43px;}
+	.footer1 {  min-width: 1000px;}
+	.footer_txt { width: 1000px;}
+	  }*/

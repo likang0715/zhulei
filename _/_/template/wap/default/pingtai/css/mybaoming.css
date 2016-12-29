@@ -1,0 +1,172 @@
+.main{
+	border-bottom: none;
+}
+
+.common_header img.common_header_exit{
+    width: 1rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 0.6rem;
+}
+.common_header img.common_header_xinfeng{
+    width: 8%;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.8rem;
+}
+
+.index_near_menu{
+    width: 100%;
+    line-height: 1.6rem;
+    overflow: hidden;
+    border-bottom: 1px solid #e0e0e0;
+    background: #fff;
+}
+.index_near_menu li{
+    width: 14%;
+    padding: 1% 3%;
+    float: left;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 2rem;
+}
+.index_near_menu li.current{
+	color:#d83c48;
+    border-bottom: 3px solid #d83c48;
+}
+
+.index_near_con .myBaoming_con_text{
+	margin: 2% 0;
+    padding: 2% 0 2% 7%;
+    /*border: 1px solid #e3e3e3;
+    border-radius: 0.5rem;
+    background: #fff;*/
+    background: url(../images/home_baoming_bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.myBaoming_con_02 .myBaoming_con_text{
+    background: url(../images/home_baoming_bg02.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.myBaoming_con_03 .myBaoming_con_text{
+    background: none;
+}
+.myBaoming_con_05 .myBaoming_con_text{
+    background: url(../images/home_baoming_bg03.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.myBaoming_con_text h3{
+	width: 75%;
+	overflow: hidden;
+    font-weight: normal;
+    line-height: 1.8rem;
+}
+.myBaoming_con_text p{
+	font-size: 0.9rem;
+    color: #666666;
+    overflow: hidden;
+    line-height: 1.8rem;
+}
+.myBaoming_con_text p span{
+   color: #d83c48;
+}
+
+.myBaoming_con_01 a.cancel{
+	color: #cf6b29;
+	font-size: 0.9rem;
+	float: right;
+	margin-right:8%; 
+}
+.myBaoming_con_02 a.getticket{
+	float: right;
+	color: #fff;
+	background-color: #f0b560;
+	padding: 0.5% 2%;
+	border-radius: 0.5rem;
+	margin-right:9%;
+}
+.myBaoming_con_02 a.cancel{
+	color: #299fcf;
+	float: right;
+	margin-right:9%; 
+}
+.myBaoming_con_01 span.myBaoming_icon,.myBaoming_con_04 span.myBaoming_icon{
+	font-weight: normal;
+	height: 35%;
+	padding-top: 5%;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	top:0;
+	left: 80%;
+	background: url(../images/myBaoming_icon_01.png) no-repeat;
+	background-size: contain;
+}
+.myBaoming_con_02 span.myBaoming_icon{
+	font-weight: normal;
+	width: 12%;
+	height: 35%;
+	padding-top: 3%;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	top:0;
+	left: 80%;
+	background: url(../images/mybaoming_icon_02.png) no-repeat;
+	background-size: contain;
+}
+.myBaoming_con_05 span.myBaoming_icon{
+	font-weight: normal;
+	height: 35%;
+	padding-top: 5%;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	top:0;
+	left: 80%;
+	background: url(../images/mybaoming_icon_03.png) no-repeat;
+	background-size: contain;
+}
+.myBaoming_con_05 .myBaoming_con_text p span{
+	color: #666666;
+}
+.index_near_con .hide{
+    display: none;
+}
+.myBaoming_con_02 h4{
+	font-weight: normal;
+    line-height: 2rem;
+}
+.myBaoming_con_02 h4 span{
+	color: #299fcf;
+}
+.myBaoming_con_02 p.tel{
+	padding-left: 15%;
+	font-weight: normal;
+    line-height: 2rem;
+}
+.myBaoming_con_03 .myBaoming_con_text{
+	border:none;
+}
+.myBaoming_con_03 img{
+    width: 50%; 
+    padding-left: 25%;
+}
+.myBaoming_con_03 p{
+    color: #666666;
+    text-align: center;
+}
+.myBaoming_con_03 h4{
+    color: #2744d5;
+    text-align: center;
+    line-height: 1.8rem;
+}
+.myBaoming_con_05 h4{
+    color: #cccd34;
+    font-weight: normal;
+    line-height: 2.4rem;
+    border-top: 1px dotted #e0e0e0;
+}

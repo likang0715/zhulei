@@ -1,0 +1,133 @@
+/*导航部分*/
+.teahouse_nav{
+    background: #ffffff;
+    border-bottom:1px solid #eaeaea;
+}
+.teahouse_nav ul{
+    
+}
+.teahouse_nav ul li{
+    width: 25%;
+    float: left;
+    color: #333333;
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 2.6rem;
+    position: relative;
+}
+.drop_sanjiao{
+    position: absolute;
+    top:2.5rem;
+    left: 50%;
+}
+.teahouse_nav .nav_zonghe span{
+    position: relative;
+}
+.teahouse_nav .nav_zonghe span i{
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    right: -0.9rem;
+    top:0.3rem;
+    background: url(../images/down_icon.png) no-repeat center;
+    background-size: contain;
+}
+.teahouse_nav .nav_detail span i{
+    position: absolute;
+    width: 1.2rem;
+    height: 1rem;
+    left: 0.8rem;
+    top:0.7rem;
+    background: url(../images/shaixuan_icon.png) no-repeat center;
+    background-size: contain;
+}
+.teahouse_nav .nav_current{
+    color: #51b338;
+}
+.teahouse_con_a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    z-index: 9;
+    display: none;
+    left: 0;
+}
+/*主体部分*/
+.teahouse_con a{
+    background: #fff;
+    margin: 2% 0;
+    border-top: 1px solid #e5e4e4;
+    border-bottom: 1px solid #e5e4e4;
+}
+.teahouse_con .teahouse_main_l{
+    padding: 3%;
+    float: left;
+    width: 22%;
+    height: auto;
+}
+.teahouse_con .teahouse_main_r{
+    float: left;
+    width: 68%;
+    height: auto;
+    padding: 3% 3% 3% 0;
+}
+.teahouse_con .teahouse_main_r h3{
+    overflow: hidden;
+    font-weight: normal;
+    line-height: 1.6rem;
+    overflow: hidden;
+    height: 1.6rem;
+    color: #333333;
+}
+.teahouse_con .teahouse_main_r h3 span, .teahouse_con .teahouse_main_r p.index_discount span{
+    font-size: 0.6rem;
+    color: #fff;
+    border-radius: 2px;  
+    text-align: center;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    display: inline-block;
+    margin-right: 1%; 
+}
+.teahouse_con .teahouse_main_r h3 span.index_tuan,.teahouse_con .teahouse_main_r p span.index_tuan{
+    margin-left: 3% ;
+    margin-right: 1% ;
+    background-color: #2dc2fc;  
+}
+.teahouse_con .teahouse_main_r p{
+    font-size: 0.8rem;
+    color: #666666;
+    overflow: hidden;
+    line-height: 1.6rem;
+    height: 1.6rem;
+}
+.teahouse_con .teahouse_main_r p span.index_tuan{
+    margin-left: 0 ; 
+}
+.teahouse_con .teahouse_main_r span.index_ding{
+    margin: 0 2% 0 1%;
+    background-color: #d551f4;  
+}
+.teahouse_con .teahouse_main_r span.index_hui{
+    margin-right: 1%;
+    background-color: #fa2d40;  
+}
+.teahouse_con .teahouse_main_r p.index_price img {
+    width: 0.8rem;
+    height: 0.8rem;
+    display: inline-block;
+    float: left;
+    margin-right: 0.2rem;
+    padding-top: 0.4rem;
+}
+.teahouse_con .teahouse_main_r p.index_dis{
+    color: #999999;
+    padding-bottom:0.2rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+.teahouse_con .teahouse_main_r p.index_dis span{
+    color: #999999;
+    float: right;
+}

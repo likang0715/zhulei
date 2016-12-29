@@ -1,0 +1,41 @@
+@charset "utf-8";
+.signform_table { width: 673px;}
+.signform_item td { padding-top: 15px }
+.signform_col_dt { width: 156px }
+.signform_dt { position: relative; color: #5D5D5D; font-size: 16px; vertical-align: middle }
+.signform_dt:before { content: ''; display: inline-block; width: 5px; height: 5px; vertical-align: middle; margin-right: 4px }
+.require .signform_dt:before { background-image: url(https://mp.toutiao.com/static/resource/pgc_web/static/style/image/form_require.92ba6b9.png) }
+.signform_input.error, .signform_text.error { -webkit-box-shadow: 0 0 6px #F74937; -moz-box-shadow: 0 0 6px #F74937; box-shadow: 0 0 6px #F74937; border-color: #F74937 }
+.signform_input { outline: 0; width: 100%; height: 38px; line-height: 38px; border: 1px solid #ccc; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: block; text-indent: 17px }
+.signform_text { outline: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 100%; min-height: 118px; border: 1px solid #ccc; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: block; padding: 10px 17px; resize: vertical }
+.signform_msg { margin: 5px 0; color: #F74937 }
+.signform_inlinemsg { color: #F74937 }
+.signform_hint { margin: 5px 0; color: #9E9E9E }
+.signform_face { position: relative; height: 128px }
+.signform_face_img { display: block; max-width: 128px; max-height: 128px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px }
+.signform_face_btn { position: absolute; cursor: pointer; top: 0; left: 150px; width: 100px; line-height: 34px; text-align: center; background: #F0F1F3; color: #9E9E9E; font-size: 14px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px }
+.signform_face_btn:hover { background: #e4e5e7 }
+.signform_face_text { position: absolute; left: 150px; bottom: -1px; color: #9E9E9E }
+.signform_face_msg { color: #F74937; position: absolute; top: 40px; left: 150px }
+.signform_checktags td { padding-top: 10px }
+.signform_checktags_div { padding: 10px 0 }
+.signform_checktags_div .form1_checkbox { display: inline-block; margin-right: 20px; line-height: 30px }
+.signform_weixin_tr label { line-height: 30px }
+.signform_agree_tr td { padding: 15px 0 }
+.signform_btn { cursor: pointer; display: inline-block; color: #fff; width: 164px; font-size: 18px; line-height: 40px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; text-align: center; -webkit-box-shadow: 0 2px 2px 0 #D8D7D7; -moz-box-shadow: 0 2px 2px 0 #D8D7D7; box-shadow: 0 2px 2px 0 #D8D7D7; background: #FF6557 }
+.signform_btn:hover { background: #ff746e }
+.signform_btn:active { background: #ff635c; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none }
+.signform_btn.disabled { cursor: default; background: #F0F1F3; color: #BEBEBE; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none }
+.signform_back { color: #9E9E9E; background: #F0F1F3; margin-right: 36px }
+.signform_back:hover { background: #fafafa }
+.signform_back:active { background: #e2e4e7 }
+.signform_id_item .signform_input { width: 450px; display: inline-block }
+.signform_id_item_msg { margin-bottom: 10px }
+.signform_id_add.widget_btn_cancel { line-height: 34px; width: 120px; font-size: 14px }
+.signform_images_btn.widget_btn_cancel { line-height: 34px; width: 120px; font-size: 14px; margin-top: 3px }
+.signform_images_btn.widget_btn_cancel:before { content: '上传图片' }
+.signform_images_btn.widget_btn_cancel.loading:before { content: '上传中...' }
+.signform_images_item { position: relative; display: inline-block; margin: 10px 15px 0 0; vertical-align: top }
+.signform_images_item_img { max-width: 100px; max-height: 100px }
+.signform_images_item_del { position: absolute; right: -9px; top: -9px; width: 18px; height: 18px; cursor: pointer; background: url(https://mp.toutiao.com/static/resource/pgc_web/static/style/image/close2.97e439e.png) }
+

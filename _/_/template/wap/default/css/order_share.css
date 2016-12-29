@@ -1,0 +1,21 @@
+div.peerpay-gift{text-align:left}
+div.peerpay-gift h2{padding-top:5px;line-height:18px;font-size:12px;color:#999;padding-left:10px}
+div.peerpay-gift textarea{color:#ccc;width:100%;height:60px}
+div.peerpay-gift div.invite-message{padding:0 22px 0 10px}
+div.peerpay-gift div.invite-message textarea{height:60px;font-size:14px}
+div.peerpay-gift .steps{height:70px;padding-top:60px}
+div.peerpay-gift .steps .step{position:relative;margin:0 auto;background:url("../images/peerpay_steps.png") no-repeat center center}
+div.peerpay-gift .steps .step-x{position:relative;height:34px;float:left}
+div.peerpay-gift .steps .step-3{width:33.33%}
+div.peerpay-gift .steps .step-3-1{background-position:0 0;width:34px;height:34px}
+div.peerpay-gift .steps .step-3-2{background-position:0 -84px;width:34px;height:34px}
+div.peerpay-gift .steps .step-3-3{background-position:0 -168px;width:34px;height:34px}
+div.peerpay-gift .steps .step-4{width:24.9%}
+div.peerpay-gift .steps .step-4-1{background-position:0 -252px;width:34px;height:34px}
+div.peerpay-gift .steps .step-4-2{background-position:0 -336px;width:34px;height:34px}
+div.peerpay-gift .steps .step-4-3{background-position:0 -420px;width:34px;height:34px}
+div.peerpay-gift .steps .step-4-4{background-position:0 -504px;width:34px;height:34px}
+div.peerpay-gift .steps p{font-size:12px;color:#999;line-height:25px}
+div.peerpay-gift .steps hr{position:absolute;margin:0;top:15px;width:100%;border:0px none;border-bottom:2px solid #e4e4e4}
+.block-list.block-list-peerpay .block-item{padding:5px 0}
+

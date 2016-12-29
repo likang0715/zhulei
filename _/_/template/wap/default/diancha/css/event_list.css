@@ -1,0 +1,309 @@
+body.overHide{
+    overflow: hidden!important;
+}
+/*公共头部*/
+.common_header{
+    line-height: 3rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    background: #51b338;
+}
+.common_header h5{
+    font-weight: normal;
+}
+.common_header img.common_header_back{
+    width: 1rem;
+    position: absolute;
+    left: 0.6rem;
+    top: 0.6rem;
+    display: block;
+}
+/*筛选部分*/
+.event_search{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 16px;
+    color: #666;
+    z-index: 9999;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eee;
+}
+.event_search ul.search_menu{
+    height: 48px;
+}
+.event_search ul.search_menu li{
+    background-color: #fff;
+    height: 28px;
+    overflow: hidden;
+    width: 33.333%;
+    text-align: center;
+    float: left;
+    line-height: 28px;
+    padding: 10px 0;
+    overflow: hidden;
+    color: #68686a;
+}
+.event_search ul.search_menu li.center_item{
+    height: 48px;
+}
+.event_search ul.search_menu li.center_item .menu_box{
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+.event_search ul.search_menu li .menu_box>span{
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+}
+.event_search ul.search_menu li .menu_box>span.icon-nav-menu{
+    margin-right: 5px;
+    position: relative;
+    top: 0;
+    width: 10px;
+    height: 8px;
+}
+.icon-nav-menu span,.icon-nav-menu:before,.icon-nav-menu:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #68686a;
+}
+.event_search .icon-nav-menu span {
+    top: 3px;
+}
+.event_search .icon-nav-menu:before{
+    top: 0;
+}
+.event_search .icon-nav-menu:after{
+    bottom:1px;
+}
+.event_search .submenu_item{
+    z-index: 9999
+}
+.event_search .submenu_item ul li{
+    float: left;
+    width: 33.3%;
+    padding: 16px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top: 1px solid #eee;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+.event_search .submenu_item ul li:nth-child(3n-1){
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+.event_search .submenu_item ul li>span.type_icon{
+    display: block;
+    text-align: center;
+}
+.event_search .submenu_item ul li>span.type_icon img{
+    width: 40%;
+}
+.event_search .submenu_item ul li>span.type_name{
+    display: block;
+    text-align: center;
+    line-height: 16px;
+    font-size: 14px;
+    margin-top: 8px;
+    color: #666;
+}
+.event_search .submenu_item ul li>span.type_en{
+    display: block;
+    text-align: center;
+    line-height: 16px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #666;
+}
+.submenu_item.search_more{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    z-index: 9999;
+    left: 0;
+    top: 48px;
+    display: none;
+    background-color: #fff;
+    min-height: 100%;
+    border-top: 1px solid #eee;
+}
+.submenu_item.search_more .more_item{
+    width: 94%;
+    padding: 5px 3%;
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    text-align: left;
+    border-bottom: 2px solid #f8f8f8;
+}
+.submenu_item.search_more .more_item h4.item_title{
+    font-size: 16px;
+    line-height: 32px;
+    color: #333;
+}
+.submenu_item.search_more .more_item .item_all{
+    overflow: hidden;
+}
+.submenu_item.search_more .more_item .item_all label{
+    background-color: #f4f4f4;
+    border-radius: 2px;
+    width: 22%;
+    margin: 6px 0;
+    margin-right: 2%;
+    display: block;
+    float: left;
+    text-align: center;
+    border: 1px solid #f4f4f4;
+    line-height: 28px;
+    height: 28px;
+}
+.submenu_item.search_more .more_item .item_all input:checked + label{
+    background-color: #fff;
+    border: 1px solid red;
+}
+.submenu_item.search_more .more_item .item_all label:nth-child(8n){
+    margin-right: 0;
+}
+.more_item .item_all input{
+    display: none;
+}
+.submenu_item.search_more .more_btn{
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #eee;
+}
+.submenu_item.search_more .more_btn input{
+    width: 50%;
+    float: left;
+    -webkit-appearance:none;
+    border-radius: 0;
+    background-color: none;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    color: #333;
+    border: none;
+}
+.submenu_item.search_more .more_btn input.submit_btn{
+    color: #fff;
+    background-color: red;
+}
+.endpage{
+    height: 24px;
+    line-height: 24px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+/*列表部分*/
+.event_con{
+    margin-top: 50px;
+    padding-bottom: 54px;
+}
+.event_con ul a{
+    background: #ffffff;
+    margin-top:2%; 
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e2e2e2;
+}
+.event_con ul a li{
+    position: relative;
+    padding: 3%;
+}
+.event_con ul a li .event_img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.event_con ul a li .event_img .triangle-down{
+    position: absolute;
+    top:4rem;
+    right: 6%;
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 16px solid #b8babf;
+}
+.event_img p{
+    color: #fff;
+    text-align: center;
+    padding-top: 1rem;
+    width: 2rem;
+    height: 3rem;
+    line-height: 1.4rem;
+    position: absolute;
+    top:0;
+    right: 6%;
+    background: #b8babf;
+}
+.event_con ul li h5{
+    line-height: 1.2rem;
+    max-height: 2rem;
+    font-weight: normal;
+    padding: 0.5rem 20% 0.4rem 0.4rem;
+    position: relative;
+}
+.event_con ul li .event_img img{
+    width: 100%;
+}
+.event_fuxiang {
+    position: absolute;
+    right: 5%;
+    top:10%;
+    background: #fff;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #ebebeb;
+    top: -1.6rem;
+}
+.event_fuxiang img{
+    width: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+}
+.event_label{
+    font-size: 1rem;
+    overflow: hidden;
+    position: relative;
+    line-height: 1.4rem;
+    padding-left: 0.4rem;
+    padding-right: 3%;
+}
+.event_label p{
+    font-size: 0.8rem;
+    color: #666;
+    height: 1.4rem;
+    overflow: hidden;
+}
+.event_label p span{
+    font-size: 0.8rem;
+    float: right;
+    width: 14%;
+    line-height: 1rem;
+    color: red;
+}
+.event_time{
+    line-height: 1.4rem;
+    background: url(../images/time.jpg) no-repeat center left;
+    background-size: 0.9rem auto;
+    padding-left: 5%;
+}

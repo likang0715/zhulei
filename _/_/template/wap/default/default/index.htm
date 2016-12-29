@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+{dede:include filename="head.htm"/}
+  <div  class="index">
+    <script  type="text/javascript">
+      $(function(){
+      $("#J_bslist").bannerSlider({
+      width:"100%",//宽 (如果100%的时候请传入字符串)
+      height:463,//高
+      auto:true,//是否能自动滚
+      effect:"fade",//效果
+      Pause:3000,//停顿时间-两个动画滚动间隔的时间
+      animTime:250,//一张图滚动的时间
+      zIndex:10,//设置层级相互遮盖
+      parentClass:"cs-bannerWrap1",
+      pagination:{
+      show:false,
+      className:"banner-numlist"
+      },
+      btn:{
+      show:true,
+      dynamic:false//是否有鼠标移动上去显示箭头的效果
+      },
+      describe:{
+      show:false,
+      left:"80%",
+      bottom:0
+      }
+      })
+
+      })
+      </script>
+    <div  class="cs-bannerWrap1"  style="width: 100%; height: 463px; position: relative; overflow: hidden; margin: 0px auto;">
+      <ul  id="J_bslist"  class="bs_list"  style="width: 100%; height: 463px; position: relative;">
+        <li  style="background-image: url({dede:global.cfg_templets_skin/}/images/banner1.jpg); position: absolute; opacity: 1; z-index: 10; background-position: 50% 0%; background-repeat: no-repeat no-repeat;"  data-title=""><a  href="/"></a></li>
+        <li  style="background-image: url({dede:global.cfg_templets_skin/}/images/banner2.jpg); position: absolute; opacity: 0; z-index: 9; background-position: 50% 0%; background-repeat: no-repeat no-repeat;"  data-title=""><a  href="/"></a></li>
+      </ul>
+      <a  href="/"  class="banner-ui-prev"  style="z-index: 11;"></a><a  href="/"  class="banner-ui-next"  style="z-index: 11;"></a></div>
+    <div  class="index_wrap">
+      <div  id="Panel_122"  class="product_index"  style="clear:both;overflow:hidden;">
+        <h3  class="tit"><a href="/case">工程展示</a></h3>
+        <div  class="pro_index clearfix">
+          <div  class="ctrlBtn_prev_index"></div>
+          <div  class="product_listWrap_index">
+            <ul  class="product_list_index clearfix"  style="width: 5328px;">
+              {dede:arclist typeid=8 row=20 type='image'}
+              <li><a href="[field:arcurl/]"> <span  class="pic"> <img  src="[field:litpic/]" style="width: 140px; height: 140px; padding: 0px 32px;"></span> <span  class="text">[field:title function='html2text(@me)'/]</span></a></li>
+              {/dede:arclist} 
+            </ul>
+          </div>
+          <div  class="ctrlBtn_next_index"></div>
+          <script  type="text/javascript">
+      $(function(){
+
+      $(".pro_index").caseFunc({
+      dirLeft:"ctrlBtn_prev_index",
+      dirRight:"ctrlBtn_next_index",
+      listClass:"product_list_index",
+      viewLen:4
+      });
+      })
+      </script>
+        </div>
+      </div>
+    </div>
+    <div  class="box_index wrap clearfix">
+      <div  id="Panel_865"  class="panel-h-box"  style="margin-right:30px;width:409px;float:left;height:479px;overflow:hidden;">
+        <div  class="box1_index fl">
+          <h3  class="boxname"> <span  class="tit">关于我们</span> </h3>
+          <div  class="container">
+            <div  class="h-contactIntrobox">
+              <p> <img  src="{dede:global.cfg_templets_skin/}/img/about.jpg"  width="370"  height="126"  alt="喷泉售后维护"> </p>
+              <div>{dede:global.cfg_description/}</div>
+
+            </div>
+            <div  class="anli_index"> {dede:type typeid="2"}<a class="more_index"  href="[field:typeurl/]"  style="top:-16px;"></a>{/dede:type}</div>
+          </div>
+        </div>
+      </div>
+      <div  id="Panel_517"  class="panel-h-box"  style="width:541px;float:left;height:465px;overflow:hidden;">
+        <div  class="box2_index fr">
+          <h3  class="boxname"> <span  class="tit">服务方式</span> </h3>
+          <div  class="container">
+            <div  class="anli_index"> {dede:type typeid="26"}<a class="more_index"  href="[field:typeurl/]" ></a>{/dede:type}
+              <ul  class="anli_list_index">
+              
+                {dede:arclist typeid=26 row=3 type='image' titlelen='50'}
+                <li  class="first"><a class="anli_pic_index" href='[field:arcurl/]'>  <img src="[field:litpic/]"  alt="[field:title/]"  style="width: 170px; height: 85px; padding: 1px 0px;"></a>
+                  <div  class="text">
+                    <h3  class="anli_name_index"><a href="[field:arcurl/]"  title="[field:title/]">[field:title/]</a></h3>
+                    <p  class="anli_detail_index"> [field:info/]... </p>
+                  </div>
+                </li>
+                {/dede:arclist}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {dede:include filename="footer.htm"/}
+</div>
+
+</body>
+
+</html>

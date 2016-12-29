@@ -1,0 +1,276 @@
+/* 
+Seller js
+2016-06-08
+Author: 东方盈
+Site：http://website-art.com
+*/
+.c_main{
+	width: 94%;
+	padding: 0 3%;
+}
+.event_thumb{
+	width: 100%;
+	margin-bottom: 8px;
+}
+.event_thumb img{
+	width: 100%;
+}
+.event_title{
+    padding-bottom: 16px;
+    border-bottom: 2px solid #ddd;
+}
+.event_title>h3{
+	line-height: 36px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.event_title>span{
+	display: block;
+	text-align: right;
+	font-size: 14px;
+	color: #999;
+}
+.event_info{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+.event_info .info_item{
+	overflow-x: hidden;
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+	line-height: 30px;
+	height: 30px;
+	font-size: 16px;
+	overflow: hidden;
+}
+.event_info .info_item .info_icon{
+	float: left;
+	margin-right: 6px;
+}
+.event_info .info_item .info_icon img{
+	width: 30px;
+    height: 30px;
+}
+.event_info .info_item .info_name{
+	display: block;
+	float: left;
+	width: -moz-calc(100% - 40px);
+    width: calc(100% - 40px);
+}
+.event_con{
+	line-height: 1.5;
+	color: #333;
+}
+.event_about{
+	overflow: hidden;
+}
+.event_about h3.event_about_t{
+	font-size: 16px;
+    line-height: 32px;
+    font-weight: normal;
+    overflow: hidden;
+}
+.event_about a.about_tiem{
+	padding: 10px 0;
+	display: block;
+	overflow: hidden;
+}
+.event_about a.about_tiem .item_thumb{
+	float: left;
+    width: 18%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+}
+.event_about a.about_tiem .item_thumb img{
+	width: 100%;
+}
+.event_about a.about_tiem .item_text{
+	width: 80%;
+    float: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+.event_about a.about_tiem .item_text .text_title{
+	line-height: 1.5rem;
+    font-weight: normal;
+    overflow: hidden;
+}
+.event_about a.about_tiem .item_text .text_span{
+	font-size: 0.9rem;
+    line-height: 1.5rem;
+    height: 1.5rem;
+    font-weight: normal;
+    color: #6f6f6f;
+    overflow: hidden;
+}
+.event_about a.about_tiem .item_text .text_p{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: normal;
+    color: #999999;
+    overflow: hidden;
+    padding-bottom: 0.8rem;
+}
+/*底部链接*/
+.event_bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 640px;
+    border-top: 1px solid #d9d9d9;
+}
+.event_bottom_nav{
+    position: relative;
+    background: #fff;
+    height: 3rem;
+    line-height:3rem;
+}
+.event_bottom_nav ul{
+	width: 100%;
+}
+.event_bottom_nav ul li{
+	color: #333333;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    line-height: 3rem;
+}
+.event_bottom_nav .nav_more{
+	width: 28%;
+	border-right: 1px solid #c2c2c2;
+	position: relative;
+}
+.event_bottom_nav .nav_more div.list_more_show{
+	position: absolute;
+	bottom: 60px;
+	left: 18%;
+	width: 5rem;
+	background:#fff;
+	border:1px solid #dcdcdc;
+	border-radius: 0.2rem;
+}
+.event_bottom_nav .nav_more div.list_more_show li{
+	padding:0 0.5rem;
+	margin: 0 0.2rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+.event_bottom_nav .nav_more div.list_more_show li:last-child{
+	border-bottom: none;
+}
+.event_bottom_nav .nav_more div li a{
+	text-align: center;
+	color: #333;
+	font-size: 0.9rem;
+	line-height: 2rem;
+}
+.list_more_show:before{
+	content: "";
+    border: 10px solid #000;
+    border-color: #fff transparent transparent transparent;
+    position: absolute;
+    bottom: -19px;
+    left: 38%;
+    z-index: 9;
+}
+.list_more_show:after{
+	content: "";
+    border: 10px solid #000;
+    border-color: #dcdcdc transparent transparent transparent;
+    position: absolute;
+    bottom: -20px;
+    left: 38%;
+    z-index: 8;
+}
+.event_bottom_nav .nav_more div li:last-child a{
+	padding-bottom: 0.5rem;
+}
+.event_bottom_nav .nav_collect{
+	width: 28%;
+}
+.event_bottom_nav .nav_submit{
+	width: 44%;
+	color: #fff;
+	background-color: #3f8a2d;
+}
+.nav_more .more_toggle{
+	display: block;
+    background: url(../images/more_icon.png) no-repeat 29%;
+    text-indent: 20%;
+    background-size: 14%;
+}
+.nav_collect>span{
+	display: block;
+    background: url(../images/heart.png) no-repeat 29%;
+    text-indent: 20%;
+    background-size: 14%;
+}
+.nav_collect>span.on{
+    display: block;
+    background: url(../images/heart-on.png) no-repeat 29%;
+    text-indent: 20%;
+    background-size: 14%;
+}
+.event_form{
+	position: fixed;
+    width: 84%;
+    height: 250px;
+    left: 8%;
+    right: 8%;
+    top: 16%;
+    background-color: #fff;
+    border-radius: 4px;
+    z-index: 9999;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: none; 
+}
+.event_form .form_title{
+    line-height: 48px;
+    font-size: 16px;
+    color: #666;
+    font-weight: normal;
+    padding: 0 4%;
+    background-color: #F8F8F8;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom: 1px solid #E6E6E6;
+    position: relative;
+}
+.event_form .form_title>h4{
+	font-weight: normal;
+    color: #8F8FE8;
+}
+.event_form .form_title>i.close_btn{
+	width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 4%;
+    top: 12px;
+    background: url(../images/close.png) no-repeat center;
+    background-size: 24px;
+    z-index: 9999;
+}
+.form_input{
+
+}
+.form_input input{
+	line-height: 24px;
+	padding: 9px 0;
+	height: 24px;
+	display: block;
+	margin: 16px 4%;
+	width: 92%;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	font-size: 14px;
+}
+.event_btn input{
+	background-color: #3f8a2d;
+	color: #fff;
+}
+.event_btn input:disabled{
+	background-color: #ccc;
+	color: #fff;
+}
+#Validform_msg{
+	display: none!important;
+}

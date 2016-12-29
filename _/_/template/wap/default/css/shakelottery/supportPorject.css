@@ -1,0 +1,22 @@
+.popAlert{ width: 410px; position:absolute;left:50%; z-index: 2000;color: #333;margin-top:-100px;margin-left: -205px; }
+.popAlert p{height: 30px; background: #f6f6f6;line-height: 30px;font-family: "microsoft Yahei";font-size: 14px;}
+.popAlert p.tc{ text-align: center;}
+.popAlert p.tl{ text-align: left;}
+
+.popAlert p a{ float: right; width: 21px; height: 21px; background: url("/css/cf/skin/i/s8.png") -33px -179px no-repeat;display: inline-block; margin: 5px;}
+.popAlertContent{ width: 410px; position: absolute;left:0; top:0;background: #fff; z-index: 2;}
+
+.microLetter,.microContent{height: 340px;}
+.microFooter{ padding: 0 25px;line-height: 20px;}
+
+.microMask{ background: #8d8d8d; position: absolute;left: -4px; top:-4px; z-index: 1;opacity: .8; filter:alpha(opacity=80);border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px; }
+/**/
+.package-open .microMask{ width: 418px; height: 208px;}
+.package-o{ width: 410px;height: 200px;}
+.package-open-tips{ padding-top: 40px; padding-left: 35px;}
+.package-open-tips p{ background: none;}
+.mt20{ margin-top: 20px;}
+.package-open-tips p a{ border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;line-height: 32px;text-decoration: none;float: left;margin-right: 10px;width: 100px;height: 32px; text-align: center;
+}
+.package-open-tips p span.red a{background: #e24f43;color:#fff;}
+.package-open-tips p span.gray a{background: #f0f0f0;color:#333}

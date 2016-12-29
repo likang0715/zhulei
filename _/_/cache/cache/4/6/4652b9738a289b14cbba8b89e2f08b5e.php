@@ -1,0 +1,1 @@
+<?php	return array ( 'content' => array ( 'ticket' => 'sM4AOVdWfPE4DxkXGEs8VJEUzHCpq5ZnUOn5KLY8wCJcRRQQHwe7MoaaJsKn_BZDtG4JEHIPewZClu01P9twCA', 'expires_in' => 1482292000, ), );?>

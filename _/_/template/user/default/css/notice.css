@@ -1,0 +1,414 @@
+.widget-list{
+    background-color: #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+/*switch_content*/
+/*通知开关*/
+.notice_switch_main{
+    overflow: hidden;
+}
+.notice_box{
+    margin: 20px 0;
+    background-color: #fff;
+    float: left;
+}
+.notice_box .notice_item{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-right: 1.33%;
+    padding-bottom: 10px;
+}
+.notice_box .notice_item:hover .notice_item_box{
+    background-color: #f4f4f4;
+}
+.notice_box .notice_item:nth-child(4n){
+    padding-right: 0px;
+}
+.notice_box .notice_item .notice_item_box{
+    background-color: #f8f8f8;
+    padding: 16px 10px;
+    position: relative;
+}
+.notice_box .notice_item h4{
+	line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+    color: #07d;
+}
+.notice_box .notice_item .notice_status{
+    overflow: hidden;
+}
+.notice_box .notice_item .notice_status .notice_status_item{
+    float: left;
+    margin-right: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #7DB547;
+}
+.notice_box .notice_item .notice_status a.notice_setting_btn{
+    font-size: 12px;
+    display: none;
+    float: right;
+}
+.notice_box .notice_item .notice_status i{
+    float: left;
+}
+.notice_box .notice_item .notice_status i.notice_icon{
+    height: 20px;
+    width: 20px;
+    display: block;
+    margin-right: 6px;
+    background: url(../images/notice_icon_20160725.png) no-repeat;
+}
+.notice_box .notice_item .notice_status .sms_status.notice_open{
+    color: #7DB547
+}
+.notice_box .notice_item .notice_status .sms_status.notice_close{
+    color: #ccc
+}
+.notice_box .notice_item .notice_status .wechat_status.notice_open{
+    color: #7DB547
+}
+.notice_box .notice_item .notice_status .wechat_status.notice_close{
+    color: #ccc
+}
+.notice_box .notice_item .notice_status .sms_status.notice_open i.notice_icon{
+    background-position: 0 0;
+}
+.notice_box .notice_item .notice_status .sms_status.notice_close i.notice_icon{
+    background-position: -20px 0;
+}
+.notice_box .notice_item .notice_status .wechat_status.notice_open i.notice_icon{
+    background-position: 0 -20px;
+}
+.notice_box .notice_item .notice_status .wechat_status.notice_close i.notice_icon{
+    background-position: -20px -20px;
+}
+.notice_box .notice_item .notice_status input{
+	display: none;
+}
+.notice_box .notice_item:hover .notice_text{
+    display: block;
+}
+.notice_box .notice_item:hover a.notice_setting_btn{
+    display: block;
+}
+.notice_box .notice_item .notice_text{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translate(0,-110%);
+    -webkit-transform: translate(0,-110%);
+    -moz-transform: translate(0,-110%);
+    z-index: 9999;
+    background-color: #fff;
+    border: 2px solid rgba(0,0,0,0.5);
+    border-radius: 4px;
+    line-height: 24px;
+    font-size: 12px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 6px;
+    display: none;
+    box-shadow: none;
+}
+.notice_box .notice_item .notice_text:before{
+    content: "";
+    position: absolute;
+    border: 8px solid transparent;
+    border-top: 8px solid #fff;
+    z-index: 9;
+    bottom: -14px;
+}
+.notice_box .notice_item .notice_text:after{
+    content: "";
+    position: absolute;
+    border: 8px solid transparent;
+    border-top: 8px solid #808080;
+    z-index: 8;
+    bottom: -17px;
+}
+/*接收人设置*/
+
+/*短信管理*/
+.app-card .app-card-inner h3{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.app-card .app-card-inner p{
+    font-size:12px;
+    line-height: 20px;
+}
+.notice_sms .app-tips {
+    background: #ffc;
+    border-color: #fc6;
+}
+.notice_sms .app-tips .app-tips-inner{
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e5e5e5;
+    line-height: 24px;
+    color: #f00;
+    font-size: 12px;
+}
+.notice_sms .sms_overview {
+    padding: 12px;
+    margin-top: 10px;
+}
+.notice_sms .sms_overview ul{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #f8f8f8;
+    padding: 24px 0;
+}
+.notice_sms .sms_overview ul li.overview_item{
+    float:left;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align:center;
+    border-left: 1px dotted #ccc;
+}
+.notice_sms .sms_overview ul li:first-of-type {
+    border-left: none;
+}
+.notice_sms .sms_overview .overview_item h4{
+    margin: 11px 0 0 0;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #07d;
+    cursor: pointer;
+}
+.notice_sms .sms_overview .overview_item h4 a{
+    color: #07d;
+}
+.notice_sms .sms_overview .overview_item span{
+    margin: 10px 0 0 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    display: inline-block;
+}
+.notice_sms .sms_overview .overview_item span.js-recharge-layer{
+    color:#fff;
+    background-color: #7DB547;
+    border-color: #7DB547;
+    margin-top:16px;
+    letter-spacing: 2px;
+    padding: 6px 16px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.notice_sms .recharge-main,.notice_sms .send-main{
+    margin-bottom: 20px;
+}
+.notice_sms .recharge-head {
+    position: relative;
+    height: 20px;
+    padding: 10px;
+    line-height: 20px;
+    background: #f8f8f8;
+    margin: 10px 0;
+}
+.notice_sms .recharge-head h3 {
+    display: inline-block;
+    margin: 0 12px 0 0;
+    padding: 0 0 0 10px;
+    border-left: 4px solid #f70;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.notice_sms .recharge-table-container{
+    position: relative;
+}
+.notice_sms .ui-table {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0;
+    border: 1px solid #e5e5e5;
+}
+.notice_sms .ui-table th,
+.notice_sms .ui-table td {
+    width: 25%;
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.notice_sms .ui-table tbody tr:last-of-type {
+    border-bottom: none;
+}
+.notice_sms .sms_recharge_send{
+    margin-top:20px;
+    display: block;
+    background-color: #f8f8f8;
+}
+.notice_sms .sms_recharge_send .recharge-main{
+    width:49%;
+    float:left;
+    margin-right:1%;
+}
+.notice_sms .sms_recharge_send .recharge_send_more{
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+.notice_sms .sms_recharge_send .recharge_send_more:hover{
+    color: #07d;
+}
+
+.modal-body-main{
+    padding: 0 0 30px 0;
+    color: #666;
+}
+.modal-body-main .pay-info dl {
+    margin-bottom: 20px;
+    font-size: 14px;
+    display: block;
+}
+.modal-body-main .pay-info dl dt {
+    float: left;
+    width: 160px;
+    text-align: right;
+}
+.modal-body-main .pay-info dl dd {
+    margin-left: 175px;
+}
+.modal-body-main .pay-submit{
+    color:#fff;
+    background: #7DB547;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 30px;
+    border-radius: 2px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+}
+.modal-body-main .not-tips{
+    position: relative;
+    margin-top: 10px;
+    padding: 10px 6px;
+    border: 1px solid #FDEEB2;
+    border-width: 1px 2px;
+    color: #333;
+    background: #FFF6CC;
+    width: 310px;
+    font-size: 12px;
+}
+.modal-body-main .red{
+    color:#f00;
+}
+.choose-money li{
+    text-align: center;
+    float: left;
+    margin: 0 12px 12px 0;
+}
+.choose-money .regular-radio{
+    display: none;
+}
+.choose-money .regular-radio + label{
+    -webkit-appearance: none;
+    display: inline-block;
+    border: 1px solid #666;      /*原来的边框颜色*/
+    border-radius: 6px;
+    position: relative;
+    cursor: pointer;
+    top: 0;
+    font-size: 14px;
+    color: #666;
+    width: 108px;
+    height:48px;
+    line-height: 20px;
+    padding: 3px 0;
+    float: left;
+}
+.choose-money .regular-radio + label i.sms_num{
+    line-height: 24px;
+    color: #333;
+    display: block;
+    font-size: 14px;
+}
+.choose-money .regular-radio + label i.sms_money{
+    font-weight: bold;
+    color: #333;
+}
+.choose-money .regular-radio + label i{
+    line-height: 20px;
+    font-style: normal;
+    font-size: 12px;
+}
+.choose-money .regular-radio + label i.sms_price{
+    font-style: normal;
+    font-weight: normal;
+    color: #888;
+}
+.choose-money .regular-radio:checked + label{
+    float: left;
+    color: #fff;
+    border: 1px solid #7DB547;
+    background-color: #7DB547;
+}
+.choose-money .regular-radio:checked + label i{
+    color: #fff;
+}
+.choose-money .regular-radio:checked + label i.sms_price{
+    color: #eee;
+}
+.choose-money .regular-radio:checked + label:after {
+    content: ' '; 
+}
+.record-select .control-group.time input{
+    width: 120px;
+    background-color: #fff;
+    cursor: pointer;
+    float: left;
+    margin-bottom: 0;
+}
+.record-select .control-group.time .control-label,.record-select .control-group.time span{
+    float: left;
+    line-height: 30px;
+    text-align: right;
+    padding: 0 6px;
+}
+.record-select .control-group.submit .ui-btn-primary{
+    margin-left: 20px;
+}
+.record-select .control-group.time .date-quick-pick{
+    float: left;
+    padding: 0 6px;
+    line-height: 32px;
+    color: #07d;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.sms_main .ui-box{
+    margin: 10px 0;
+}

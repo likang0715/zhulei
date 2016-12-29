@@ -1,0 +1,775 @@
+[ 2016-10-26T09:46:07+08:00 ] 123.118.99.46 /admin.php?c=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010579s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.184802s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.150330s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.037806s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001837s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.067811s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.020875s ]
+NOTIC: [8] Undefined index: type D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: config D:\ceshi\cache\admin_runtime\Cache\2d36a2df0574e2907131625914cd1da4.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033462s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002770s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003466s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001563s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008737s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002595s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002651s ]
+
+[ 2016-10-26T09:46:08+08:00 ] 123.118.99.46 /admin.php?c=Login&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.022834s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008545s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000457s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000378s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001959s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-10-26T09:46:10+08:00 ] 123.118.99.46 /admin.php?c=Login&a=verify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-10-26T09:54:33+08:00 ] 123.118.99.46 /admin.php?c=Login&a=check
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001831s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `account` = 'admin' ) LIMIT 1   [ RunTime:0.000478s ]
+NOTIC: 建议使用I方法替代_post
+SQL: UPDATE `pigcms_admin` SET `last_ip`=2071356206,`last_time`=1477446872,`login_count`=337 WHERE ( `id` = 1 ) [ RunTime:0.000453s ]
+
+[ 2016-10-26T09:54:34+08:00 ] 123.118.99.46 /admin.php?c=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001735s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001691s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001413s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001841s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001441s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001405s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001408s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT `id`,`fid`,`name`,`module`,`action`,`sort`,`show`,`status`,`is_admin` FROM `pigcms_system_menu` WHERE ( `status` = 1 ) AND ( `show` = 1 ) ORDER BY `sort` DESC,`fid` ASC,`id` ASC  [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: module D:\ceshi\cache\admin_runtime\Cache\dabfdd5e316629f9792ad535da8452c2.php 第 7 行.
+NOTIC: [8] Undefined index: action D:\ceshi\cache\admin_runtime\Cache\dabfdd5e316629f9792ad535da8452c2.php 第 7 行.
+NOTIC: [8] Undefined index: url D:\ceshi\cache\admin_runtime\Cache\dabfdd5e316629f9792ad535da8452c2.php 第 7 行.
+NOTIC: [8] Undefined index: user D:\ceshi\cache\admin_runtime\Cache\dabfdd5e316629f9792ad535da8452c2.php 第 24 行.
+NOTIC: [8] Undefined index: user D:\ceshi\cache\admin_runtime\Cache\dabfdd5e316629f9792ad535da8452c2.php 第 25 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038050s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000604s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000494s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000412s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000627s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-10-26T09:54:35+08:00 ] 123.118.99.46 /admin.php?c=Index&a=main
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001594s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001350s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001377s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_system_info` [ RunTime:0.021929s ]
+SQL: SELECT * FROM `pigcms_system_info` ORDER BY lastsqlupdate DESC LIMIT 1   [ RunTime:0.000163s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT * FROM `pigcms_admin_group` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `pigcms_user` [ RunTime:0.001932s ]
+SQL: SELECT COUNT(uid) AS tp_count FROM `pigcms_user` LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT COUNT(uid) AS tp_count FROM `pigcms_user` WHERE ( `is_seller` = 1 ) LIMIT 1   [ RunTime:0.012806s ]
+SQL: SHOW COLUMNS FROM `pigcms_store` [ RunTime:0.002839s ]
+SQL: SELECT COUNT(store_id) AS tp_count FROM `pigcms_store` LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `pigcms_order` [ RunTime:0.002058s ]
+SQL: SELECT COUNT(order_id) AS tp_count FROM `pigcms_order` LIMIT 1   [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `pigcms_product` [ RunTime:0.002139s ]
+SQL: SELECT COUNT(product_id) AS tp_count FROM `pigcms_product` LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT COUNT(uid) AS tp_count FROM `pigcms_user` WHERE ( reg_time >= '1477324800' AND reg_time <= '1477411199' ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT COUNT(uid) AS tp_count FROM `pigcms_store` WHERE ( date_added >= '1477324800' AND date_added <= '1477411199' ) LIMIT 1   [ RunTime:0.000380s ]
+SQL: SELECT COUNT(order_id) AS tp_count FROM `pigcms_order` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SELECT COUNT(order_id) AS tp_count FROM `pigcms_order` WHERE ( `status` = 2 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SELECT COUNT(order_id) AS tp_count FROM `pigcms_order` WHERE ( `status` = 3 ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SELECT COUNT(order_id) AS tp_count FROM `pigcms_order` WHERE ( add_time >= '1477324800' AND add_time <= '1477411199' ) LIMIT 1   [ RunTime:0.012721s ]
+SQL: SELECT COUNT(product_id) AS tp_count FROM `pigcms_product` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.000396s ]
+SQL: SELECT COUNT(product_id) AS tp_count FROM `pigcms_product` WHERE ( date_added >= '1477324800' AND date_added <= '1477411199' ) LIMIT 1   [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: frame_show D:\ceshi\cache\admin_runtime\Cache\403c21eaeb0752ea7e03b5e4f25f0895.php 第 7 行.
+NOTIC: [8] Undefined variable: withdrawal_count D:\ceshi\cache\admin_runtime\Cache\403c21eaeb0752ea7e03b5e4f25f0895.php 第 20 行.
+NOTIC: [8] Undefined variable: unprocessed D:\ceshi\cache\admin_runtime\Cache\403c21eaeb0752ea7e03b5e4f25f0895.php 第 25 行.
+NOTIC: [8] Undefined variable: bg_color D:\ceshi\cache\admin_runtime\Cache\403c21eaeb0752ea7e03b5e4f25f0895.php 第 37 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024534s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000476s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000452s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000378s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001954s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-10-26T09:54:37+08:00 ] 123.118.99.46 /admin.php?c=Product&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001637s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001591s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001356s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001386s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001419s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_product_to_group` [ RunTime:0.015127s ]
+SQL: SHOW COLUMNS FROM `pigcms_product_group` [ RunTime:0.022529s ]
+SQL: SHOW COLUMNS FROM `pigcms_product_category` [ RunTime:0.001514s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `pigcms_product` [ RunTime:0.002152s ]
+SQL: SHOW COLUMNS FROM `pigcms_store` [ RunTime:0.002761s ]
+SQL: SELECT COUNT(Product.product_id) AS tp_count FROM pigcms_product Product LEFT JOIN pigcms_product_category ProductCategory ON Product.category_id = ProductCategory.cat_id LEFT JOIN pigcms_store Store ON Product.store_id = Store.store_id WHERE ( Product.status < 2 ) LIMIT 1   [ RunTime:0.000516s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT Product.product_id AS product_id,Product.uid AS uid,Product.store_id AS store_id,Product.category_fid AS category_fid,Product.category_id AS category_id,Product.group_id AS group_id,Product.name AS name,Product.sale_way AS sale_way,Product.buy_way AS buy_way,Product.type AS type,Product.quantity AS quantity,Product.price AS price,Product.original_price AS original_price,Product.weight AS weight,Product.code AS code,Product.image AS image,Product.image_size AS image_size,Product.send_other AS send_other,Product.send_other_postage AS send_other_postage,Product.postage_type AS postage_type,Product.postage AS postage,Product.postage_template_id AS postage_template_id,Product.buyer_quota AS buyer_quota,Product.allow_discount AS allow_discount,Product.invoice AS invoice,Product.warranty AS warranty,Product.sold_time AS sold_time,Product.sales AS sales,Product.show_sku AS show_sku,Product.status AS status,Product.date_added AS date_added,Product.soldout AS soldout,Product.pv AS pv,Product.uv AS uv,Product.buy_url AS buy_url,Product.intro AS intro,Product.info AS info,Product.has_custom AS has_custom,Product.has_category AS has_category,Product.properties AS properties,Product.has_property AS has_property,Product.is_fx AS is_fx,Product.unified_price AS unified_price,Product.fx_type AS fx_type,Product.cost_price AS cost_price,Product.min_fx_price AS min_fx_price,Product.max_fx_price AS max_fx_price,Product.is_recommend AS is_recommend,Product.recommend_title AS recommend_title,Product.source_product_id AS source_product_id,Product.supplier_id AS supplier_id,Product.delivery_address_id AS delivery_address_id,Product.last_edit_time AS last_edit_time,Product.original_product_id AS original_product_id,Product.sort AS sort,Product.is_fx_setting AS is_fx_setting,Product.collect AS collect,Product.attention_num AS attention_num,Product.drp_profit AS drp_profit,Product.drp_seller_qty AS drp_seller_qty,Product.drp_sale_qty AS drp_sale_qty,Product.unified_price_setting AS unified_price_setting,Product.drp_level_1_price AS drp_level_1_price,Product.drp_level_2_price AS drp_level_2_price,Product.drp_level_3_price AS drp_level_3_price,Product.drp_level_1_cost_price AS drp_level_1_cost_price,Product.drp_level_2_cost_price AS drp_level_2_cost_price,Product.drp_level_3_cost_price AS drp_level_3_cost_price,Product.is_hot AS is_hot,Product.is_wholesale AS is_wholesale,Product.wholesale_price AS wholesale_price,Product.sale_min_price AS sale_min_price,Product.sale_max_price AS sale_max_price,Product.wholesale_product_id AS wholesale_product_id,Product.public_display AS public_display,Product.unified_profit AS unified_profit,Product.is_whitelist AS is_whitelist,Product.check_give_points AS check_give_points,Product.check_degree_discount AS check_degree_discount,Product.give_points AS give_points,Product.after_subscribe_price AS after_subscribe_price,Product.is_present AS is_present,Product.open_return_point AS open_return_point,Product.after_subscribe_discount AS after_subscribe_discount,Product.drp_custom_setting AS drp_custom_setting,Product.return_point AS return_point,ProductCategory.cat_name AS category,Store.name AS store FROM pigcms_product Product LEFT JOIN pigcms_product_category ProductCategory ON Product.category_id = ProductCategory.cat_id LEFT JOIN pigcms_store Store ON Product.store_id = Store.store_id WHERE ( Product.status < 2 ) ORDER BY Product.product_id DESC LIMIT 0,20   [ RunTime:0.013565s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 72 )  [ RunTime:0.000177s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 71 )  [ RunTime:0.000134s ]
+SQL: SELECT `group_name` FROM `pigcms_product_group` WHERE ( `group_id` IN ('7') )  [ RunTime:0.000134s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 70 )  [ RunTime:0.000131s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 69 )  [ RunTime:0.000135s ]
+SQL: SELECT `group_name` FROM `pigcms_product_group` WHERE ( `group_id` IN ('33') )  [ RunTime:0.000128s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 68 )  [ RunTime:0.000129s ]
+SQL: SELECT `group_name` FROM `pigcms_product_group` WHERE ( `group_id` IN ('33') )  [ RunTime:0.000126s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 67 )  [ RunTime:0.000127s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 66 )  [ RunTime:0.000172s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 65 )  [ RunTime:0.000130s ]
+SQL: SELECT `group_name` FROM `pigcms_product_group` WHERE ( `group_id` IN ('22') )  [ RunTime:0.000127s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 64 )  [ RunTime:0.000129s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 63 )  [ RunTime:0.000127s ]
+SQL: SELECT `group_name` FROM `pigcms_product_group` WHERE ( `group_id` IN ('22') )  [ RunTime:0.000131s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 62 )  [ RunTime:0.000128s ]
+SQL: SELECT `group_name` FROM `pigcms_product_group` WHERE ( `group_id` IN ('32') )  [ RunTime:0.000127s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 61 )  [ RunTime:0.000126s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 60 )  [ RunTime:0.000125s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 59 )  [ RunTime:0.000126s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 58 )  [ RunTime:0.000127s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 57 )  [ RunTime:0.000126s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 56 )  [ RunTime:0.000125s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 55 )  [ RunTime:0.000126s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 54 )  [ RunTime:0.000125s ]
+SQL: SELECT `group_name` FROM `pigcms_product_group` WHERE ( `group_id` IN ('7') )  [ RunTime:0.000132s ]
+SQL: SELECT `group_id` FROM `pigcms_product_to_group` WHERE ( `product_id` = 53 )  [ RunTime:0.000126s ]
+SQL: SELECT `group_name` FROM `pigcms_product_group` WHERE ( `group_id` IN ('7') )  [ RunTime:0.000125s ]
+SQL: SELECT * FROM `pigcms_product_group`  [ RunTime:0.000185s ]
+SQL: SELECT * FROM `pigcms_product_category` ORDER BY cat_path ASC  [ RunTime:0.000276s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: frame_show D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 7 行.
+NOTIC: [8] Undefined variable: withdrawal_count D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 20 行.
+NOTIC: [8] Undefined variable: unprocessed D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 25 行.
+NOTIC: [8] Undefined variable: bg_color D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 37 行.
+NOTIC: [8] Undefined index: keyword D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 164 行.
+NOTIC: [8] Undefined index: type D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 166 行.
+NOTIC: [8] Undefined index: type D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 167 行.
+NOTIC: [8] Undefined index: type D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 168 行.
+NOTIC: [8] Undefined index: isfx D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 177 行.
+NOTIC: [8] Undefined index: isfx D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 178 行.
+NOTIC: [8] Undefined index: isfx D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 179 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: group D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 185 行.
+NOTIC: [8] Undefined index: allow_discount D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 190 行.
+NOTIC: [8] Undefined index: invoice D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 196 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+NOTIC: [8] Undefined index: invoic D:\ceshi\cache\admin_runtime\Cache\21165b4ae8d52fb88db304f24f88646f.php 第 257 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028311s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000703s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000488s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002279s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-10-26T09:54:40+08:00 ] 123.118.99.46 /admin.php?c=Product&a=comment
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001418s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001394s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+NOTIC: [2048] Declaration of CommentModel::save() should be compatible with Model::save($data = '', $options = Array) D:\ceshi\source\tp\Project\Lib\Model\CommentModel.class.php 第 132 行.
+NOTIC: [2048] Declaration of CommentModel::delete() should be compatible with Model::delete($options = Array) D:\ceshi\source\tp\Project\Lib\Model\CommentModel.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `pigcms_comment` [ RunTime:0.001654s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT count(1) as count FROM `pigcms_comment` WHERE ( `type` = 'PRODUCT' ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT * FROM `pigcms_comment` WHERE ( `type` = 'PRODUCT' ) ORDER BY id desc LIMIT 0,15   [ RunTime:0.000366s ]
+NOTIC: [2048] Declaration of Comment_attachmentModel::save() should be compatible with Model::save($data = '', $options = Array) D:\ceshi\source\tp\Project\Lib\Model\Comment_attachmentModel.class.php 第 58 行.
+NOTIC: [2048] Declaration of Comment_attachmentModel::delete() should be compatible with Model::delete($options = Array) D:\ceshi\source\tp\Project\Lib\Model\Comment_attachmentModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `pigcms_comment_attachment` [ RunTime:0.001383s ]
+SQL: SELECT * FROM `pigcms_comment_attachment` WHERE ( `cid` IN ('2','1') )  [ RunTime:0.000340s ]
+NOTIC: [2048] Declaration of Comment_tagModel::save() should be compatible with Model::save($data = '', $options = Array) D:\ceshi\source\tp\Project\Lib\Model\Comment_tagModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Comment_tagModel::delete() should be compatible with Model::delete($options = Array) D:\ceshi\source\tp\Project\Lib\Model\Comment_tagModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `pigcms_comment_tag` [ RunTime:0.001333s ]
+SQL: SELECT * FROM pigcms_comment_tag AS ct, pigcms_system_tag AS st WHERE st.id = ct.tag_id AND ct.cid in (2,1) AND ct.status = 1 AND ct.delete_flg = 0 [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `pigcms_user` [ RunTime:0.001748s ]
+SQL: SELECT * FROM `pigcms_user` WHERE ( `uid` IN ('31','14') )  [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `pigcms_product` [ RunTime:0.002612s ]
+SQL: SELECT * FROM `pigcms_product` WHERE ( `product_id` IN ('54','18') )  [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: frame_show D:\ceshi\cache\admin_runtime\Cache\d802349551cdfaf0c1a06582f3f0ff6a.php 第 7 行.
+NOTIC: [8] Undefined variable: withdrawal_count D:\ceshi\cache\admin_runtime\Cache\d802349551cdfaf0c1a06582f3f0ff6a.php 第 20 行.
+NOTIC: [8] Undefined variable: unprocessed D:\ceshi\cache\admin_runtime\Cache\d802349551cdfaf0c1a06582f3f0ff6a.php 第 25 行.
+NOTIC: [8] Undefined variable: bg_color D:\ceshi\cache\admin_runtime\Cache\d802349551cdfaf0c1a06582f3f0ff6a.php 第 37 行.
+NOTIC: [8] Use of undefined constant comment_list - assumed 'comment_list' D:\ceshi\cache\admin_runtime\Cache\d802349551cdfaf0c1a06582f3f0ff6a.php 第 153 行.
+NOTIC: [8] Use of undefined constant comment_list - assumed 'comment_list' D:\ceshi\cache\admin_runtime\Cache\d802349551cdfaf0c1a06582f3f0ff6a.php 第 153 行.
+NOTIC: [8] Use of undefined constant delete_flg - assumed 'delete_flg' D:\ceshi\cache\admin_runtime\Cache\d802349551cdfaf0c1a06582f3f0ff6a.php 第 154 行.
+NOTIC: [8] Undefined offset: 2 D:\ceshi\cache\admin_runtime\Cache\d802349551cdfaf0c1a06582f3f0ff6a.php 第 175 行.
+NOTIC: [8] Undefined variable: product D:\ceshi\cache\admin_runtime\Cache\d802349551cdfaf0c1a06582f3f0ff6a.php 第 195 行.
+NOTIC: [8] Use of undefined constant delete_flg - assumed 'delete_flg' D:\ceshi\cache\admin_runtime\Cache\d802349551cdfaf0c1a06582f3f0ff6a.php 第 154 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\cache\admin_runtime\Cache\d802349551cdfaf0c1a06582f3f0ff6a.php 第 175 行.
+NOTIC: [8] Undefined variable: product D:\ceshi\cache\admin_runtime\Cache\d802349551cdfaf0c1a06582f3f0ff6a.php 第 195 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029995s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000457s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001995s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-10-26T11:17:52+08:00 ] 123.118.99.46 /admin.php?c=Product&a=category
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\ceshi\source\class\checkFunc.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin` [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_rbac` [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `pigcms_admin_group` [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_menu` [ RunTime:0.001596s ]
+SQL: SHOW COLUMNS FROM `pigcms_system_rbac_menu` [ RunTime:0.001716s ]
+SQL: SELECT `id`,`account`,`pwd`,`realname`,`phone`,`email`,`qq`,`avatar`,`last_ip`,`last_time`,`login_count`,`status`,`reward_total`,`reward_balance`,`reward_unbalance`,`group_id`,`type`,`creator`,`province`,`city`,`county`,`area_level`,`agent_code`,`open_id`,`area_admin` FROM `pigcms_admin` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `pigcms_config` [ RunTime:0.001413s ]
+NOTIC: [8] Undefined index: my_version D:\ceshi\source\tp\Project\Lib\Action\BaseAction.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `pigcms_product_category` [ RunTime:0.001424s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT COUNT(cat_id) AS tp_count FROM `pigcms_product_category` LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `pigcms_product_category` [ RunTime:0.001567s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=0 ) ORDER BY cat_sort asc  [ RunTime:0.000549s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=93 ) ORDER BY cat_sort asc  [ RunTime:0.000460s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=94 ) ORDER BY cat_sort asc  [ RunTime:0.000283s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=95 ) ORDER BY cat_sort asc  [ RunTime:0.000369s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=96 ) ORDER BY cat_sort asc  [ RunTime:0.000353s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=97 ) ORDER BY cat_sort asc  [ RunTime:0.000276s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=98 ) ORDER BY cat_sort asc  [ RunTime:0.000308s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=99 ) ORDER BY cat_sort asc  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=100 ) ORDER BY cat_sort asc  [ RunTime:0.000275s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=151 ) ORDER BY cat_sort asc  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=152 ) ORDER BY cat_sort asc  [ RunTime:0.000277s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=153 ) ORDER BY cat_sort asc  [ RunTime:0.000274s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=154 ) ORDER BY cat_sort asc  [ RunTime:0.000399s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=155 ) ORDER BY cat_sort asc  [ RunTime:0.000307s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=156 ) ORDER BY cat_sort asc  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=101 ) ORDER BY cat_sort asc  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=102 ) ORDER BY cat_sort asc  [ RunTime:0.000637s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=103 ) ORDER BY cat_sort asc  [ RunTime:0.000276s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=157 ) ORDER BY cat_sort asc  [ RunTime:0.000275s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=158 ) ORDER BY cat_sort asc  [ RunTime:0.000274s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=159 ) ORDER BY cat_sort asc  [ RunTime:0.000286s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=104 ) ORDER BY cat_sort asc  [ RunTime:0.000276s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=106 ) ORDER BY cat_sort asc  [ RunTime:0.000276s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=160 ) ORDER BY cat_sort asc  [ RunTime:0.000272s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=161 ) ORDER BY cat_sort asc  [ RunTime:0.000293s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=162 ) ORDER BY cat_sort asc  [ RunTime:0.000272s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=107 ) ORDER BY cat_sort asc  [ RunTime:0.000272s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=163 ) ORDER BY cat_sort asc  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=164 ) ORDER BY cat_sort asc  [ RunTime:0.000269s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=165 ) ORDER BY cat_sort asc  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=166 ) ORDER BY cat_sort asc  [ RunTime:0.000273s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=167 ) ORDER BY cat_sort asc  [ RunTime:0.000297s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=168 ) ORDER BY cat_sort asc  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=169 ) ORDER BY cat_sort asc  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=170 ) ORDER BY cat_sort asc  [ RunTime:0.000269s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=108 ) ORDER BY cat_sort asc  [ RunTime:0.000278s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=109 ) ORDER BY cat_sort asc  [ RunTime:0.000396s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=110 ) ORDER BY cat_sort asc  [ RunTime:0.000310s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=111 ) ORDER BY cat_sort asc  [ RunTime:0.000272s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=112 ) ORDER BY cat_sort asc  [ RunTime:0.000275s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=113 ) ORDER BY cat_sort asc  [ RunTime:0.000268s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=114 ) ORDER BY cat_sort asc  [ RunTime:0.000272s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=171 ) ORDER BY cat_sort asc  [ RunTime:0.000268s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=115 ) ORDER BY cat_sort asc  [ RunTime:0.000317s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=172 ) ORDER BY cat_sort asc  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=173 ) ORDER BY cat_sort asc  [ RunTime:0.000274s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=174 ) ORDER BY cat_sort asc  [ RunTime:0.000268s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=175 ) ORDER BY cat_sort asc  [ RunTime:0.000268s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=116 ) ORDER BY cat_sort asc  [ RunTime:0.000356s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=117 ) ORDER BY cat_sort asc  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=118 ) ORDER BY cat_sort asc  [ RunTime:0.000272s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=176 ) ORDER BY cat_sort asc  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=177 ) ORDER BY cat_sort asc  [ RunTime:0.000370s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=178 ) ORDER BY cat_sort asc  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=179 ) ORDER BY cat_sort asc  [ RunTime:0.000273s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=119 ) ORDER BY cat_sort asc  [ RunTime:0.000349s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=120 ) ORDER BY cat_sort asc  [ RunTime:0.000276s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=121 ) ORDER BY cat_sort asc  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=122 ) ORDER BY cat_sort asc  [ RunTime:0.000269s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=180 ) ORDER BY cat_sort asc  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=181 ) ORDER BY cat_sort asc  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=182 ) ORDER BY cat_sort asc  [ RunTime:0.000269s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=123 ) ORDER BY cat_sort asc  [ RunTime:0.000336s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=124 ) ORDER BY cat_sort asc  [ RunTime:0.000275s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=125 ) ORDER BY cat_sort asc  [ RunTime:0.000290s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=183 ) ORDER BY cat_sort asc  [ RunTime:0.000274s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=138 ) ORDER BY cat_sort asc  [ RunTime:0.000406s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=139 ) ORDER BY cat_sort asc  [ RunTime:0.000275s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=140 ) ORDER BY cat_sort asc  [ RunTime:0.000275s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=141 ) ORDER BY cat_sort asc  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=142 ) ORDER BY cat_sort asc  [ RunTime:0.000302s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=143 ) ORDER BY cat_sort asc  [ RunTime:0.000276s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=144 ) ORDER BY cat_sort asc  [ RunTime:0.000327s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=145 ) ORDER BY cat_sort asc  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=146 ) ORDER BY cat_sort asc  [ RunTime:0.000269s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=147 ) ORDER BY cat_sort asc  [ RunTime:0.000274s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=148 ) ORDER BY cat_sort asc  [ RunTime:0.000273s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=149 ) ORDER BY cat_sort asc  [ RunTime:0.000298s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=150 ) ORDER BY cat_sort asc  [ RunTime:0.000268s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=184 ) ORDER BY cat_sort asc  [ RunTime:0.000368s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=185 ) ORDER BY cat_sort asc  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=186 ) ORDER BY cat_sort asc  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=187 ) ORDER BY cat_sort asc  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=188 ) ORDER BY cat_sort asc  [ RunTime:0.000269s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=189 ) ORDER BY cat_sort asc  [ RunTime:0.000272s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=190 ) ORDER BY cat_sort asc  [ RunTime:0.000269s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=191 ) ORDER BY cat_sort asc  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=192 ) ORDER BY cat_sort asc  [ RunTime:0.000273s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=92 ) ORDER BY cat_sort asc  [ RunTime:0.000439s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=126 ) ORDER BY cat_sort asc  [ RunTime:0.000320s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=127 ) ORDER BY cat_sort asc  [ RunTime:0.000272s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=128 ) ORDER BY cat_sort asc  [ RunTime:0.000272s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=129 ) ORDER BY cat_sort asc  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=130 ) ORDER BY cat_sort asc  [ RunTime:0.000274s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=131 ) ORDER BY cat_sort asc  [ RunTime:0.000277s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=132 ) ORDER BY cat_sort asc  [ RunTime:0.000267s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=133 ) ORDER BY cat_sort asc  [ RunTime:0.000269s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=134 ) ORDER BY cat_sort asc  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=135 ) ORDER BY cat_sort asc  [ RunTime:0.000303s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=136 ) ORDER BY cat_sort asc  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `pigcms_product_category` WHERE ( cat_fid=137 ) ORDER BY cat_sort asc  [ RunTime:0.000273s ]
+SQL: SELECT * FROM `pigcms_product_category` ORDER BY cat_fid ASC,`cat_sort` asc,`cat_id` ASC  [ RunTime:0.000987s ]
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 202 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 202 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 202 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 202 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 202 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 202 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 202 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 202 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 202 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 202 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant cat_fid - assumed 'cat_fid' D:\ceshi\source\tp\Project\Lib\Action\ProductAction.class.php 第 204 行.
+SQL: SELECT * FROM `pigcms_product_category` ORDER BY cat_path ASC,`cat_fid` ASC,`cat_sort` asc,`cat_id` ASC  [ RunTime:0.001016s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: frame_show D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 7 行.
+NOTIC: [8] Undefined variable: withdrawal_count D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 20 行.
+NOTIC: [8] Undefined variable: unprocessed D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 25 行.
+NOTIC: [8] Undefined variable: bg_color D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 37 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+NOTIC: [8] Undefined index: cat_id D:\ceshi\cache\admin_runtime\Cache\b4237ec10ebf08b76d77c908f31d5b02.php 第 138 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.072150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072227s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003709s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000987s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006886s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000963s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001058s ]
+

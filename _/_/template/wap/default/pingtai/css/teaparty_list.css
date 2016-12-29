@@ -1,0 +1,293 @@
+.common_header img{
+    width: 1rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 0.6rem;
+}
+
+/*图片*/
+.teaparty_list_visual{
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+.teaparty_list_image{
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	padding-bottom: 56%;
+}
+.teaparty_list_image ul{
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	left:0
+}
+.teaparty_list_image li{
+	float:left;
+	width:100%;
+}
+.teaparty_list_image li img{
+	width: 100%;
+}
+div.flicking_con{
+	position:absolute;
+	top:12rem;
+	left:49%;
+	z-index:999;
+	height:31px;
+	margin:0 0 0 -41px;
+}
+div.flicking_con a{
+	float:left;
+	width:21px;
+	height:21px;
+	margin:0;
+	padding:0;
+	background:url('../images/btn_jingsi_img.png') 0 0 no-repeat;
+	display:block;
+	text-indent:-1000px;
+}
+div.flicking_con a.on{
+	background-position:0 -21px;
+}
+#btn_prev,#btn_next{
+	z-index:11111;
+	position:absolute;
+	width:73px!important;
+	height:74px!important;
+	top:50%;margin-top:-37px;
+	display:none;
+}
+#btn_prev{
+	background:url(../images/hover_left.png) no-repeat left top;
+	left:20px;
+}
+#btn_next{
+	background:url(../images/hover_right.png) no-repeat right top;
+	right:20px;
+}
+/*文字报名部分*/
+.teaparty_list_text{
+	
+}
+.teaparty_list_text h3{
+	width: 70%;
+	float: left;
+	font-weight: normal;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	color: #f00;
+	padding-top: 1%;
+	padding-bottom: 5%;
+}
+.teaparty_list_text a{
+	float: right;
+	color: #fff;
+	width: 25%;
+	padding: 1% 2%;
+	text-align: center;
+	line-height: 2rem;
+	background-color: #3f8a2d;
+}
+.teaparty_list_text h4{
+	color: #333;
+	font-weight: normal;
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+.teaparty_list_text h5{
+	float: right;
+	color: #999;
+	font-weight: normal;
+	line-height: 2rem;
+	padding-bottom: 4%;
+}
+/*主体部分*/
+.teaparty_list_main{
+	background: #eeeeee;
+}
+.teaparty_list_main h3{
+	color: #b6a253;
+	font-size: 1.2rem;
+	line-height: 2.6rem;
+	font-weight: normal;
+	text-align: center;
+	background-color: #ddd;
+}
+.teaparty_list_main .teaparty_list_digital{
+	margin:0 2%; 
+	background: url(../images/jingsi_border.jpg) repeat-x bottom;
+}
+.teaparty_list_digital h4{
+	background: url(../images/jingsi_digital.png) no-repeat left center;
+	padding:2% 0 2% 0.8rem;
+	font-weight: normal;
+	border-bottom: 1px solid #d1d1d1;
+	height: 2rem;
+	line-height: 2rem;
+	overflow: hidden;
+}
+.teaparty_list_digital h4.none{
+	border-bottom: none;
+}
+.teaparty_list_digital_m{
+	
+}
+.teaparty_list_digital_m img{
+	height: 150px!important;
+}
+.teaparty_list_digital_bigBox{
+	width: 500%;
+	overflow: hidden;
+}
+.teaparty_list_digital_b{
+	margin: 0 2%;
+	background: url(../images/jingsi_border.jpg) repeat-x bottom;
+}
+.teaparty_list_digital_b h4{
+	width: 50%;
+	margin: 5% 0 3% 20%;
+	font-size: 1.2rem;
+	color: #bfa74a;
+	text-align: center;
+	font-weight: normal;
+	padding: 2% 4%;
+	background-color:#d6d6d6; 
+}
+.teaparty_list_digital_b p{
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+	font-weight: normal;
+	color: #333333;
+	padding-bottom: 2%;
+}
+
+/*相似活动*/
+.teaparty_list_leisi{
+	margin:3% 2% 0 2%; 
+	border: 2px solid #e4e3e3;
+	border-radius: 0.5rem;
+}
+.teaparty_list_leisi a{
+	padding: 2% 0;
+}
+.teaparty_list_leisi h3{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	font-weight: normal;
+	overflow: hidden;
+}
+.teaparty_list_leisi_l{
+	float: left;
+	width: 18%;
+	padding-right: 2%;
+	padding-bottom: 3%;
+}
+.teaparty_list_leisi_l img{
+	width: 100%;
+}
+.teaparty_list_leisi_r{
+	width: 80%;
+	float: left;
+	border-bottom: 1px solid #e0e0e0;
+}
+.teaparty_list_leisi_r h4{
+	line-height: 1.5rem;
+	font-weight: normal;
+	overflow: hidden;
+}
+.teaparty_list_leisi_r h4 span{
+	float: right;
+}
+.teaparty_list_leisi_r h5{
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+	height: 1.5rem;
+	font-weight: normal;
+	color: #6f6f6f;
+	overflow: hidden;
+}
+.teaparty_list_leisi_r p{
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+	font-weight: normal;
+	color: #999999;
+	overflow: hidden;
+	padding-bottom: 0.8rem;
+}
+.border_none{
+	border-bottom: none;
+}
+/*底部链接*/
+.teaparty_list_bottom_nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 640px;
+    border-top: 1px solid #d9d9d9;
+}
+.teaparty_list_nav_main{
+    position: relative;
+    background: #fff;
+    height: 3rem;
+    line-height:3rem;
+}
+.teaparty_list_nav_main ul{
+	width: 100%;
+}
+.teaparty_list_nav_main ul li{
+	color: #333333;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    line-height: 3rem;
+}
+.teaparty_list_nav_main ul li img{
+	padding-right: 0.4rem;
+	line-height: 3rem;
+	width: 14%;
+}
+.teaparty_list_nav_main .more{
+	width: 28%;
+	border-right: 1px solid #c2c2c2;
+	position: relative;
+}
+.teaparty_list_nav_main .more div.list_more_show{
+	position: absolute;
+	top:-380%;
+	left: 18%;
+	width: 5rem;
+	background:#fff;
+	border:1px solid #dcdcdc;
+	border-radius: 0.2rem;
+}
+.teaparty_list_nav_main .more div.list_more_show li{
+	padding:0 0.5rem;
+	margin: 0 0.2rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+.teaparty_list_nav_main .more div li a{
+	text-align: center;
+	color: #333;
+	font-size: 0.9rem;
+	line-height: 2rem;
+}
+div.list_more_show .drop_sanjiao{
+	border:10px solid #000; 
+	border-color:#fff transparent transparent transparent;
+	position: absolute;
+	top:100%;
+	left: 38%;
+}
+.teaparty_list_nav_main .more div li:last-child a{
+	padding-bottom: 0.5rem;
+}
+.teaparty_list_nav_main .collect{
+	width: 28%;
+}
+.teaparty_list_nav_main .baoming{
+	width: 43.5%;
+	color: #fff;
+	background-color: #3f8a2d;
+}

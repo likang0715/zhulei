@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+
+{dede:include filename="head.htm"/}
+        
+      </div>
+    </div>
+    <div  class="sub-bannerOut clearfix">
+      <div  class="sub-bannerInner">
+      <div  class="sub-bannerbox"><div  style="width:1440px;float:left;height:269px;"><img  src="{dede:global.cfg_templets_skin/}/img/6351589869699978428376.jpg"  style="width:1440px;height:269px;">
+</div></div>
+      </div>
+      </div>
+
+<div class="box">
+      <div class="wrap clearfix">
+      <div class="main">
+      <div id="Panel_409" class="" style="clear:both;overflow:hidden;">
+      <div  class="main_hd clearfix">
+      <h3  class="name fl">{dede:field name='typename'/}</h3>
+      <div  class="breadnav fr">{dede:field name='position'/}</div>
+      </div>
+      <div class="main_bd">
+      
+      <div class="news-conBox">
+      <h1>{dede:field.title/}</h1>
+      <div class="news-conBarWrap clearfix">
+      <div class="news-conBarInner">
+      <div class="news-conBarBox clearfix">
+      <div class="news-conBarPara">
+      <span>来源：原创</span>
+      <span>编辑：{dede:field.writer/}</span>
+      <span>时间：{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}</span>
+      </div>
+      <div class="news-conBarShare">
+      <!-- Baidu Button BEGIN -->
+      <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+      <span class="bds_more">分享到：</span>
+      <a class="bds_qzone" title="分享到QQ空间" href="#"></a>
+      <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+      <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+      <a class="bds_renren" title="分享到人人网" href="#"></a>
+      <a class="bds_t163" title="分享到网易微博" href="#"></a>
+      </div>
+      <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6572190" src="http://bdimg.share.baidu.com/static/js/bds_s_v2.js?cdnversion=387388"></script>
+      
+      <script type="text/javascript">
+      document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+      </script>
+      <!-- Baidu Button END -->
+      </div>
+      </div>
+      </div>
+      </div>
+
+      <div class="news-conDetailTxt">
+           {dede:field.body/}
+      </div>
+      </div>
+      <div class="news-branchesDir">
+      <p>{dede:prenext get='pre'/}</p>
+      <p>{dede:prenext get='next'/}</p>
+      </div>
+    
+      </div>
+    </div><div id="Panel_754" class="news-relateRead" style="margin-top:30px;clear:both;overflow:hidden;">
+      <span class="tit">相关阅读：</span>
+      
+      <ul class="news-relatelist">
+      
+      {dede:arclist row=5 titlelen='50'}
+      <li class="clearfix"><a href="[field:arcurl/]">[field:title/]</a><span>2013.12.19</span></li>
+      {/dede:arclist}
+      
+      </ul>
+    
+    </div>
+      </div>
+      <div  class="aside">
+      <div  id="Panel_646"  class="panel-box"  style="clear:both;overflow:hidden;">
+      <div  class="sidebar-nav">
+      <div  class="panel-bdbox">
+      
+      <h3>{dede:type typeid='1'}[field:typename /]{/dede:type}</h3>
+      <ul  class="sidebar-navlist clearfix"  id="J_sidebar-navlist">
+      
+      {dede:channel typeid='1' type='son' currentstyle="<li class='sidebar-notSub oncurr'><a href='~typelink~' class='tit'>~typename~<span class='jt'></span></a></li>"}
+       <li class="sidebar-notSub"><a href='[field:typeurl/]' class="tit">[field:typename/]<span class="jt"></span></a></li>
+      {/dede:channel}
+      
+      </ul>
+      <script  type="text/javascript">
+      $(function(){
+      $("#J_sidebar-navlist").sideBarNav()
+      })
+      </script>
+    
+      </div>
+      </div>
+    </div>
+      </div>
+      </div>
+      </div>
+    {dede:include filename="footer.htm"/}
+
+
+</div>
+</body>
+</html>

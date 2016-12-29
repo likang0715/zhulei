@@ -1,0 +1,6 @@
+INSERT INTO `pigcms_users_token` VALUES (3, '740d20751e02911e19b29a8fd5754db605caf987', 39, '1466749282');
+INSERT INTO `pigcms_users_token` VALUES (4, '7067ffbd1c28aa8d2a86bd2ccdcf92517012056d', 32, '1466748473');
+INSERT INTO `pigcms_users_token` VALUES (2, 'bac5e5d8fdb08628f3bb066183b1a081e8d24635', 25, '1466753863');
+INSERT INTO `pigcms_users_token` VALUES (5, 'c55206eaee6cd775db3d64d5d77dfde965b845fa', 37, '1466748566');
+INSERT INTO `pigcms_users_token` VALUES (6, '0bd7f0945ec98f353919bc85a61e19495347f115', 40, '1466749460');
+INSERT INTO `pigcms_users_token` VALUES (7, 'e27004117fafa087e9973de80bbbe7243f783147', 0, '1466750839');

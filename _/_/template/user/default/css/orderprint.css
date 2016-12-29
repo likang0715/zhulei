@@ -1,0 +1,15 @@
+/*提醒css*/
+.suggestion { background-color: #fffbf2;border: 1px solid #ffdbab;height: 30px;line-height: 30px;margin: 10px auto 30px auto;overflow: hidden;padding: 0 0 0 5px;}
+.sugicon {float: left;height: 30px;line-height: 30px;}
+.sugicon_tip {background: rgba(0, 0, 0, 0) url("../images/ico/sucai.png") no-repeat scroll -478px -242px;width: 19px;height: 23px;display: inline-block;margin-top: 3px;z-index: 2;position: absolute;}
+.colorgorning2 {color: #67625f;}
+.strong {font-weight: bold;}
+.padding-left5 {padding-left: 5px;}
+.colorgorningage {color: #ff5b0b;}
+.dytype {width:100%;display:inline-block;}
+.dytype li{float:left;width:25%;}
+.dytype li input{margin:0px;]}
+
+.control-group.error .help-block {color: #b94a48;} 
+.orderprint_red{color:#f00};
+.orderprint_black{color:#000}
